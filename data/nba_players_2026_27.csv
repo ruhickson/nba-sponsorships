@@ -1,0 +1,530 @@
+player_id,player_name,age,date_of_birth,position,current_team,current_team_abbr,nba_titles,nba_title_years,teams_played_for,teams_count,current_salary_usd,salary_contract_type,career_earnings_usd,nationality,birth_country,continent,experience_years,debut_year,earnings_source
+3975,Stephen Curry,38,1988-03-14,G,Golden State Warriors,GS,4,2015; 2017; 2018; 2022,Golden State Warriors,1,62587158,Standard,535799872,USA,USA,North America,18,2009,Basketball-Reference
+3112335,Nikola Jokic,31,1995-02-19,C,Denver Nuggets,DEN,1,2023,Denver Nuggets,1,59033114,Standard,361689822,Serbia,Serbia,Europe,12,2015,Basketball-Reference
+6583,Anthony Davis,33,1993-03-11,F,Washington Wizards,WSH,1,2020,New Orleans Pelicans; Los Angeles Lakers; Dallas Mavericks; Washington Wizards,4,58456566,Standard,424104163,USA,USA,North America,15,2012,Basketball-Reference
+3032977,Giannis Antetokounmpo,31,1994-12-06,F,Miami Heat,MIA,1,2021,Milwaukee Bucks; Miami Heat,2,58456566,Standard,397463378,Greece,Greece,Europe,14,2013,Basketball-Reference
+4065648,Jayson Tatum,28,1998-03-03,F,Boston Celtics,BOS,1,2024,Boston Celtics,1,58456566,Standard,266311736,USA,USA,North America,10,2017,ESPN + Basketball-Reference
+3059318,Joel Embiid,32,1994-03-16,C,Philadelphia 76ers,PHI,0,,Philadelphia 76ers,1,58100000,Standard,380038890,Cameroon,Cameroon,Africa,11,2016,Basketball-Reference
+3136195,Karl-Anthony Towns,31,1995-11-15,C,New York Knicks,NY,1,2026,Minnesota Timberwolves; New York Knicks,2,57078728,Standard,344384013,Dominican Republic,USA,North America,12,2015,ESPN + Basketball-Reference
+3136193,Devin Booker,30,1996-10-30,G,Phoenix Suns,PHX,0,,Phoenix Suns,1,57078728,Standard,327664957,USA,USA,North America,12,2015,ESPN + Basketball-Reference
+3917376,Jaylen Brown,30,1996-10-24,G,Philadelphia 76ers,PHI,1,2024,Boston Celtics; Philadelphia 76ers,2,57078728,Standard,291896535,USA,USA,North America,11,2016,ESPN + Basketball-Reference
+6430,Jimmy Butler III,37,1989-09-14,F,Golden State Warriors,GS,0,,Chicago Bulls; Minnesota Timberwolves; Philadelphia 76ers; Miami Heat; Golden State Warriors,5,56832773,Standard,423531626,USA,USA,North America,16,2011,Basketball-Reference
+4251,Paul George,36,1990-05-02,F,Boston Celtics,BOS,0,,Indiana Pacers; Oklahoma City Thunder; LA Clippers; Philadelphia 76ers; Boston Celtics,5,54126380,Standard,462862483,USA,USA,North America,17,2010,Basketball-Reference
+6450,Kawhi Leonard,35,1991-06-29,F,Toronto Raptors,TOR,2,2014; 2019,San Antonio Spurs; LA Clippers; Toronto Raptors,3,50300000,Standard,428600910,USA,USA,North America,16,2011,Basketball-Reference
+3936299,Jamal Murray,29,1997-02-23,G,Denver Nuggets,DEN,1,2023,Denver Nuggets,1,50105628,Standard,269262834,Canada,Canada,North America,10,2016,ESPN + Basketball-Reference
+3908809,Donovan Mitchell,30,1996-09-07,G,Cleveland Cavaliers,CLE,0,,Utah Jazz; Cleveland Cavaliers,2,50105628,Standard,238653339,USA,USA,North America,10,2017,ESPN + Basketball-Reference
+4432166,Cade Cunningham,25,2001-09-25,G,Detroit Pistons,DET,0,,Detroit Pistons,1,50105628,Standard,142098546,USA,USA,North America,6,,ESPN + Basketball-Reference
+4432158,Evan Mobley,25,2001-06-18,C,Cleveland Cavaliers,CLE,0,,Cleveland Cavaliers,1,50105628,Standard,133164177,USA,USA,North America,6,,ESPN + Basketball-Reference
+3945274,Luka Doncic,27,1999-02-28,G,Los Angeles Lakers,LAL,0,,Dallas Mavericks; Los Angeles Lakers,2,49800000,Standard,256585361,Slovenia,Slovenia,Europe,9,2018,ESPN + Basketball-Reference
+4066259,De'Aaron Fox,28,1997-12-20,G,San Antonio Spurs,SA,0,,Sacramento Kings; San Antonio Spurs,2,49800000,Standard,235124627,USA,USA,North America,10,2017,ESPN + Basketball-Reference
+4066261,Bam Adebayo,29,1997-07-18,C,Miami Heat,MIA,0,,Miami Heat,1,49800000,Standard,227281552,USA,USA,North America,10,2017,ESPN + Basketball-Reference
+4277905,Trae Young,28,1998-09-19,G,Washington Wizards,WSH,0,,Atlanta Hawks; Washington Wizards,2,49488300,Standard,242601271,USA,USA,North America,9,2018,ESPN + Basketball-Reference
+4277961,Jaren Jackson Jr.,27,1999-09-15,F,Utah Jazz,UTAH,0,,Memphis Grizzlies; Utah Jazz,2,49000000,Standard,194587045,USA,USA,North America,9,2018,ESPN + Basketball-Reference
+3064440,Zach LaVine,31,1995-03-10,G,Sacramento Kings,SAC,0,,Minnesota Timberwolves; Chicago Bulls; Sacramento Kings,3,48967380,Standard,305806997,USA,USA,North America,13,2014,Basketball-Reference
+3149673,Pascal Siakam,32,1994-04-02,F,Indiana Pacers,IND,1,2019,Toronto Raptors; Indiana Pacers,2,48924624,Standard,280194133,Cameroon,Cameroon,Africa,11,2016,ESPN + Basketball-Reference
+4594268,Anthony Edwards,25,2001-08-05,G,Minnesota Timberwolves,MIN,0,,Minnesota Timberwolves,1,48924624,Standard,176607368,USA,USA,North America,7,2020,ESPN + Basketball-Reference
+4396993,Tyrese Haliburton,26,2000-02-29,G,Indiana Pacers,IND,0,,Sacramento Kings; Indiana Pacers,2,48924624,Standard,154530131,USA,USA,North America,7,2020,ESPN + Basketball-Reference
+4066336,Lauri Markkanen,29,1997-05-22,F,Utah Jazz,UTAH,0,,Chicago Bulls; Cleveland Cavaliers; Utah Jazz,3,46113154,Standard,205214164,Finland,Finland,Europe,10,2017,ESPN + Basketball-Reference
+3155942,Domantas Sabonis,30,1996-05-03,F,Sacramento Kings,SAC,0,,Oklahoma City Thunder; Indiana Pacers; Sacramento Kings,3,45472000,Standard,229597355,Lithuania,Lithuania,Europe,11,2016,ESPN + Basketball-Reference
+3202,Kevin Durant,38,1988-09-29,F,Houston Rockets,HOU,2,2017; 2018,Oklahoma City Thunder; Golden State Warriors; Brooklyn Nets; Phoenix Suns; Houston Rockets,5,43902439,Standard,548945215,USA,USA,North America,20,2007,Basketball-Reference
+3934719,OG Anunoby,29,1997-07-17,F,New York Knicks,NY,2,2019; 2026,Toronto Raptors; New York Knicks,2,42500000,Standard,181000581,United Kingdom,United Kingdom,Europe,10,2017,ESPN + Basketball-Reference
+4395628,Zion Williamson,26,2000-07-06,F,New Orleans Pelicans,NO,0,,New Orleans Pelicans,1,42166510,Standard,196614657,USA,USA,North America,7,2019,ESPN + Basketball-Reference
+4279888,Ja Morant,27,1999-08-10,G,Portland Trail Blazers,POR,0,,Memphis Grizzlies; Portland Trail Blazers,2,42166510,Standard,189447280,USA,USA,North America,8,2019,ESPN + Basketball-Reference
+4396907,Darius Garland,26,2000-01-26,G,LA Clippers,LAC,0,,Cleveland Cavaliers; LA Clippers,2,42166510,Standard,181426835,USA,USA,North America,8,2019,ESPN + Basketball-Reference
+4433134,Scottie Barnes,25,2001-08-01,F,Toronto Raptors,TOR,0,,Toronto Raptors,1,41754690,Standard,113481220,USA,USA,North America,6,,ESPN + Basketball-Reference
+4566434,Franz Wagner,25,2001-08-27,F,Orlando Magic,ORL,0,,Orlando Magic,1,41754690,Standard,103198372,Germany,Germany,Europe,6,,ESPN + Basketball-Reference
+4432573,Paolo Banchero,24,2002-11-12,F,Orlando Magic,ORL,0,,Orlando Magic,1,41500000,Standard,91658769,USA,USA,North America,5,,ESPN + Basketball-Reference
+4433255,Chet Holmgren,24,2002-05-01,C,Oklahoma City Thunder,OKC,1,2025,Oklahoma City Thunder,1,41500000,Standard,86389248,USA,USA,North America,4,,ESPN + Basketball-Reference
+4593803,Jalen Williams,25,2001-04-14,G,Oklahoma City Thunder,OKC,1,2025,Oklahoma City Thunder,1,41500000,Standard,61756917,USA,USA,North America,5,,ESPN + Basketball-Reference
+4066457,Austin Reaves,28,1998-05-29,G,Los Angeles Lakers,LAL,0,,Los Angeles Lakers,1,41240250,Standard,82658112,USA,USA,North America,6,,ESPN + Basketball-Reference
+4278073,Shai Gilgeous-Alexander,28,1998-07-12,G,Oklahoma City Thunder,OKC,1,2025,LA Clippers; Oklahoma City Thunder,2,40806150,Standard,196264882,Canada,Canada,North America,9,2018,ESPN + Basketball-Reference
+4278104,Michael Porter Jr.,28,1998-06-29,F,Brooklyn Nets,BKN,1,2023,Denver Nuggets; Brooklyn Nets,2,40806150,Standard,194392845,USA,USA,North America,8,2019,ESPN + Basketball-Reference
+4432816,LaMelo Ball,25,2001-08-22,G,Minnesota Timberwolves,MIN,0,,Charlotte Hornets; Minnesota Timberwolves,2,40770520,Standard,149472555,USA,USA,North America,7,2020,ESPN + Basketball-Reference
+4431678,Tyrese Maxey,26,2000-11-04,G,Philadelphia 76ers,PHI,0,,Philadelphia 76ers,1,40770520,Standard,126028840,USA,USA,North America,7,2020,ESPN + Basketball-Reference
+4433621,Jalen Duren,23,2003-11-18,C,Detroit Pistons,DET,0,,Detroit Pistons,1,40160643,Standard,59635587,USA,USA,North America,5,,ESPN + Basketball-Reference
+3913176,Brandon Ingram,29,1997-09-02,F,LA Clippers,LAC,0,,Los Angeles Lakers; New Orleans Pelicans; Toronto Raptors; LA Clippers,4,40000000,Standard,260171923,USA,USA,North America,11,2016,ESPN + Basketball-Reference
+6442,Kyrie Irving,34,1992-03-23,G,Dallas Mavericks,DAL,1,2016,Cleveland Cavaliers; Boston Celtics; Brooklyn Nets; Dallas Mavericks,4,39491282,Standard,388035467,Australia,Australia,Oceania,15,2011,ESPN + Basketball-Reference
+4066320,Desmond Bane,28,1998-06-25,G,Orlando Magic,ORL,0,,Memphis Grizzlies; Orlando Magic,2,39446090,Standard,120121933,USA,USA,North America,7,2020,ESPN + Basketball-Reference
+3934672,Jalen Brunson,30,1996-08-31,G,New York Knicks,NY,1,2026,Dallas Mavericks; New York Knicks,2,37739521,Standard,157836291,USA,USA,North America,9,2018,ESPN + Basketball-Reference
+3032976,Rudy Gobert,34,1992-06-26,C,Minnesota Timberwolves,MIN,0,,Utah Jazz; Minnesota Timberwolves,2,36500000,Standard,331281343,France,France,Europe,14,2013,ESPN + Basketball-Reference
+4437244,Jalen Green,24,2002-02-09,G,Phoenix Suns,PHX,0,,Houston Rockets; Phoenix Suns,2,36251166,Standard,110608233,USA,USA,North America,6,,ESPN + Basketball-Reference
+6606,Damian Lillard,36,1990-07-15,G,Portland Trail Blazers,POR,0,,Milwaukee Bucks; Portland Trail Blazers,2,35915403,Standard,402534770,USA,USA,North America,15,2012,Basketball-Reference
+4871144,Alperen Sengun,24,2002-07-25,C,Houston Rockets,HOU,0,,Houston Rockets,1,35642202,Standard,85138250,Turkey,Turkey,Europe,6,,ESPN + Basketball-Reference
+3995,Jrue Holiday,36,1990-06-12,G,Portland Trail Blazers,POR,2,2021; 2024,Philadelphia 76ers; New Orleans Pelicans; Milwaukee Bucks; Boston Celtics; Portland Trail Blazers,5,34800000,Standard,354256988,USA,USA,North America,18,2009,ESPN + Basketball-Reference
+2991070,Jerami Grant,32,1994-03-12,F,Memphis Grizzlies,MEM,0,,Philadelphia 76ers; Oklahoma City Thunder; Denver Nuggets; Detroit Pistons; Portland Trail Blazers; Memphis Grizzlies,6,34206898,Standard,205828383,USA,USA,North America,13,2014,ESPN + Basketball-Reference
+4277956,Jordan Poole,27,1999-06-19,G,New Orleans Pelicans,NO,1,2022,Golden State Warriors; Washington Wizards; New Orleans Pelicans,3,34044642,Standard,133590879,USA,USA,North America,8,2019,ESPN + Basketball-Reference
+3064290,Aaron Gordon,31,1995-09-16,F,Denver Nuggets,DEN,1,2023,Orlando Magic; Denver Nuggets,2,33658037,Standard,215317498,USA,USA,North America,13,2014,Basketball-Reference
+3147657,Mikal Bridges,30,1996-08-30,G,New York Knicks,NY,1,2026,Phoenix Suns; Brooklyn Nets; New York Knicks,3,33482145,Standard,140914830,USA,USA,North America,9,2018,ESPN + Basketball-Reference
+3064514,Julius Randle,31,1994-11-29,F,Brooklyn Nets,BKN,0,,Los Angeles Lakers; New Orleans Pelicans; New York Knicks; Minnesota Timberwolves; Brooklyn Nets,5,33333334,Standard,230125294,USA,USA,North America,13,2014,ESPN + Basketball-Reference
+4395725,Tyler Herro,26,2000-01-20,G,Milwaukee Bucks,MIL,0,,Miami Heat; Milwaukee Bucks,2,33000000,Standard,135948756,USA,USA,North America,8,2019,ESPN + Basketball-Reference
+3907497,Dejounte Murray,30,1996-09-19,G,New Orleans Pelicans,NO,0,,San Antonio Spurs; Atlanta Hawks; New Orleans Pelicans,3,32785071,Standard,163981352,USA,USA,North America,10,2016,ESPN + Basketball-Reference
+4395724,Immanuel Quickley,27,1999-06-17,G,Toronto Raptors,TOR,0,,New York Knicks; Toronto Raptors,2,32500000,Standard,108303948,USA,USA,North America,7,2020,ESPN + Basketball-Reference
+4432165,Jalen Suggs,25,2001-06-03,G,Orlando Magic,ORL,0,,Orlando Magic,1,32400000,Standard,97355825,USA,USA,North America,6,,ESPN + Basketball-Reference
+3992,James Harden,37,1989-08-26,G,Cleveland Cavaliers,CLE,0,,Oklahoma City Thunder; Houston Rockets; Brooklyn Nets; Philadelphia 76ers; LA Clippers; Cleveland Cavaliers,6,30647619,Standard,444424652,USA,USA,North America,18,2009,Basketball-Reference
+3078576,Derrick White,32,1994-07-02,G,Boston Celtics,BOS,1,2024,San Antonio Spurs; Boston Celtics,2,30348000,Standard,137430125,USA,USA,North America,10,2017,ESPN + Basketball-Reference
+4433136,Walker Kessler,25,2001-07-26,C,Los Angeles Lakers,LAL,0,,Utah Jazz; Los Angeles Lakers,2,30232558,Standard,43604976,USA,USA,North America,5,,ESPN + Basketball-Reference
+3059319,Andrew Wiggins,31,1995-02-23,F,Miami Heat,MIA,1,2022,Minnesota Timberwolves; Golden State Warriors; Miami Heat,3,30169644,Standard,281560294,Canada,Canada,North America,13,2014,ESPN + Basketball-Reference
+4701230,Jalen Johnson,24,2001-12-18,F,Atlanta Hawks,ATL,0,,Atlanta Hawks,1,30000000,Standard,72888485,USA,USA,North America,6,,ESPN + Basketball-Reference
+4395625,RJ Barrett,26,2000-06-14,F,Toronto Raptors,TOR,0,,New York Knicks; Toronto Raptors,2,29616071,Standard,142596275,Canada,Canada,North America,8,2019,ESPN + Basketball-Reference
+4066328,Jarrett Allen,28,1998-04-21,C,Cleveland Cavaliers,CLE,0,,Brooklyn Nets; Cleveland Cavaliers,2,28000000,Standard,138354982,USA,USA,North America,10,,ESPN + Basketball-Reference
+6589,Draymond Green,36,1990-03-04,F,Golden State Warriors,GS,4,2015; 2017; 2018; 2022,Golden State Warriors,1,27678571,Standard,257790444,USA,USA,North America,15,2012,ESPN + Basketball-Reference
+4395630,Devin Vassell,26,2000-08-23,G,San Antonio Spurs,SA,0,,San Antonio Spurs,1,27000000,Standard,101941325,USA,USA,North America,7,2020,ESPN + Basketball-Reference
+4397688,Trey Murphy III,26,2000-06-18,F,New Orleans Pelicans,NO,0,,New Orleans Pelicans,1,27000000,Standard,66779535,USA,USA,North America,6,,ESPN + Basketball-Reference
+3133628,Myles Turner,30,1996-03-24,C,Milwaukee Bucks,MIL,0,,Indiana Pacers; Milwaukee Bucks,2,26584164,Standard,193544583,USA,USA,North America,12,2015,ESPN + Basketball-Reference
+4431671,Jaden McDaniels,26,2000-09-29,F,Minnesota Timberwolves,MIN,0,,Minnesota Timberwolves,1,26200001,Standard,84166744,USA,USA,North America,7,2020,ESPN + Basketball-Reference
+6580,Bradley Beal,33,1993-06-28,G,LA Clippers,LAC,0,,Washington Wizards; Phoenix Suns; LA Clippers,3,25807810,Standard,352779364,USA,USA,North America,15,2012,ESPN + Basketball-Reference
+2991230,Fred VanVleet,32,1994-02-25,G,Houston Rockets,HOU,1,2019,Toronto Raptors; Houston Rockets,2,25000000,Standard,215684923,USA,USA,North America,11,2016,Basketball-Reference
+4871145,Josh Giddey,24,2002-10-10,G,Chicago Bulls,CHI,0,,Oklahoma City Thunder; Chicago Bulls,2,25000000,Standard,77214687,Australia,Australia,Oceania,6,,ESPN + Basketball-Reference
+4869342,Dyson Daniels,23,2003-03-17,G,Atlanta Hawks,ATL,0,,New Orleans Pelicans; Atlanta Hawks,2,25000000,Standard,50059949,Australia,Australia,Oceania,5,,ESPN + Basketball-Reference
+4065732,De'Andre Hunter,28,1997-12-02,F,Sacramento Kings,SAC,0,,Atlanta Hawks; Cleveland Cavaliers; Sacramento Kings,3,24910714,Standard,122101641,USA,USA,North America,8,2019,ESPN + Basketball-Reference
+4594327,Keegan Murray,26,2000-08-19,F,Sacramento Kings,SAC,0,,Sacramento Kings,1,24137936,Standard,60509029,USA,USA,North America,5,,ESPN + Basketball-Reference
+4432639,Jabari Smith Jr.,23,2003-05-13,F,Houston Rockets,HOU,0,,Houston Rockets,1,23643411,Standard,63973843,USA,USA,North America,5,,ESPN + Basketball-Reference
+4396971,Naz Reid,27,1999-08-26,C,Charlotte Hornets,CHA,0,,Minnesota Timberwolves; Charlotte Hornets,2,23275862,Standard,77894011,USA,USA,North America,8,2019,ESPN + Basketball-Reference
+4222252,Isaiah Hartenstein,28,1998-05-05,C,Oklahoma City Thunder,OKC,1,2025,Houston Rockets; Cleveland Cavaliers; Denver Nuggets; LA Clippers; New York Knicks; Oklahoma City Thunder,6,23148148,Standard,104243206,Germany,USA,Europe,9,2018,ESPN + Basketball-Reference
+4278067,Nic Claxton,27,1999-04-17,C,Chicago Bulls,CHI,0,,Brooklyn Nets; Chicago Bulls,2,23147727,Standard,98380728,USA,USA,North America,8,2019,ESPN + Basketball-Reference
+3138196,Cameron Johnson,30,1996-03-03,F,Denver Nuggets,DEN,0,,Phoenix Suns; Brooklyn Nets; Denver Nuggets,3,23062500,Standard,110690692,USA,USA,North America,8,2019,ESPN + Basketball-Reference
+4395651,Coby White,26,2000-02-16,G,Charlotte Hornets,CHA,0,,Chicago Bulls; Charlotte Hornets,2,22839506,Standard,82971021,USA,USA,North America,8,2019,ESPN + Basketball-Reference
+4066383,Miles Bridges,28,1998-03-21,F,Phoenix Suns,PHX,0,,Charlotte Hornets; Phoenix Suns,2,22826087,Standard,99239154,USA,USA,North America,8,2018,ESPN + Basketball-Reference
+4431767,Christian Braun,25,2001-04-17,G,Denver Nuggets,DEN,1,2023,Denver Nuggets,1,21551726,Standard,35320883,USA,USA,North America,5,,ESPN + Basketball-Reference
+2595516,Norman Powell,33,1993-05-25,G,Chicago Bulls,CHI,1,2019,Toronto Raptors; Portland Trail Blazers; LA Clippers; Miami Heat; Chicago Bulls,5,21500000,Standard,152741563,USA,USA,North America,12,2015,ESPN + Basketball-Reference
+2490149,CJ McCollum,35,1991-09-19,G,Atlanta Hawks,ATL,0,,Portland Trail Blazers; New Orleans Pelicans; Washington Wizards; Atlanta Hawks,4,21000000,Standard,302115908,USA,USA,North America,14,2013,ESPN + Basketball-Reference
+3062679,Josh Hart,31,1995-03-06,G,New York Knicks,NY,1,2026,Los Angeles Lakers; New Orleans Pelicans; Portland Trail Blazers; New York Knicks,4,20923760,Standard,104655999,USA,USA,North America,10,2017,ESPN + Basketball-Reference
+4576087,Peyton Watson,24,2002-09-11,G,Cleveland Cavaliers,CLE,1,2023,Denver Nuggets; Cleveland Cavaliers,2,20465116,Standard,31732632,USA,USA,North America,5,,ESPN + Basketball-Reference
+3134907,Kyle Kuzma,31,1995-07-24,F,Milwaukee Bucks,MIL,1,2020,Los Angeles Lakers; Washington Wizards; Milwaukee Bucks,3,20345152,Standard,124784722,USA,USA,North America,10,2017,ESPN + Basketball-Reference
+4017837,Ivica Zubac,29,1997-03-18,C,Indiana Pacers,IND,0,,Los Angeles Lakers; LA Clippers; Indiana Pacers,3,20342140,Standard,96136658,Croatia,Bosnia & Herzegovina,Europe,11,2016,ESPN + Basketball-Reference
+2581018,Kentavious Caldwell-Pope,33,1993-02-18,G,Philadelphia 76ers,PHI,2,2020; 2023,Detroit Pistons; Los Angeles Lakers; Washington Wizards; Denver Nuggets; Orlando Magic; Memphis Grizzlies; Philadelphia 76ers,7,20194392,Standard,168225230,USA,USA,North America,14,2013,ESPN + Basketball-Reference
+4066262,Malik Monk,28,1998-02-04,G,Sacramento Kings,SAC,0,,Charlotte Hornets; Los Angeles Lakers; Sacramento Kings,3,20190035,Standard,93749129,USA,USA,North America,10,2017,ESPN + Basketball-Reference
+4914336,Shaedon Sharpe,23,2003-05-30,G,Portland Trail Blazers,POR,0,,Portland Trail Blazers,1,20089287,Standard,47430190,Canada,Canada,North America,5,,ESPN + Basketball-Reference
+3155526,Dillon Brooks,30,1996-01-22,F,Phoenix Suns,PHX,0,,Memphis Grizzlies; Houston Rockets; Phoenix Suns,3,19992727,Standard,125812378,Canada,Canada,North America,10,2017,ESPN + Basketball-Reference
+4278078,P.J. Washington,28,1998-08-23,F,Dallas Mavericks,DAL,0,,Charlotte Hornets; Dallas Mavericks,2,19813044,Standard,84192039,USA,USA,North America,8,2019,ESPN + Basketball-Reference
+2991350,Alex Caruso,32,1994-02-28,G,Oklahoma City Thunder,OKC,2,2020; 2025,Los Angeles Lakers; Chicago Bulls; Oklahoma City Thunder,3,19550160,Standard,80186811,USA,USA,North America,10,2017,Basketball-Reference
+4395712,Andrew Nembhard,26,2000-01-16,G,Indiana Pacers,IND,0,,Indiana Pacers,1,19550160,Standard,44047875,Canada,Canada,North America,5,,ESPN + Basketball-Reference
+3102531,Kristaps Porzingis,31,1995-08-02,C,Golden State Warriors,GS,1,2024,New York Knicks; Dallas Mavericks; Washington Wizards; Boston Celtics; Golden State Warriors; Atlanta Hawks,6,19512195,Standard,257608743,Latvia,Latvia,Europe,12,2015,ESPN + Basketball-Reference
+3134908,Jakob Poeltl,31,1995-10-15,C,Toronto Raptors,TOR,0,,San Antonio Spurs; Toronto Raptors,2,19500000,Standard,116603486,Austria,Austria,Europe,11,2016,ESPN + Basketball-Reference
+4397002,Ayo Dosunmu,26,2000-01-17,G,Minnesota Timberwolves,MIN,0,,Chicago Bulls; Minnesota Timberwolves,2,19310345,Standard,42799121,USA,USA,North America,6,,ESPN + Basketball-Reference
+4397020,Luguentz Dort,27,1999-04-19,G,Atlanta Hawks,ATL,1,2025,Oklahoma City Thunder; Atlanta Hawks,2,18222222,Standard,86956249,Canada,Canada,North America,8,2019,ESPN + Basketball-Reference
+3135045,Grayson Allen,31,1995-10-08,G,Charlotte Hornets,CHA,0,,Utah Jazz; Memphis Grizzlies; Milwaukee Bucks; Phoenix Suns; Charlotte Hornets,5,18125000,Standard,79153735,USA,USA,North America,9,2018,ESPN + Basketball-Reference
+4277847,Wendell Carter Jr.,27,1999-04-16,C,Orlando Magic,ORL,0,,Chicago Bulls; Orlando Magic,2,18102000,Standard,90113467,USA,USA,North America,9,2018,ESPN + Basketball-Reference
+4431736,Toumani Camara,26,2000-05-08,F,Portland Trail Blazers,POR,0,,Portland Trail Blazers,1,18080358,Standard,23313455,Belgium,Belgium,Europe,4,,ESPN + Basketball-Reference
+4431687,Patrick Williams,25,2001-08-26,F,Chicago Bulls,CHI,0,,Chicago Bulls,1,18000000,Standard,86601641,USA,USA,North America,7,2020,ESPN + Basketball-Reference
+4395723,Keldon Johnson,27,1999-10-11,F,San Antonio Spurs,SA,0,,San Antonio Spurs,1,17500000,Standard,84017385,USA,USA,North America,8,2019,ESPN + Basketball-Reference
+4278049,Daniel Gafford,28,1998-10-01,F,Dallas Mavericks,DAL,0,,Chicago Bulls; Washington Wizards; Dallas Mavericks,3,17263584,Standard,63575657,USA,USA,North America,8,2019,ESPN + Basketball-Reference
+4593125,Santi Aldama,25,2001-01-10,F,Dallas Mavericks,DAL,0,,Memphis Grizzlies; Dallas Mavericks,2,17007043,Standard,45736450,Spain,Spain,Europe,6,,ESPN + Basketball-Reference
+3908845,John Collins,29,1997-09-23,F,Detroit Pistons,DET,0,,Atlanta Hawks; Utah Jazz; LA Clippers; Detroit Pistons,4,17000000,Standard,153422022,USA,USA,North America,10,2017,ESPN + Basketball-Reference
+5104157,Victor Wembanyama,22,2004-01-04,F,San Antonio Spurs,SA,0,,San Antonio Spurs,1,16868246,Standard,55174766,France,France,Europe,4,,ESPN + Basketball-Reference
+4065778,Max Strus,30,1996-03-28,G,LA Clippers,LAC,0,,Chicago Bulls; Miami Heat; Cleveland Cavaliers; LA Clippers,4,16660836,Standard,67578515,USA,USA,North America,8,2019,ESPN + Basketball-Reference
+4997528,Nikola Jovic,23,2003-06-09,F,Miami Heat,MIA,0,,Miami Heat,1,16200000,Standard,27701537,Serbia,United Kingdom,Europe,5,,ESPN + Basketball-Reference
+4431680,Onyeka Okongwu,25,2000-12-11,F,Atlanta Hawks,ATL,0,,Atlanta Hawks,1,16120000,Standard,71542143,USA,USA,North America,7,2020,ESPN + Basketball-Reference
+3157465,Duncan Robinson,32,1994-04-22,F,Detroit Pistons,DET,0,,Miami Heat; Detroit Pistons,2,15992957,Standard,106029836,USA,USA,North America,9,2018,ESPN + Basketball-Reference
+3907823,Terance Mann,30,1996-10-18,G,Brooklyn Nets,BKN,0,,LA Clippers; Atlanta Hawks; Brooklyn Nets,3,15500000,Standard,59231283,USA,USA,North America,8,2019,ESPN + Basketball-Reference
+4277843,Gary Trent Jr.,27,1999-01-18,G,Milwaukee Bucks,MIL,0,,Portland Trail Blazers; Toronto Raptors; Milwaukee Bucks,3,15200000,Standard,76968801,USA,USA,North America,9,2018,ESPN + Basketball-Reference
+4433287,Brandon Miller,24,2002-11-22,F,Charlotte Hornets,CHA,0,,Charlotte Hornets,1,15104626,Standard,49378426,USA,USA,North America,4,,ESPN + Basketball-Reference
+6440,Tobias Harris,34,1992-07-15,F,San Antonio Spurs,SA,0,,Milwaukee Bucks; Orlando Magic; LA Clippers; Philadelphia 76ers; Detroit Pistons; San Antonio Spurs,6,15044000,Standard,317934434,USA,USA,North America,16,2011,ESPN + Basketball-Reference
+4351852,Mitchell Robinson,28,1998-04-01,C,Boston Celtics,BOS,1,2026,New York Knicks; Boston Celtics,2,15044000,Standard,81595070,USA,USA,North America,9,2018,ESPN + Basketball-Reference
+4278355,Obi Toppin,28,1998-03-04,F,Indiana Pacers,IND,0,,New York Knicks; Indiana Pacers,2,15000000,Standard,64064921,USA,USA,North America,7,2020,ESPN + Basketball-Reference
+4432810,Isaiah Stewart,25,2001-05-22,C,Memphis Grizzlies,MEM,0,,Detroit Pistons; Memphis Grizzlies,2,15000000,Standard,60098193,USA,USA,North America,7,2020,ESPN + Basketball-Reference
+4277813,Herbert Jones,28,1998-10-06,F,New Orleans Pelicans,NO,0,,New Orleans Pelicans,1,14898786,Standard,57312872,USA,USA,North America,6,,ESPN + Basketball-Reference
+3032979,Dennis Schroder,33,1993-09-15,G,Charlotte Hornets,CHA,0,,Atlanta Hawks; Oklahoma City Thunder; Houston Rockets; Boston Celtics; Los Angeles Lakers; Toronto Raptors; Brooklyn Nets; Golden State Warriors; Detroit Pistons; Sacramento Kings; Cleveland Cavaliers; Charlotte Hornets,12,14809200,Standard,132080402,Germany,Germany,Europe,14,2013,ESPN + Basketball-Reference
+2991043,Caris LeVert,32,1994-08-25,G,Milwaukee Bucks,MIL,0,,Brooklyn Nets; Indiana Pacers; Cleveland Cavaliers; Atlanta Hawks; Detroit Pistons; Milwaukee Bucks,6,14809200,Standard,121006798,USA,USA,North America,11,2016,ESPN + Basketball-Reference
+5142718,AJ Dybantsa,19,2007-01-29,F,Washington Wizards,WSH,0,,Washington Wizards,1,14748000,Standard,14748000,USA,USA,North America,0,,ESPN + Basketball-Reference
+4432811,Josh Green,26,2000-11-16,G,Utah Jazz,UTAH,0,,Dallas Mavericks; Charlotte Hornets; Utah Jazz,3,14679012,Standard,54638019,Australia,Australia,Oceania,7,2020,ESPN + Basketball-Reference
+3064482,Bobby Portis,31,1995-02-10,F,Miami Heat,MIA,1,2021,Chicago Bulls; Washington Wizards; New York Knicks; Milwaukee Bucks; Miami Heat,5,14521414,Standard,94038247,USA,USA,North America,12,2015,ESPN + Basketball-Reference
+5041939,Cooper Flagg,19,2006-12-21,F,Dallas Mavericks,DAL,0,,Dallas Mavericks,1,14517480,Standard,28903800,USA,USA,North America,2,,ESPN + Basketball-Reference
+4278039,Nickeil Alexander-Walker,28,1998-09-02,G,Atlanta Hawks,ATL,0,,New Orleans Pelicans; Utah Jazz; Minnesota Timberwolves; Atlanta Hawks,4,14403710,Standard,52914623,Canada,Canada,North America,8,2019,ESPN + Basketball-Reference
+4066218,Grant Williams,27,1998-11-30,F,Charlotte Hornets,CHA,0,,Boston Celtics; Dallas Mavericks; Charlotte Hornets,3,14265750,Standard,65064762,USA,USA,North America,8,2019,ESPN + Basketball-Reference
+3146557,Jock Landale,31,1995-10-25,C,Atlanta Hawks,ATL,0,,San Antonio Spurs; Phoenix Suns; Houston Rockets; Memphis Grizzlies; Atlanta Hawks,5,14100000,Standard,34885050,Australia,Australia,Oceania,6,,ESPN + Basketball-Reference
+4433192,Tari Eason,25,2001-05-10,F,Houston Rockets,HOU,0,,Houston Rockets,1,14051724,Standard,30258970,USA,USA,North America,5,,ESPN + Basketball-Reference
+4066648,Rui Hachimura,28,1998-02-08,F,LA Clippers,LAC,0,,Washington Wizards; Los Angeles Lakers; LA Clippers,3,14000000,Standard,85341348,Japan,Japan,Asia,8,2019,ESPN + Basketball-Reference
+4280151,Corey Kispert,27,1999-03-03,F,Atlanta Hawks,ATL,0,,Washington Wizards; Atlanta Hawks,2,13975000,Standard,44314528,USA,USA,North America,6,,ESPN + Basketball-Reference
+4066211,Robert Williams III,29,1997-10-17,C,Portland Trail Blazers,POR,0,,Boston Celtics; Portland Trail Blazers,2,13968254,Standard,71475325,USA,USA,North America,9,2018,ESPN + Basketball-Reference
+4397014,Quentin Grimes,26,2000-05-08,G,Los Angeles Lakers,LAL,0,,New York Knicks; Detroit Pistons; Dallas Mavericks; Philadelphia 76ers; Los Angeles Lakers,5,13953489,Standard,33822793,USA,USA,North America,6,,ESPN + Basketball-Reference
+4592479,Julian Champagnie,25,2001-06-29,F,San Antonio Spurs,SA,0,,Philadelphia 76ers; San Antonio Spurs,2,13888889,Standard,22888889,USA,USA,North America,5,,ESPN + Basketball-Reference
+5211175,Zaccharie Risacher,21,2005-04-08,F,Dallas Mavericks,DAL,0,,Atlanta Hawks; Dallas Mavericks,2,13826040,Standard,39592800,France,Spain,Europe,3,,ESPN + Basketball-Reference
+4683678,Scoot Henderson,22,2004-02-03,G,Portland Trail Blazers,POR,0,,Portland Trail Blazers,1,13585523,Standard,44363603,USA,USA,North America,4,,ESPN + Basketball-Reference
+2578185,Dorian Finney-Smith,33,1993-05-04,F,Atlanta Hawks,ATL,0,,Dallas Mavericks; Brooklyn Nets; Los Angeles Lakers; Houston Rockets; Atlanta Hawks,5,13335000,Standard,83231857,USA,USA,North America,11,2016,ESPN + Basketball-Reference
+6475,Klay Thompson,36,1990-02-08,G,Miami Heat,MIA,4,2015; 2017; 2018; 2022,Golden State Warriors; Dallas Mavericks; Miami Heat,3,13260317,Standard,314425530,USA,USA,North America,16,2011,ESPN + Basketball-Reference
+5041955,Darryn Peterson,19,2007-01-17,G,Utah Jazz,UTAH,0,,Utah Jazz,1,13195320,Standard,13195320,USA,USA,North America,0,,ESPN + Basketball-Reference
+4683021,Deni Avdija,25,2001-01-03,F,Portland Trail Blazers,POR,0,,Washington Wizards; Portland Trail Blazers,2,13125000,Standard,63466348,Israel,Israel,Asia,7,2020,ESPN + Basketball-Reference
+2991235,Steven Adams,33,1993-07-20,C,Houston Rockets,HOU,0,,Oklahoma City Thunder; New Orleans Pelicans; Memphis Grizzlies; Houston Rockets,4,13000000,Standard,199090437,New Zealand,New Zealand,Oceania,14,2013,ESPN + Basketball-Reference
+4278580,Sandro Mamukelashvili,27,1999-05-23,F,Los Angeles Lakers,LAL,0,,Milwaukee Bucks; San Antonio Spurs; Toronto Raptors; Los Angeles Lakers,4,13000000,Standard,19926459,Georgia,Georgia,Europe,6,,ESPN + Basketball-Reference
+5037871,Dylan Harper,20,2006-03-02,G,San Antonio Spurs,SA,0,,San Antonio Spurs,1,12989040,Standard,25359360,USA,USA,North America,2,,ESPN + Basketball-Reference
+3934673,Donte DiVincenzo,29,1997-01-31,G,Minnesota Timberwolves,MIN,1,2021,Milwaukee Bucks; Sacramento Kings; Golden State Warriors; New York Knicks; Minnesota Timberwolves,5,12535000,Standard,64536790,USA,USA,North America,9,2018,ESPN + Basketball-Reference
+4432171,Moses Moody,24,2002-05-31,G,Golden State Warriors,GS,1,2022,Golden State Warriors,1,12500000,Standard,40920223,USA,USA,North America,6,,ESPN + Basketball-Reference
+4278077,Jarred Vanderbilt,27,1999-04-03,F,Los Angeles Lakers,LAL,0,,Denver Nuggets; Minnesota Timberwolves; Utah Jazz; Los Angeles Lakers,4,12428571,Standard,51754963,USA,USA,North America,9,2018,ESPN + Basketball-Reference
+4278053,Davion Mitchell,28,1998-09-05,G,Miami Heat,MIA,0,,Sacramento Kings; Toronto Raptors; Miami Heat,3,12400000,Standard,44951910,USA,USA,North America,6,,ESPN + Basketball-Reference
+5160992,Alex Sarr,21,2005-04-26,C,Washington Wizards,WSH,0,,Washington Wizards,1,12370680,Standard,35424600,France,France,Europe,3,,ESPN + Basketball-Reference
+4684740,Amen Thompson,23,2003-01-30,G,Houston Rockets,HOU,0,,Houston Rockets,1,12258609,Standard,40008489,USA,USA,North America,4,,ESPN + Basketball-Reference
+5041935,Cameron Boozer,19,2007-07-18,F,Memphis Grizzlies,MEM,0,,Memphis Grizzlies,1,11849760,Standard,11849760,USA,USA,North America,0,,ESPN + Basketball-Reference
+4432822,Isaac Okoro,25,2001-01-26,F,Chicago Bulls,CHI,0,,Cleveland Cavaliers; Chicago Bulls,2,11814814,Standard,62083314,USA,USA,North America,7,2020,ESPN + Basketball-Reference
+4701232,Mark Williams,24,2001-12-16,C,Phoenix Suns,PHX,0,,Charlotte Hornets; Phoenix Suns,2,11728395,Standard,29729406,USA,USA,North America,5,,ESPN + Basketball-Reference
+5124612,VJ Edgecombe,21,2005-07-30,G,Philadelphia 76ers,PHI,0,,Philadelphia 76ers,1,11663880,Standard,22772760,Bahamas,Bahamas,North America,2,,ESPN + Basketball-Reference
+4395702,Isaiah Joe,27,1999-07-02,G,Detroit Pistons,DET,1,2025,Philadelphia 76ers; Oklahoma City Thunder; Detroit Pistons,3,11323006,Standard,42926613,USA,USA,North America,7,2020,ESPN + Basketball-Reference
+4684742,Ausar Thompson,23,2003-01-30,G,Detroit Pistons,DET,0,,Detroit Pistons,1,11117925,Standard,36246405,USA,USA,North America,4,,ESPN + Basketball-Reference
+4711272,Reed Sheppard,22,2004-06-24,G,Houston Rockets,HOU,0,,Houston Rockets,1,11108880,Standard,31811400,USA,USA,North America,3,,ESPN + Basketball-Reference
+2530530,T.J. McConnell,34,1992-03-25,G,Indiana Pacers,IND,0,,Philadelphia 76ers; Indiana Pacers,2,11000000,Standard,66400769,USA,USA,North America,12,2015,ESPN + Basketball-Reference
+4396909,Aaron Nesmith,27,1999-10-16,G,Indiana Pacers,IND,0,,Boston Celtics; Indiana Pacers,2,11000000,Standard,49528217,USA,USA,North America,7,2020,ESPN + Basketball-Reference
+2583632,Royce O'Neale,33,1993-06-05,F,Charlotte Hornets,CHA,0,,Utah Jazz; Brooklyn Nets; Phoenix Suns; Charlotte Hornets,4,10875000,Standard,70633806,USA,USA,North America,10,2017,ESPN + Basketball-Reference
+4065804,Sam Hauser,28,1997-12-08,F,Boston Celtics,BOS,1,2024,Boston Celtics,1,10848215,Standard,26790353,USA,USA,North America,6,,ESPN + Basketball-Reference
+4278585,Collin Gillespie,27,1999-06-25,G,Phoenix Suns,PHX,0,,Denver Nuggets; Phoenix Suns,2,10714286,Standard,13010560,USA,USA,North America,4,,ESPN + Basketball-Reference
+5095151,Caleb Wilson,20,2006-07-18,F,Chicago Bulls,CHI,0,,Chicago Bulls,1,10683720,Standard,10683720,USA,USA,North America,0,,ESPN + Basketball-Reference
+3102530,Jusuf Nurkic,32,1994-08-23,C,Utah Jazz,UTAH,0,,Denver Nuggets; Portland Trail Blazers; Phoenix Suns; Charlotte Hornets; Utah Jazz,5,10576923,Standard,138175228,Bosnia & Herzegovina,Bosnia & Herzegovina,Europe,13,2014,ESPN + Basketball-Reference
+5061575,Kon Knueppel,21,2005-08-03,G,Charlotte Hornets,CHA,0,,Charlotte Hornets,1,10516560,Standard,20532240,USA,USA,North America,2,,ESPN + Basketball-Reference
+3936099,Derrick Jones Jr.,29,1997-02-15,F,LA Clippers,LAC,0,,Phoenix Suns; Miami Heat; Portland Trail Blazers; Chicago Bulls; Dallas Mavericks; LA Clippers,6,10476190,Standard,61660493,USA,USA,North America,11,2016,Basketball-Reference
+3064560,Luke Kornet,31,1995-07-15,C,San Antonio Spurs,SA,1,2024,New York Knicks; Chicago Bulls; Milwaukee Bucks; Cleveland Cavaliers; Boston Celtics; San Antonio Spurs,6,10450000,Standard,34769347,USA,USA,North America,10,2017,ESPN + Basketball-Reference
+4065654,Jonathan Isaac,29,1997-10-03,F,Orlando Magic,ORL,0,,Orlando Magic,1,10449421,Standard,125756587,USA,USA,North America,10,2017,ESPN + Basketball-Reference
+4712849,Anthony Black,22,2004-01-20,G,Orlando Magic,ORL,0,,Orlando Magic,1,10106316,Standard,32929836,USA,USA,North America,4,,ESPN + Basketball-Reference
+4397475,AJ Green,27,1999-09-27,G,Milwaukee Bucks,MIL,0,,Milwaukee Bucks,1,10044644,Standard,16268693,USA,USA,North America,5,,ESPN + Basketball-Reference
+4845367,Stephon Castle,22,2004-11-01,G,San Antonio Spurs,SA,0,,San Antonio Spurs,1,10015920,Standard,28708200,USA,USA,North America,3,,ESPN + Basketball-Reference
+3138160,Caleb Martin,31,1995-09-28,F,Dallas Mavericks,DAL,0,,Charlotte Hornets; Miami Heat; Philadelphia 76ers; Dallas Mavericks,4,10001493,Standard,45225400,USA,USA,North America,8,2019,ESPN + Basketball-Reference
+4432194,Day'Ron Sharpe,25,2001-11-06,C,Brooklyn Nets,BKN,0,,Brooklyn Nets,1,10000000,Standard,26567682,USA,USA,North America,6,,ESPN + Basketball-Reference
+5254165,Keaton Wagler,19,2007-02-03,G,LA Clippers,LAC,0,,LA Clippers,1,9674760,Standard,9674760,USA,USA,North America,0,,ESPN + Basketball-Reference
+2990984,Buddy Hield,33,1992-12-17,G,Chicago Bulls,CHI,0,,New Orleans Pelicans; Sacramento Kings; Indiana Pacers; Philadelphia 76ers; Golden State Warriors; Atlanta Hawks; Chicago Bulls,7,9658536,Standard,133076639,Bahamas,Bahamas,North America,11,2016,ESPN + Basketball-Reference
+4873138,Ace Bailey,20,2006-08-13,G,Utah Jazz,UTAH,0,,Utah Jazz,1,9523080,Standard,18592920,USA,USA,North America,2,,ESPN + Basketball-Reference
+4397189,Jalen Smith,26,2000-03-16,F,Chicago Bulls,CHI,0,,Phoenix Suns; Indiana Pacers; Chicago Bulls,3,9428571,Standard,45978072,USA,USA,North America,7,2020,ESPN + Basketball-Reference
+4278594,Naji Marshall,28,1998-01-24,F,Dallas Mavericks,DAL,0,,New Orleans Pelicans; Dallas Mavericks,2,9428571,Standard,32351283,USA,USA,North America,7,2020,ESPN + Basketball-Reference
+4277811,Collin Sexton,27,1999-01-04,G,Los Angeles Lakers,LAL,0,,Cleveland Cavaliers; Utah Jazz; Chicago Bulls; Charlotte Hornets; Los Angeles Lakers,5,9366000,Standard,100976111,USA,USA,North America,9,2018,ESPN + Basketball-Reference
+3150844,Moritz Wagner,29,1997-04-26,C,Brooklyn Nets,BKN,0,,Los Angeles Lakers; Washington Wizards; Boston Celtics; Orlando Magic; Brooklyn Nets,5,9268293,Standard,40923825,Germany,Germany,Europe,9,2018,ESPN + Basketball-Reference
+5104155,Bilal Coulibaly,22,2004-07-26,G,Washington Wizards,WSH,0,,Washington Wizards,1,9240012,Standard,30075132,France,France,Europe,4,,ESPN + Basketball-Reference
+4397183,Aaron Wiggins,27,1999-01-02,G,Atlanta Hawks,ATL,1,2025,Oklahoma City Thunder; Atlanta Hawks,2,9224300,Standard,33240733,USA,USA,North America,6,,ESPN + Basketball-Reference
+4065733,Ty Jerome,29,1997-07-08,G,Memphis Grizzlies,MEM,0,,Phoenix Suns; Oklahoma City Thunder; Golden State Warriors; Cleveland Cavaliers; Memphis Grizzlies,5,9220050,Standard,34130467,USA,USA,North America,8,2019,Basketball-Reference
+3448,Brook Lopez,38,1988-04-01,C,LA Clippers,LAC,1,2021,Brooklyn Nets; Los Angeles Lakers; Milwaukee Bucks; LA Clippers,4,9187500,Standard,238743284,USA,USA,North America,19,2008,ESPN + Basketball-Reference
+4066757,Sam Merrill,30,1996-05-15,G,Cleveland Cavaliers,CLE,1,2021,Milwaukee Bucks; Memphis Grizzlies; Cleveland Cavaliers,3,9160715,Standard,25071380,USA,USA,North America,7,2020,ESPN + Basketball-Reference
+4683771,Ronald Holland II,21,2005-07-07,F,Detroit Pistons,DET,0,,Detroit Pistons,1,9069600,Standard,25972200,USA,USA,North America,3,,ESPN + Basketball-Reference
+3912848,Dean Wade,30,1996-11-20,F,Philadelphia 76ers,PHI,0,,Cleveland Cavaliers; Philadelphia 76ers,2,9000000,Standard,32731283,USA,USA,North America,8,2019,ESPN + Basketball-Reference
+5101761,Mikel Brown Jr.,20,2006-04-03,G,Brooklyn Nets,BKN,0,,Brooklyn Nets,1,8787000,Standard,8787000,USA,USA,North America,0,,ESPN + Basketball-Reference
+4702177,Keon Ellis,26,2000-01-08,G,Brooklyn Nets,BKN,0,,Sacramento Kings; Cleveland Cavaliers; Brooklyn Nets,3,8780488,Standard,13886198,USA,USA,North America,5,,ESPN + Basketball-Reference
+5238230,Tre Johnson,20,2006-03-07,G,Washington Wizards,WSH,0,,Washington Wizards,1,8649600,Standard,16887240,USA,USA,North America,2,,ESPN + Basketball-Reference
+5106060,Jarace Walker,23,2003-09-04,F,Indiana Pacers,IND,0,,Indiana Pacers,1,8478542,Standard,27566102,USA,USA,North America,4,,ESPN + Basketball-Reference
+4066372,Kevin Huerter,28,1998-08-27,G,Detroit Pistons,DET,0,,Atlanta Hawks; Sacramento Kings; Chicago Bulls; Detroit Pistons,4,8333333,Standard,85235850,USA,USA,North America,9,2018,ESPN + Basketball-Reference
+4066650,Zach Collins,29,1997-11-19,F,Chicago Bulls,CHI,0,,Portland Trail Blazers; San Antonio Spurs; Chicago Bulls,3,8292683,Standard,81496994,USA,USA,North America,10,2017,ESPN + Basketball-Reference
+4432582,Max Christie,23,2003-02-10,G,Dallas Mavericks,DAL,0,,Los Angeles Lakers; Dallas Mavericks,2,8285714,Standard,25880502,USA,USA,North America,5,,ESPN + Basketball-Reference
+4593016,Quinten Post,26,2000-03-21,C,Memphis Grizzlies,MEM,0,,Golden State Warriors; Memphis Grizzlies,2,8285714,Standard,10660011,Netherlands,Netherlands,Europe,3,,ESPN + Basketball-Reference
+5211176,Tidjane Salaun,21,2005-08-10,F,Charlotte Hornets,CHA,0,,Charlotte Hornets,1,8237880,Standard,23589840,France,France,Europe,3,,ESPN + Basketball-Reference
+4278129,Deandre Ayton,28,1998-07-23,C,Washington Wizards,WSH,0,,Phoenix Suns; Portland Trail Blazers; Los Angeles Lakers; Washington Wizards,4,8104000,Standard,153510264,Bahamas,Bahamas,North America,9,2018,ESPN + Basketball-Reference
+3133603,Kelly Oubre Jr.,30,1995-12-09,G,Indiana Pacers,IND,0,,Washington Wizards; Phoenix Suns; Golden State Warriors; Charlotte Hornets; Philadelphia 76ers; Indiana Pacers,6,8050000,Standard,91378996,USA,USA,North America,12,2015,ESPN + Basketball-Reference
+5142620,Darius Acuff Jr.,20,2006-11-16,G,Sacramento Kings,SAC,0,,Sacramento Kings,1,8021640,Standard,8021640,USA,USA,North America,0,,ESPN + Basketball-Reference
+6578,Harrison Barnes,34,1992-05-30,F,San Antonio Spurs,SA,1,2015,Golden State Warriors; Dallas Mavericks; Sacramento Kings; San Antonio Spurs,4,8000000,Standard,228981290,USA,USA,North America,15,2012,ESPN + Basketball-Reference
+4395626,Tre Jones,26,2000-01-08,G,Chicago Bulls,CHI,0,,San Antonio Spurs; Chicago Bulls,2,8000000,Standard,39198912,USA,USA,North America,7,2020,ESPN + Basketball-Reference
+4432819,Tre Mann,25,2001-02-03,G,Washington Wizards,WSH,0,,Oklahoma City Thunder; Charlotte Hornets; Washington Wizards,3,8000000,Standard,30046909,USA,USA,North America,6,,ESPN + Basketball-Reference
+5144091,Jeremiah Fears,20,2006-10-14,G,New Orleans Pelicans,NO,0,,New Orleans Pelicans,1,7896240,Standard,15416280,USA,USA,North America,2,,ESPN + Basketball-Reference
+4684806,Taylor Hendricks,23,2003-11-22,F,Memphis Grizzlies,MEM,0,,Utah Jazz; Memphis Grizzlies,2,7805900,Standard,25351580,USA,USA,North America,4,,ESPN + Basketball-Reference
+4683634,Bennedict Mathurin,24,2002-06-19,G,New Orleans Pelicans,NO,0,,Indiana Pacers; LA Clippers; New Orleans Pelicans,3,7804878,Standard,37741051,Canada,Canada,North America,5,,ESPN + Basketball-Reference
+4432823,Jaylin Williams,24,2002-06-29,F,Oklahoma City Thunder,OKC,1,2025,Oklahoma City Thunder,1,7774648,Standard,22245141,USA,USA,North America,5,,ESPN + Basketball-Reference
+4066354,Payton Pritchard,28,1998-01-28,G,Boston Celtics,BOS,1,2024,Boston Celtics,1,7767857,Standard,32303827,USA,USA,North America,7,2020,ESPN + Basketball-Reference
+4348700,Goga Bitadze,27,1999-07-20,C,Orlando Magic,ORL,0,,Indiana Pacers; Orlando Magic,2,7608696,Standard,36547446,Georgia,Georgia,Europe,8,2019,ESPN + Basketball-Reference
+5105565,Donovan Clingan,22,2004-02-23,C,Portland Trail Blazers,POR,0,,Portland Trail Blazers,1,7519920,Standard,21284760,USA,USA,North America,3,,ESPN + Basketball-Reference
+4431690,Zeke Nnaji,25,2001-01-09,F,Denver Nuggets,DEN,1,2023,Denver Nuggets,1,7466667,Standard,36121935,USA,USA,North America,7,2020,ESPN + Basketball-Reference
+4683692,Cason Wallace,23,2003-11-07,G,Oklahoma City Thunder,OKC,1,2025,Oklahoma City Thunder,1,7420806,Standard,24087926,USA,USA,North America,4,,ESPN + Basketball-Reference
+5149077,Kingston Flemings,19,2007-01-03,G,Atlanta Hawks,ATL,0,,Atlanta Hawks,1,7348680,Standard,7348680,USA,USA,North America,0,,ESPN + Basketball-Reference
+4683688,Dereck Lively II,22,2004-02-12,C,Dallas Mavericks,DAL,0,,Dallas Mavericks,1,7239131,Standard,22282691,USA,USA,North America,4,,ESPN + Basketball-Reference
+5175643,Egor Demin,20,2006-03-03,G,Brooklyn Nets,BKN,0,,Brooklyn Nets,1,7233720,Standard,14122920,Russia,Russia,Europe,2,,ESPN + Basketball-Reference
+5106258,Gradey Dick,23,2003-11-20,G,LA Clippers,LAC,0,,Toronto Raptors; LA Clippers,2,7131511,Standard,21422551,USA,USA,North America,4,,ESPN + Basketball-Reference
+3102529,Clint Capela,32,1994-05-18,C,Houston Rockets,HOU,0,,Atlanta Hawks; Houston Rockets,2,7035000,Standard,144678968,Switzerland,Switzerland,Europe,13,2014,ESPN + Basketball-Reference
+4683750,Jordan Hawkins,24,2002-04-29,G,Chicago Bulls,CHI,0,,New Orleans Pelicans; Chicago Bulls,2,7021895,Standard,20599055,USA,USA,North America,4,,ESPN + Basketball-Reference
+4432170,Isaiah Jackson,24,2002-01-10,F,LA Clippers,LAC,0,,Indiana Pacers; LA Clippers,2,7000000,Standard,26156661,USA,USA,North America,6,,ESPN + Basketball-Reference
+3213,Al Horford,40,1986-06-03,C,Golden State Warriors,GS,1,2024,Atlanta Hawks; Philadelphia 76ers; Oklahoma City Thunder; Boston Celtics; Golden State Warriors,5,6822000,Standard,301735232,Dominican Republic,Dominican Republic,North America,20,2007,Basketball-Reference
+4873153,Morez Johnson Jr.,20,2006-01-25,F,Dallas Mavericks,DAL,0,,Dallas Mavericks,1,6754800,Standard,6754800,USA,USA,North America,0,,ESPN + Basketball-Reference
+5093267,Collin Murray-Boyles,21,2005-06-10,F,Toronto Raptors,TOR,0,,Toronto Raptors,1,6649560,Standard,12982080,USA,USA,North America,2,,ESPN + Basketball-Reference
+4433627,Keyonte George,23,2003-11-08,G,Utah Jazz,UTAH,0,,Utah Jazz,1,6563925,Standard,18816885,USA,USA,North America,4,,ESPN + Basketball-Reference
+2528210,Tim Hardaway Jr.,34,1992-03-16,G,Miami Heat,MIA,0,,Atlanta Hawks; New York Knicks; Dallas Mavericks; Detroit Pistons; Denver Nuggets; Miami Heat,6,6500000,Standard,165357053,USA,USA,North America,14,2013,ESPN + Basketball-Reference
+4397136,Saddiq Bey,27,1999-04-09,F,New Orleans Pelicans,NO,0,,Detroit Pistons; Atlanta Hawks; New Orleans Pelicans,3,6440678,Standard,32030303,USA,USA,North America,6,2020,ESPN + Basketball-Reference
+5082206,Brayden Burries,21,2005-09-18,G,Milwaukee Bucks,MIL,0,,Milwaukee Bucks,1,6417360,Standard,6417360,USA,USA,North America,0,,ESPN + Basketball-Reference
+4600663,Zach Edey,24,2002-03-14,C,Memphis Grizzlies,MEM,0,,Memphis Grizzlies,1,6332760,Standard,18134640,Canada,Canada,North America,3,,ESPN + Basketball-Reference
+5203685,Khaman Maluach,20,2006-09-14,C,Phoenix Suns,PHX,0,,Phoenix Suns,1,6316680,Standard,12332760,South Sudan,South Sudan,Africa,2,,ESPN + Basketball-Reference
+5175737,Yaxel Lendeborg,24,2002-09-30,F,Golden State Warriors,GS,0,,Golden State Warriors,1,6096240,Standard,6096240,USA,USA,North America,0,,ESPN + Basketball-Reference
+2990992,Marcus Smart,32,1994-03-06,G,Houston Rockets,HOU,0,,Boston Celtics; Memphis Grizzlies; Washington Wizards; Los Angeles Lakers; Houston Rockets,5,6064000,Standard,148032562,USA,USA,North America,13,2014,Basketball-Reference
+3913174,Luke Kennard,30,1996-06-24,G,Phoenix Suns,PHX,0,,Detroit Pistons; LA Clippers; Memphis Grizzlies; Atlanta Hawks; Los Angeles Lakers; Phoenix Suns,6,6064000,Standard,85147181,USA,USA,North America,10,2017,ESPN + Basketball-Reference
+4433247,Jonathan Kuminga,24,2002-10-06,F,Minnesota Timberwolves,MIN,1,2022,Golden State Warriors; Atlanta Hawks; Minnesota Timberwolves,3,6064000,Standard,53419214,Democratic Republic of Congo,Democratic Republic of Congo,Africa,6,,ESPN + Basketball-Reference
+4895758,Cody Williams,22,2004-11-20,F,Minnesota Timberwolves,MIN,0,,Utah Jazz; Minnesota Timberwolves,2,6015600,Standard,17243160,USA,USA,North America,3,,ESPN + Basketball-Reference
+4903027,Cedric Coward,23,2003-09-11,F,Memphis Grizzlies,MEM,0,,Memphis Grizzlies,1,6001080,Standard,11716200,USA,USA,North America,2,,ESPN + Basketball-Reference
+4351851,Anfernee Simons,27,1999-06-08,G,Philadelphia 76ers,PHI,0,,Portland Trail Blazers; Chicago Bulls; Boston Celtics; Philadelphia 76ers,4,6000000,Standard,116100938,USA,USA,North America,9,2018,ESPN + Basketball-Reference
+4065663,Josh Okogie,28,1998-09-01,G,Utah Jazz,UTAH,0,,Minnesota Timberwolves; Phoenix Suns; Charlotte Hornets; Houston Rockets; Utah Jazz,5,6000000,Standard,38082371,Nigeria,Nigeria,Africa,9,2018,ESPN + Basketball-Reference
+4397077,Jaxson Hayes,26,2000-05-23,C,Utah Jazz,UTAH,0,,New Orleans Pelicans; Los Angeles Lakers; Utah Jazz,3,6000000,Standard,36196762,USA,USA,North America,8,2019,ESPN + Basketball-Reference
+4592691,Jake LaRavia,25,2001-11-03,F,Los Angeles Lakers,LAL,0,,Memphis Grizzlies; Sacramento Kings; Los Angeles Lakers,3,6000000,Standard,21600240,USA,USA,North America,5,,ESPN + Basketball-Reference
+4868423,Jaden Hardy,24,2002-07-05,G,Los Angeles Lakers,LAL,0,,Dallas Mavericks; Washington Wizards; Los Angeles Lakers,3,6000000,Standard,16757344,USA,USA,North America,5,,ESPN + Basketball-Reference
+4592427,Spencer Jones,25,2001-06-14,F,Denver Nuggets,DEN,0,,Denver Nuggets,1,6000000,Standard,6623967,USA,USA,North America,3,,ESPN + Basketball-Reference
+4432848,Jaime Jaquez Jr.,25,2001-02-18,F,Milwaukee Bucks,MIL,0,,Miami Heat; Milwaukee Bucks,2,5939141,Standard,16997141,USA,USA,North America,4,,ESPN + Basketball-Reference
+4278402,Jordan Goodwin,28,1998-10-23,G,Phoenix Suns,PHX,0,,Washington Wizards; Memphis Grizzlies; Los Angeles Lakers; Phoenix Suns,4,5864198,Standard,9337494,USA,USA,North America,6,,ESPN + Basketball-Reference
+5174983,Aday Mara,21,2005-04-07,C,Oklahoma City Thunder,OKC,0,,Oklahoma City Thunder,1,5791680,Standard,5791680,Spain,Spain,Europe,0,,ESPN + Basketball-Reference
+4997526,Ousmane Dieng,23,2003-05-21,F,Milwaukee Bucks,MIL,1,2025,Oklahoma City Thunder; Milwaukee Bucks,2,5750000,Standard,26816202,France,France,Europe,5,,ESPN + Basketball-Reference
+4711294,Matas Buzelis,22,2004-10-13,F,Chicago Bulls,CHI,0,,Chicago Bulls,1,5715360,Standard,16366440,Lithuania,USA,Europe,3,,ESPN + Basketball-Reference
+5242496,Noa Essengue,19,2006-12-18,F,Chicago Bulls,CHI,0,,Chicago Bulls,1,5701200,Standard,11130720,France,France,Europe,2,,ESPN + Basketball-Reference
+2991139,Kris Dunn,32,1994-03-18,G,LA Clippers,LAC,0,,Minnesota Timberwolves; Chicago Bulls; Atlanta Hawks; Portland Trail Blazers; Utah Jazz; LA Clippers,6,5684800,Standard,47036161,USA,USA,North America,11,2016,ESPN + Basketball-Reference
+4709138,Brandin Podziemski,23,2003-02-25,G,Golden State Warriors,GS,0,,Golden State Warriors,1,5679459,Standard,16239819,USA,USA,North America,4,,ESPN + Basketball-Reference
+4278562,Paul Reed,27,1999-06-14,F,Detroit Pistons,DET,0,,Philadelphia 76ers; Detroit Pistons,2,5602689,Standard,23998984,USA,USA,North America,7,2020,ESPN + Basketball-Reference
+6609,Khris Middleton,35,1991-08-12,F,Washington Wizards,WSH,1,2021,Detroit Pistons; Milwaukee Bucks; Dallas Mavericks; Washington Wizards,4,5591122,Standard,283986249,USA,USA,North America,15,2012,ESPN + Basketball-Reference
+5164559,Nate Ament,19,2006-12-10,F,Milwaukee Bucks,MIL,0,,Milwaukee Bucks,1,5502000,Standard,5502000,USA,USA,North America,0,,ESPN + Basketball-Reference
+4066436,De'Anthony Melton,28,1998-05-28,G,Golden State Warriors,GS,0,,Phoenix Suns; Memphis Grizzlies; Philadelphia 76ers; Golden State Warriors,4,5477000,Standard,58373461,USA,USA,North America,9,2018,ESPN + Basketball-Reference
+4431679,Precious Achiuwa,27,1999-09-19,F,Sacramento Kings,SAC,0,,Miami Heat; Toronto Raptors; New York Knicks; Sacramento Kings,4,5477000,Standard,26101643,Nigeria,USA,Africa,7,2020,ESPN + Basketball-Reference
+5159925,Nikola Topic,21,2005-08-10,G,Oklahoma City Thunder,OKC,1,2025,Oklahoma City Thunder,1,5429760,Standard,15548640,Serbia,Serbia,Europe,2,,ESPN + Basketball-Reference
+4869780,Derik Queen,21,2004-12-27,C,New Orleans Pelicans,NO,0,,New Orleans Pelicans,1,5416080,Standard,10574040,USA,USA,North America,2,,ESPN + Basketball-Reference
+4712896,Noah Clowney,22,2004-07-14,F,Brooklyn Nets,BKN,0,,Brooklyn Nets,1,5414034,Standard,15146274,USA,USA,North America,4,,ESPN + Basketball-Reference
+3914044,Landry Shamet,29,1997-03-13,G,New York Knicks,NY,1,2026,Philadelphia 76ers; LA Clippers; Brooklyn Nets; Phoenix Suns; Washington Wizards; New York Knicks,6,5357143,Standard,38304258,USA,USA,North America,9,2018,ESPN + Basketball-Reference
+4594326,Kris Murray,26,2000-08-19,F,Memphis Grizzlies,MEM,0,,Portland Trail Blazers; Memphis Grizzlies,2,5315004,Standard,14284524,USA,USA,North America,4,,ESPN + Basketball-Reference
+4396818,Jordan Miller,26,2000-01-23,G,LA Clippers,LAC,0,,LA Clippers,1,5300000,Standard,7062637,USA,USA,North America,4,,ESPN + Basketball-Reference
+5281370,Hannes Steinbach,20,2006-05-01,F,Charlotte Hornets,CHA,0,,Charlotte Hornets,1,5227200,Standard,5227200,Germany,Germany,Europe,0,,ESPN + Basketball-Reference
+4432107,Marcus Sasser,26,2000-09-21,G,Dallas Mavericks,DAL,0,,Detroit Pistons; Dallas Mavericks,2,5198983,Standard,13464463,USA,USA,North America,4,,ESPN + Basketball-Reference
+4433188,Devin Carter,24,2002-03-18,G,Boston Celtics,BOS,0,,Sacramento Kings; Boston Celtics,2,5158080,Standard,14784600,USA,USA,North America,3,,ESPN + Basketball-Reference
+5061568,Carter Bryant,20,2005-11-26,F,San Antonio Spurs,SA,0,,San Antonio Spurs,1,5145360,Standard,10045680,USA,USA,North America,2,,ESPN + Basketball-Reference
+4433076,Ben Sheppard,25,2001-07-16,G,Indiana Pacers,IND,0,,Indiana Pacers,1,5031669,Standard,13023429,USA,USA,North America,4,,ESPN + Basketball-Reference
+3133626,Kenrich Williams,31,1994-12-02,G,Oklahoma City Thunder,OKC,1,2025,New Orleans Pelicans; Oklahoma City Thunder,2,5000000,Standard,33262316,USA,USA,North America,9,2018,ESPN + Basketball-Reference
+4848625,Dailyn Swain,21,2005-07-15,G,Chicago Bulls,CHI,0,,Chicago Bulls,1,4965480,Standard,4965480,USA,USA,North America,0,,ESPN + Basketball-Reference
+4845374,Bub Carrington,21,2005-07-21,G,Washington Wizards,WSH,0,,Washington Wizards,1,4900560,Standard,14033040,USA,USA,North America,3,,ESPN + Basketball-Reference
+5061603,Thomas Sorber,20,2005-12-25,C,Oklahoma City Thunder,OKC,0,,Oklahoma City Thunder,1,4887720,Standard,9542760,USA,USA,North America,0,,ESPN + Basketball-Reference
+5105839,Brice Sensabaugh,23,2003-10-30,F,Utah Jazz,UTAH,0,,Utah Jazz,1,4862237,Standard,12576077,USA,USA,North America,4,,ESPN + Basketball-Reference
+4432181,Julian Strawther,24,2002-04-18,G,Denver Nuggets,DEN,0,,Denver Nuggets,1,4826931,Standard,12484731,USA,USA,North America,4,,ESPN + Basketball-Reference
+5241364,Bennett Stirtz,23,2003-10-03,G,Oklahoma City Thunder,OKC,0,,Oklahoma City Thunder,1,4717320,Standard,4717320,USA,USA,North America,0,,ESPN + Basketball-Reference
+5105623,Kel'el Ware,22,2004-04-20,C,Milwaukee Bucks,MIL,0,,Miami Heat; Milwaukee Bucks,2,4654920,Standard,13330080,USA,USA,North America,3,,ESPN + Basketball-Reference
+5217746,Yang Hansen,21,2005-06-26,C,Portland Trail Blazers,POR,0,,Portland Trail Blazers,1,4643520,Standard,9065880,China,China,Asia,2,,ESPN + Basketball-Reference
+4997536,Gui Santos,24,2002-06-22,F,Golden State Warriors,GS,0,,Golden State Warriors,1,4629630,Standard,9772647,Brazil,Brazil,South America,4,,ESPN + Basketball-Reference
+4277869,Jose Alvarado,28,1998-04-12,G,New York Knicks,NY,1,2026,New Orleans Pelicans; New York Knicks,2,4500000,Standard,14538212,USA,USA,North America,6,,ESPN + Basketball-Reference
+4687718,Josh Minott,24,2002-11-25,F,Brooklyn Nets,BKN,0,,Minnesota Timberwolves; Boston Celtics; Brooklyn Nets,3,4500000,Standard,11636214,USA,USA,North America,5,,ESPN + Basketball-Reference
+5258459,Ebuka Okorie,19,2007-04-10,G,Detroit Pistons,DET,0,,Detroit Pistons,1,4481280,Standard,4481280,USA,USA,North America,0,,ESPN + Basketball-Reference
+4683778,Jared McCain,22,2004-02-20,G,Oklahoma City Thunder,OKC,0,,Philadelphia 76ers; Oklahoma City Thunder,2,4422600,Standard,12676200,USA,USA,North America,3,,ESPN + Basketball-Reference
+5279133,Joan Beringer,20,2006-11-11,F,Minnesota Timberwolves,MIN,0,,Minnesota Timberwolves,1,4411200,Standard,8612280,France,France,Europe,2,,ESPN + Basketball-Reference
+5060701,Christian Anderson,20,2006-04-02,G,Charlotte Hornets,CHA,0,,Charlotte Hornets,1,4257480,Standard,4257480,USA,USA,North America,0,,ESPN + Basketball-Reference
+4897943,Dalton Knecht,25,2001-04-19,F,New York Knicks,NY,0,,Los Angeles Lakers; New York Knicks,2,4201080,Standard,12030360,USA,USA,North America,3,,ESPN + Basketball-Reference
+4896372,Walter Clayton Jr.,23,2003-03-06,G,Dallas Mavericks,DAL,0,,Memphis Grizzlies; Utah Jazz; Dallas Mavericks,3,4190520,Standard,8181840,USA,USA,North America,2,,ESPN + Basketball-Reference
+5149115,Allen Graves,20,2006-07-28,F,Toronto Raptors,TOR,0,,Toronto Raptors,1,4065720,Standard,4065720,USA,USA,North America,0,,ESPN + Basketball-Reference
+5279130,Nolan Traore,20,2006-05-28,G,Brooklyn Nets,BKN,0,,Brooklyn Nets,1,4002000,Standard,7813560,France,France,Europe,2,,ESPN + Basketball-Reference
+4591725,Ryan Rollins,24,2002-07-03,G,Milwaukee Bucks,MIL,0,,Golden State Warriors; Washington Wizards; Milwaukee Bucks,3,4000000,Standard,9509668,USA,USA,North America,5,,ESPN + Basketball-Reference
+5107199,Daniss Jenkins,25,2001-08-17,G,Detroit Pistons,DET,0,,Detroit Pistons,1,4000000,Standard,7809524,USA,USA,North America,3,,ESPN + Basketball-Reference
+4702382,Tristan da Silva,25,2001-05-15,F,Orlando Magic,ORL,0,,Orlando Magic,1,3991200,Standard,11429160,Germany,Germany,Europe,3,,ESPN + Basketball-Reference
+4431823,Miles McBride,26,2000-09-08,G,New York Knicks,NY,1,2026,New York Knicks,1,3956523,Standard,17324872,USA,USA,North America,6,,ESPN + Basketball-Reference
+2596112,Javonte Green,33,1993-07-23,G,Detroit Pistons,DET,0,,Boston Celtics; Chicago Bulls; New Orleans Pelicans; Cleveland Cavaliers; Detroit Pistons,5,3943679,Standard,12740961,USA,USA,North America,8,2019,ESPN + Basketball-Reference
+5101845,Jayden Quaintance,19,2007-07-11,F,San Antonio Spurs,SA,0,,San Antonio Spurs,1,3902760,Standard,3902760,USA,USA,North America,0,,ESPN + Basketball-Reference
+1966,LeBron James,41,1984-12-30,F,Philadelphia 76ers,PHI,4,2012; 2013; 2016; 2020,Miami Heat; Cleveland Cavaliers; Los Angeles Lakers; Philadelphia 76ers,4,3876529,Standard,587826455,USA,USA,North America,24,2003,Basketball-Reference
+3442,DeAndre Jordan,38,1988-07-21,C,New Orleans Pelicans,NO,1,2023,LA Clippers; New York Knicks; Dallas Mavericks; Brooklyn Nets; Los Angeles Lakers; Philadelphia 76ers; Denver Nuggets; New Orleans Pelicans,8,3876529,Standard,164748787,USA,USA,North America,19,2008,ESPN + Basketball-Reference
+3133602,Svi Mykhailiuk,29,1997-06-10,G,Utah Jazz,UTAH,1,2024,Los Angeles Lakers; Detroit Pistons; Oklahoma City Thunder; Toronto Raptors; Charlotte Hornets; New York Knicks; Boston Celtics; Utah Jazz,8,3850000,Standard,21178420,Ukraine,Ukraine,Europe,9,2018,ESPN + Basketball-Reference
+5214640,Kasparas Jakucionis,20,2006-05-29,G,Milwaukee Bucks,MIL,0,,Miami Heat; Milwaukee Bucks,2,3841680,Standard,7500480,Lithuania,Lithuania,Europe,2,,ESPN + Basketball-Reference
+2990962,Taurean Prince,32,1994-03-22,F,Detroit Pistons,DET,0,,Atlanta Hawks; Brooklyn Nets; Cleveland Cavaliers; Minnesota Timberwolves; Los Angeles Lakers; Milwaukee Bucks; Detroit Pistons,7,3815861,Standard,60766100,USA,USA,North America,11,2016,ESPN + Basketball-Reference
+4684272,Ja'Kobe Walter,22,2004-09-04,G,Toronto Raptors,TOR,0,,Toronto Raptors,1,3811800,Standard,11014960,USA,USA,North America,3,,ESPN + Basketball-Reference
+5231919,Karim Lopez,19,2007-04-12,F,Memphis Grizzlies,MEM,0,,Memphis Grizzlies,1,3746760,Standard,3746760,Mexico,Mexico,North America,0,,ESPN + Basketball-Reference
+5144126,Will Riley,20,2006-02-10,G,Washington Wizards,WSH,0,,Washington Wizards,1,3688320,Standard,7200840,Canada,Canada,North America,2,,ESPN + Basketball-Reference
+4683747,Jaylon Tyson,23,2002-12-02,G,Cleveland Cavaliers,CLE,0,,Cleveland Cavaliers,1,3658560,Standard,10477200,USA,USA,North America,3,,ESPN + Basketball-Reference
+4873090,Labaron Philon Jr.,21,2005-11-24,G,Philadelphia 76ers,PHI,0,,Philadelphia 76ers,1,3597120,Standard,3597120,USA,USA,North America,0,,ESPN + Basketball-Reference
+5037873,Drake Powell,21,2005-09-08,G,Brooklyn Nets,BKN,0,,Brooklyn Nets,1,3540600,Standard,6912840,USA,USA,North America,2,,ESPN + Basketball-Reference
+5061589,Yves Missi,22,2004-05-14,C,New Orleans Pelicans,NO,0,,New Orleans Pelicans,1,3512760,Standard,10068360,Cameroon,Cameroon,Africa,3,,ESPN + Basketball-Reference
+4595400,Olivier-Maxence Prosper,24,2002-07-03,F,Memphis Grizzlies,MEM,0,,Dallas Mavericks; Memphis Grizzlies,2,3500172,Standard,9631331,Canada,Canada,North America,4,,ESPN + Basketball-Reference
+5106262,Zuby Ejiofor,22,2004-04-20,F,Atlanta Hawks,ATL,0,,Atlanta Hawks,1,3453360,Standard,3453360,USA,USA,North America,0,,ESPN + Basketball-Reference
+4870562,Dominick Barlow,23,2003-05-26,F,Philadelphia 76ers,PHI,0,,San Antonio Spurs; Atlanta Hawks; Philadelphia 76ers,3,3415000,Standard,7777507,USA,USA,North America,5,,ESPN + Basketball-Reference
+4871141,Ariel Hukporti,24,2002-04-12,C,Philadelphia 76ers,PHI,1,2026,New York Knicks; Philadelphia 76ers,2,3400000,Standard,6419935,Germany,Germany,Europe,3,,ESPN + Basketball-Reference
+4873201,Asa Newell,21,2005-10-05,F,Atlanta Hawks,ATL,0,,Atlanta Hawks,1,3399480,Standard,6636960,USA,USA,North America,2,,ESPN + Basketball-Reference
+4433607,DaRon Holmes II,24,2002-08-15,F,Denver Nuggets,DEN,0,,Denver Nuggets,1,3372120,Standard,9656520,USA,USA,North America,2,,ESPN + Basketball-Reference
+5113969,Cameron Carr,22,2004-11-21,G,Los Angeles Lakers,LAL,0,,Los Angeles Lakers,1,3315360,Standard,3315360,USA,USA,North America,0,,ESPN + Basketball-Reference
+4277919,Mo Bamba,28,1998-05-12,C,Utah Jazz,UTAH,0,,Orlando Magic; Los Angeles Lakers; Philadelphia 76ers; New Orleans Pelicans; LA Clippers; Toronto Raptors; Utah Jazz,7,3286399,Standard,41794047,USA,USA,North America,9,2018,ESPN + Basketball-Reference
+4702384,Nique Clifford,24,2002-02-09,G,Oklahoma City Thunder,OKC,0,,Sacramento Kings; Oklahoma City Thunder,2,3263400,Standard,6371520,USA,USA,North America,2,,ESPN + Basketball-Reference
+5170947,AJ Johnson,21,2004-12-01,G,New Orleans Pelicans,NO,0,,Milwaukee Bucks; Washington Wizards; Dallas Mavericks; New Orleans Pelicans,4,3237120,Standard,9122894,USA,USA,North America,3,,ESPN + Basketball-Reference
+5279129,Sergio de Larrea,20,2005-12-04,F,Dallas Mavericks,DAL,0,,Dallas Mavericks,1,3182280,Standard,3182280,Spain,Spain,Europe,0,,ESPN + Basketball-Reference
+4397251,Ron Harper Jr.,26,2000-04-12,G,Boston Celtics,BOS,0,,Toronto Raptors; Detroit Pistons; Boston Celtics,3,3150752,Standard,3150752,USA,USA,North America,5,,ESPN + Basketball-Reference
+5239561,Jase Richardson,21,2005-10-16,G,Orlando Magic,ORL,0,,Orlando Magic,1,3132360,Standard,6115680,USA,USA,North America,2,,ESPN + Basketball-Reference
+5174563,Kyshawn George,22,2003-12-12,F,Washington Wizards,WSH,0,,Washington Wizards,1,3108000,Standard,8900280,Switzerland,Switzerland,Europe,3,,ESPN + Basketball-Reference
+4432247,Jaylen Clark,25,2001-10-13,G,Minnesota Timberwolves,MIN,0,,Minnesota Timberwolves,1,3086420,Standard,5707640,USA,USA,North America,3,,ESPN + Basketball-Reference
+5105809,Tarris Reed Jr.,23,2003-08-05,C,San Antonio Spurs,SA,0,,San Antonio Spurs,1,3076920,Standard,3076920,USA,USA,North America,0,,ESPN + Basketball-Reference
+5242502,Ben Saraf,20,2006-04-14,G,Brooklyn Nets,BKN,0,,Brooklyn Nets,1,3028560,Standard,5913120,Israel,Israel,Asia,2,,ESPN + Basketball-Reference
+4684793,Kyle Filipowski,23,2003-11-07,F,Utah Jazz,UTAH,0,,Utah Jazz,1,3000000,Standard,9000000,USA,USA,North America,3,,ESPN + Basketball-Reference
+4997537,Tristan Vukcevic,23,2003-03-11,F,Washington Wizards,WSH,0,,Washington Wizards,1,3000000,Standard,8282035,Serbia,Italy,Europe,4,,ESPN + Basketball-Reference
+5148538,Tarik Biberovic,25,2001-01-28,F,Dallas Mavericks,DAL,0,,Dallas Mavericks,1,3000000,Standard,3000000,Turkey,Bosnia & Herzegovina,Europe,0,,ESPN + Basketball-Reference
+5142621,Chris Cenac Jr.,19,2007-02-01,F,Boston Celtics,BOS,0,,Boston Celtics,1,2988120,Standard,2988120,USA,USA,North America,0,,ESPN + Basketball-Reference
+5211983,Pacome Dadiet,21,2005-07-27,F,New York Knicks,NY,1,2026,New York Knicks,1,2983680,Standard,7639360,France,France,Europe,3,,ESPN + Basketball-Reference
+4870564,Joshua Jefferson,23,2003-11-21,F,Brooklyn Nets,BKN,0,,Brooklyn Nets,1,2969520,Standard,2969520,USA,USA,North America,0,,ESPN + Basketball-Reference
+4917149,Alex Karaban,24,2002-11-11,F,Sacramento Kings,SAC,0,,Sacramento Kings,1,2948280,Standard,2948280,USA,USA,North America,0,,ESPN + Basketball-Reference
+5107173,Danny Wolf,22,2004-05-05,F,Brooklyn Nets,BKN,0,,Brooklyn Nets,1,2941440,Standard,5742720,USA,USA,North America,2,,ESPN + Basketball-Reference
+5041953,Koa Peat,19,2007-01-20,F,Phoenix Suns,PHX,0,,Phoenix Suns,1,2926800,Standard,2926800,USA,USA,North America,0,,ESPN + Basketball-Reference
+5175647,Hugo Gonzalez,20,2006-02-05,G,Boston Celtics,BOS,0,,Boston Celtics,1,2923560,Standard,5707440,Spain,Spain,Europe,2,,ESPN + Basketball-Reference
+5239590,Liam McNeeley,21,2005-10-10,G,Charlotte Hornets,CHA,0,,Charlotte Hornets,1,2902080,Standard,5666040,USA,USA,North America,2,,ESPN + Basketball-Reference
+5108024,Yanic Konan Niederhauser,23,2003-03-14,C,LA Clippers,LAC,0,,LA Clippers,1,2880960,Standard,5624760,Switzerland,Switzerland,Europe,2,,ESPN + Basketball-Reference
+4900671,Ajay Mitchell,24,2002-06-25,G,Oklahoma City Thunder,OKC,1,2025,Oklahoma City Thunder,1,2850000,Standard,8850000,Belgium,Belgium,Europe,3,,ESPN + Basketball-Reference
+4592492,Bones Hyland,26,2000-09-14,G,Minnesota Timberwolves,MIN,0,,Denver Nuggets; LA Clippers; Minnesota Timberwolves,3,2845883,Standard,15905396,USA,USA,North America,6,,ESPN + Basketball-Reference
+4432847,Terrence Shannon Jr.,26,2000-07-30,G,Minnesota Timberwolves,MIN,0,,Minnesota Timberwolves,1,2801640,Standard,8022360,USA,USA,North America,3,,ESPN + Basketball-Reference
+4277922,Jericho Sims,28,1998-10-20,C,Milwaukee Bucks,MIL,0,,New York Knicks; Milwaukee Bucks,2,2801346,Standard,10922891,USA,USA,North America,6,,ESPN + Basketball-Reference
+4277951,Luka Garza,27,1998-12-27,C,Boston Celtics,BOS,0,,Detroit Pistons; Minnesota Timberwolves; Boston Celtics,3,2801346,Standard,9275931,USA,USA,North America,6,,ESPN + Basketball-Reference
+4066399,Micah Potter,28,1998-04-06,C,Portland Trail Blazers,POR,0,,Detroit Pistons; Utah Jazz; Indiana Pacers; Portland Trail Blazers,4,2801346,Standard,4329151,USA,USA,North America,6,,ESPN + Basketball-Reference
+4888725,Ryan Dunn,23,2003-01-07,F,Phoenix Suns,PHX,0,,Phoenix Suns,1,2784240,Standard,7980240,USA,USA,North America,3,,ESPN + Basketball-Reference
+4683766,Isaiah Collier,22,2004-10-08,G,Utah Jazz,UTAH,0,,Utah Jazz,1,2763960,Standard,7922280,USA,USA,North America,3,,ESPN + Basketball-Reference
+4593841,Baylor Scheierman,26,2000-09-26,G,Boston Celtics,BOS,0,,Boston Celtics,1,2744040,Standard,7857360,USA,USA,North America,3,,ESPN + Basketball-Reference
+4578893,Vit Krejci,26,2000-06-19,G,Portland Trail Blazers,POR,0,,Oklahoma City Thunder; Atlanta Hawks; Portland Trail Blazers,3,2667944,Standard,9668904,Czech Republic,Czech Republic,Europe,6,2020,ESPN + Basketball-Reference
+4397424,Neemias Queta,27,1999-07-13,C,Boston Celtics,BOS,1,2024,Sacramento Kings; Boston Celtics,2,2667944,Standard,7180128,Portugal,Portugal,Europe,6,,ESPN + Basketball-Reference
+4065731,Jay Huff,29,1997-08-25,C,Indiana Pacers,IND,0,,Los Angeles Lakers; Washington Wizards; Denver Nuggets; Memphis Grizzlies; Indiana Pacers,5,2667944,Standard,7105555,USA,USA,North America,6,,ESPN + Basketball-Reference
+4432907,Justin Champagnie,25,2001-06-29,F,Washington Wizards,WSH,0,,Toronto Raptors; Boston Celtics; Washington Wizards,3,2667944,Standard,6845763,USA,USA,North America,6,,ESPN + Basketball-Reference
+4702352,Kobe Sanders,24,2002-05-30,G,LA Clippers,LAC,0,,LA Clippers,1,2622139,Standard,2622139,USA,USA,North America,2,,ESPN + Basketball-Reference
+4576086,Bryce McGowens,24,2002-11-08,G,New Orleans Pelicans,NO,0,,Charlotte Hornets; Portland Trail Blazers; New Orleans Pelicans,3,2584539,Standard,8123701,USA,USA,North America,5,,ESPN + Basketball-Reference
+4432446,Jabari Walker,24,2002-07-30,F,Philadelphia 76ers,PHI,0,,Portland Trail Blazers; Philadelphia 76ers,2,2584539,Standard,8066481,USA,USA,North America,5,,ESPN + Basketball-Reference
+4066993,Dru Smith,28,1997-12-30,G,Miami Heat,MIA,0,,Brooklyn Nets; Miami Heat,2,2584539,Standard,6765178,USA,USA,North America,5,,ESPN + Basketball-Reference
+4592829,Quenton Jackson,28,1998-09-15,G,Indiana Pacers,IND,0,,Washington Wizards; Indiana Pacers,2,2584539,Standard,3186092,USA,USA,North America,5,,ESPN + Basketball-Reference
+4280245,Jamaree Bouyea,27,1999-06-27,G,Phoenix Suns,PHX,0,,Washington Wizards; Miami Heat; San Antonio Spurs; Portland Trail Blazers; Milwaukee Bucks; Phoenix Suns,6,2584539,Standard,3158749,USA,USA,North America,5,,ESPN + Basketball-Reference
+4278572,Jamal Cain,27,1999-03-20,F,Orlando Magic,ORL,0,,Miami Heat; New Orleans Pelicans; Orlando Magic,3,2584539,Standard,2584539,USA,USA,North America,5,,ESPN + Basketball-Reference
+4397233,Pete Nance,26,2000-02-19,F,Milwaukee Bucks,MIL,0,,Cleveland Cavaliers; Philadelphia 76ers; Milwaukee Bucks,3,2537526,Standard,2537526,USA,USA,North America,4,,ESPN + Basketball-Reference
+4683736,Kobe Bufkin,23,2003-09-21,G,Utah Jazz,UTAH,0,,Atlanta Hawks; Los Angeles Lakers; Utah Jazz,3,2497812,Standard,11722502,USA,USA,North America,4,,ESPN + Basketball-Reference
+5081727,Sidy Cissoko,22,2004-04-02,G,Portland Trail Blazers,POR,0,,San Antonio Spurs; Portland Trail Blazers,2,2497812,Standard,6197475,France,France,Europe,4,,ESPN + Basketball-Reference
+4431785,Scotty Pippen Jr.,26,2000-11-10,G,Memphis Grizzlies,MEM,0,,Los Angeles Lakers; Memphis Grizzlies,2,2461462,Standard,6819716,USA,USA,North America,5,,ESPN + Basketball-Reference
+4433249,Moussa Diabate,24,2002-01-21,F,Charlotte Hornets,CHA,0,,LA Clippers; Charlotte Hornets,2,2461462,Standard,5689960,France,France,Europe,5,,ESPN + Basketball-Reference
+3978,DeMar DeRozan,37,1989-08-07,G,Denver Nuggets,DEN,0,,Toronto Raptors; San Antonio Spurs; Chicago Bulls; Sacramento Kings; Denver Nuggets,5,2449421,Standard,309025191,USA,USA,North America,18,2009,Basketball-Reference
+3195,Mike Conley,39,1987-10-11,G,Boston Celtics,BOS,0,,Memphis Grizzlies; Utah Jazz; Minnesota Timberwolves; Boston Celtics,4,2449421,Standard,300777281,USA,USA,North America,20,2007,Basketball-Reference
+6478,Nikola Vucevic,36,1990-10-24,C,Orlando Magic,ORL,0,,Philadelphia 76ers; Chicago Bulls; Boston Celtics; Orlando Magic,4,2449421,Standard,219007201,Montenegro,USA,Europe,16,2011,ESPN + Basketball-Reference
+3907387,Ben Simmons,30,1996-07-20,G,Sacramento Kings,SAC,0,,Philadelphia 76ers; Brooklyn Nets; LA Clippers; Sacramento Kings,4,2449421,Standard,166996593,Australia,Australia,Oceania,10,2017,ESPN + Basketball-Reference
+3037789,Bogdan Bogdanovic,34,1992-08-18,G,Houston Rockets,HOU,0,,Sacramento Kings; Atlanta Hawks; LA Clippers; Houston Rockets,4,2449421,Standard,135371087,Serbia,Serbia,Europe,10,2017,ESPN + Basketball-Reference
+6585,Andre Drummond,33,1993-08-10,C,New York Knicks,NY,0,,Detroit Pistons; Cleveland Cavaliers; Los Angeles Lakers; Brooklyn Nets; Chicago Bulls; Philadelphia 76ers; New York Knicks,7,2449421,Standard,132213601,USA,USA,North America,15,2012,ESPN + Basketball-Reference
+2528426,Jordan Clarkson,34,1992-06-07,G,New York Knicks,NY,1,2026,Los Angeles Lakers; Cleveland Cavaliers; Utah Jazz; New York Knicks,4,2449421,Standard,131875796,USA,USA,North America,13,2014,ESPN + Basketball-Reference
+4277848,Marvin Bagley III,27,1999-03-14,F,Denver Nuggets,DEN,0,,Sacramento Kings; Detroit Pistons; Memphis Grizzlies; Washington Wizards; Dallas Mavericks; Denver Nuggets,6,2449421,Standard,78383169,USA,USA,North America,9,2018,ESPN + Basketball-Reference
+2580365,Larry Nance Jr.,33,1993-01-01,F,Indiana Pacers,IND,0,,Los Angeles Lakers; Portland Trail Blazers; New Orleans Pelicans; Atlanta Hawks; Cleveland Cavaliers; Indiana Pacers,6,2449421,Standard,78033757,USA,USA,North America,12,2015,ESPN + Basketball-Reference
+2993874,Kyle Anderson,33,1993-09-20,F,Toronto Raptors,TOR,0,,San Antonio Spurs; Golden State Warriors; Miami Heat; Memphis Grizzlies; Minnesota Timberwolves; Utah Jazz; Toronto Raptors,7,2449421,Standard,72534023,China,USA,Asia,13,2014,ESPN + Basketball-Reference
+3135046,Tyus Jones,30,1996-05-10,G,Denver Nuggets,DEN,0,,Minnesota Timberwolves; Memphis Grizzlies; Washington Wizards; Phoenix Suns; Dallas Mavericks; Orlando Magic; Denver Nuggets,7,2449421,Standard,53540246,USA,USA,North America,12,2015,ESPN + Basketball-Reference
+3155535,Kevon Looney,30,1996-02-06,F,Los Angeles Lakers,LAL,3,2017; 2018; 2022,Golden State Warriors; New Orleans Pelicans; Los Angeles Lakers,3,2449421,Standard,53355228,USA,USA,North America,12,2015,ESPN + Basketball-Reference
+3907498,Matisse Thybulle,29,1997-03-04,G,Los Angeles Lakers,LAL,0,,Philadelphia 76ers; Portland Trail Blazers; Los Angeles Lakers,3,2449421,Standard,48037708,USA,USA,North America,8,2019,ESPN + Basketball-Reference
+4432808,James Wiseman,25,2001-03-31,C,New York Knicks,NY,0,,Golden State Warriors; Detroit Pistons; Indiana Pacers; New York Knicks,4,2449421,Standard,46974859,USA,USA,North America,7,2020,ESPN + Basketball-Reference
+3136196,Trey Lyles,31,1995-11-05,F,Minnesota Timberwolves,MIN,0,,Utah Jazz; Denver Nuggets; San Antonio Spurs; Detroit Pistons; Sacramento Kings; Minnesota Timberwolves,6,2449421,Standard,45035470,Canada,USA,North America,11,2015,ESPN + Basketball-Reference
+2990969,Georges Niang,33,1993-06-17,F,Golden State Warriors,GS,0,,Indiana Pacers; Utah Jazz; Philadelphia 76ers; Cleveland Cavaliers; Atlanta Hawks; Golden State Warriors,6,2449421,Standard,40439433,USA,USA,North America,11,2016,Basketball-Reference
+3934723,Thomas Bryant,29,1997-07-31,C,Cleveland Cavaliers,CLE,1,2023,Washington Wizards; Los Angeles Lakers; Denver Nuggets; Miami Heat; Indiana Pacers; Cleveland Cavaliers,6,2449421,Standard,38391394,USA,USA,North America,10,2017,ESPN + Basketball-Reference
+3134903,Gary Payton II,33,1992-12-01,G,Golden State Warriors,GS,1,2022,Milwaukee Bucks; Los Angeles Lakers; Washington Wizards; Portland Trail Blazers; Golden State Warriors,5,2449421,Standard,34818815,USA,USA,North America,11,2016,Basketball-Reference
+3136777,Jae'Sean Tate,31,1995-10-28,F,Houston Rockets,HOU,0,,Houston Rockets,1,2449421,Standard,28839807,USA,USA,North America,7,2020,ESPN + Basketball-Reference
+4433137,Ziaire Williams,25,2001-09-12,F,Los Angeles Lakers,LAL,0,,Memphis Grizzlies; Brooklyn Nets; Los Angeles Lakers,3,2449421,Standard,28607346,USA,USA,North America,6,,ESPN + Basketball-Reference
+3133635,Jevon Carter,31,1995-09-14,G,Orlando Magic,ORL,0,,Memphis Grizzlies; Phoenix Suns; Brooklyn Nets; Milwaukee Bucks; Boston Celtics; Chicago Bulls; Orlando Magic,7,2449421,Standard,24732490,USA,USA,North America,9,2018,ESPN + Basketball-Reference
+3899664,Simone Fontecchio,30,1995-12-09,F,Miami Heat,MIA,0,,Utah Jazz; Detroit Pistons; Miami Heat,3,2449421,Standard,24699421,Italy,Italy,Europe,5,,ESPN + Basketball-Reference
+2995706,Mario Hezonja,31,1995-02-25,F,Cleveland Cavaliers,CLE,0,,Orlando Magic; New York Knicks; Portland Trail Blazers; Cleveland Cavaliers,4,2449421,Standard,24393217,Croatia,Croatia,Europe,6,2015,Basketball-Reference
+4278076,Nick Richards,28,1997-11-29,C,Miami Heat,MIA,0,,Charlotte Hornets; Phoenix Suns; Chicago Bulls; Miami Heat,4,2449421,Standard,21750023,Jamaica,Jamaica,North America,7,2020,ESPN + Basketball-Reference
+2581184,Anthony Gill,34,1992-10-17,F,Washington Wizards,WSH,0,,Washington Wizards,1,2449421,Standard,13483407,USA,USA,North America,7,2020,ESPN + Basketball-Reference
+3134916,Jordan McLaughlin,30,1996-04-09,G,San Antonio Spurs,SA,0,,Minnesota Timberwolves; Sacramento Kings; San Antonio Spurs,3,2449421,Standard,13313214,USA,USA,North America,8,2019,ESPN + Basketball-Reference
+4431675,Trendon Watford,26,2000-11-09,F,New Orleans Pelicans,NO,0,,Portland Trail Blazers; Brooklyn Nets; Philadelphia 76ers; New Orleans Pelicans,4,2449421,Standard,11657193,USA,USA,North America,6,,ESPN + Basketball-Reference
+4397886,Charles Bassey,26,2000-10-28,C,Golden State Warriors,GS,0,,San Antonio Spurs; Philadelphia 76ers; Boston Celtics; Memphis Grizzlies; Golden State Warriors,5,2449421,Standard,10662198,Nigeria,Nigeria,Africa,6,,ESPN + Basketball-Reference
+4397040,Brandon Williams,27,1999-11-22,G,Golden State Warriors,GS,0,,Portland Trail Blazers; Dallas Mavericks; Golden State Warriors,3,2449421,Standard,4720156,USA,USA,North America,5,,ESPN + Basketball-Reference
+4592435,Branden Carlson,27,1999-06-14,C,Portland Trail Blazers,POR,0,,Oklahoma City Thunder; Portland Trail Blazers,2,2449421,Standard,3440316,USA,USA,North America,3,,ESPN + Basketball-Reference
+4279318,Daeqwon Plowden,28,1998-08-29,G,Sacramento Kings,SAC,0,,Atlanta Hawks; Sacramento Kings,2,2449421,Standard,2449421,USA,USA,North America,3,,ESPN + Basketball-Reference
+4592857,Isaiah Crawford,25,2001-11-01,F,Houston Rockets,HOU,0,,Sacramento Kings; Houston Rockets,2,2449421,Standard,2449421,USA,USA,North America,3,,ESPN + Basketball-Reference
+4433083,Cam Spencer,26,2000-04-06,G,Memphis Grizzlies,MEM,0,,Memphis Grizzlies,1,2411090,Standard,4949079,USA,USA,North America,3,,ESPN + Basketball-Reference
+4711297,Justin Edwards,22,2003-12-16,F,Philadelphia 76ers,PHI,0,,Philadelphia 76ers,1,2411090,Standard,4885203,USA,USA,North America,3,,ESPN + Basketball-Reference
+4576060,Ryan Kalkbrenner,24,2002-01-17,C,Charlotte Hornets,CHA,0,,Charlotte Hornets,1,2411090,Standard,4707364,USA,USA,North America,2,,ESPN + Basketball-Reference
+4602025,Sion James,23,2002-12-04,G,Charlotte Hornets,CHA,0,,Charlotte Hornets,1,2411090,Standard,4707364,USA,USA,North America,2,,ESPN + Basketball-Reference
+5106268,Nae'Qwan Tomlin,25,2000-12-19,F,Cleveland Cavaliers,CLE,0,,Cleveland Cavaliers,1,2411090,Standard,3129240,USA,USA,North America,3,,ESPN + Basketball-Reference
+4397882,Tolu Smith,26,2000-07-26,F,Detroit Pistons,DET,0,,Detroit Pistons,1,2411090,Standard,2411090,USA,USA,North America,3,,ESPN + Basketball-Reference
+4398390,Jalen Pickett,27,1999-10-22,G,LA Clippers,LAC,0,,Denver Nuggets; LA Clippers,2,2406205,Standard,8539445,USA,USA,North America,4,,ESPN + Basketball-Reference
+5105550,GG Jackson,21,2004-12-17,F,Memphis Grizzlies,MEM,0,,Memphis Grizzlies,1,2406205,Standard,8511167,USA,USA,North America,4,,ESPN + Basketball-Reference
+5044385,Leonard Miller,22,2003-11-26,F,Chicago Bulls,CHI,0,,Minnesota Timberwolves; Chicago Bulls,2,2406205,Standard,8319739,Canada,Canada,North America,4,,ESPN + Basketball-Reference
+4701233,Craig Porter Jr.,26,2000-02-26,G,Cleveland Cavaliers,CLE,0,,Cleveland Cavaliers,1,2406205,Standard,8019739,USA,USA,North America,4,,ESPN + Basketball-Reference
+4712863,Mouhamed Gueye,24,2002-11-09,F,Atlanta Hawks,ATL,0,,Atlanta Hawks,1,2406205,Standard,7639303,Senegal,Senegal,Africa,4,,ESPN + Basketball-Reference
+4683689,Jordan Walsh,22,2004-03-03,G,Boston Celtics,BOS,1,2024,Boston Celtics,1,2406205,Standard,7639302,USA,USA,North America,4,,ESPN + Basketball-Reference
+4431684,Trayce Jackson-Davis,26,2000-02-22,F,Toronto Raptors,TOR,0,,Golden State Warriors; Toronto Raptors,2,2406205,Standard,7639302,USA,USA,North America,4,,ESPN + Basketball-Reference
+4433225,Tyler Kolek,25,2001-03-27,G,New York Knicks,NY,1,2026,New York Knicks,1,2296271,Standard,6575687,USA,USA,North America,3,,ESPN + Basketball-Reference
+4432241,Jamal Shead,24,2002-07-24,G,Toronto Raptors,TOR,0,,Toronto Raptors,1,2296271,Standard,6113913,USA,USA,North America,3,,ESPN + Basketball-Reference
+5107897,Jonathan Mogbo,25,2001-10-29,F,Sacramento Kings,SAC,0,,Toronto Raptors; Sacramento Kings,2,2296271,Standard,6113913,USA,USA,North America,3,,ESPN + Basketball-Reference
+5157066,Johnny Furphy,21,2004-12-07,G,Indiana Pacers,IND,0,,Indiana Pacers,1,2296271,Standard,6102490,Australia,Australia,Oceania,3,,ESPN + Basketball-Reference
+4997538,Karlo Matkovic,25,2001-03-30,F,New Orleans Pelicans,NO,0,,New Orleans Pelicans,1,2296271,Standard,5658801,Croatia,Bosnia & Herzegovina,Europe,3,,ESPN + Basketball-Reference
+5105637,Adem Bona,23,2003-03-28,C,Philadelphia 76ers,PHI,0,,Philadelphia 76ers,1,2296271,Standard,5408801,Nigeria,Nigeria,Africa,3,,ESPN + Basketball-Reference
+4683774,Bronny James,22,2004-10-06,G,Los Angeles Lakers,LAL,0,,Los Angeles Lakers,1,2296271,Standard,5408801,USA,USA,North America,3,,ESPN + Basketball-Reference
+4845363,Cam Christie,21,2005-07-24,G,LA Clippers,LAC,0,,LA Clippers,1,2296271,Standard,5408801,USA,USA,North America,3,,ESPN + Basketball-Reference
+5112087,Jaylen Wells,23,2003-08-26,F,Memphis Grizzlies,MEM,0,,Memphis Grizzlies,1,2296271,Standard,5408801,USA,USA,North America,3,,ESPN + Basketball-Reference
+4601023,Oso Ighodaro,24,2002-07-14,F,Phoenix Suns,PHX,0,,Phoenix Suns,1,2296271,Standard,5408801,USA,USA,North America,3,,ESPN + Basketball-Reference
+4601025,Pelle Larsson,25,2001-02-23,G,Miami Heat,MIA,0,,Miami Heat,1,2296271,Standard,5408791,Sweden,Sweden,Europe,3,,ESPN + Basketball-Reference
+4431893,Jamison Battle,25,2001-05-10,F,Toronto Raptors,TOR,0,,Toronto Raptors,1,2296271,Standard,5251648,USA,USA,North America,3,,ESPN + Basketball-Reference
+5289900,Mohamed Diawara,21,2005-04-29,F,New York Knicks,NY,1,2026,New York Knicks,1,2232143,Standard,3505013,France,France,Europe,2,,ESPN + Basketball-Reference
+4702656,Alijah Martin,24,2001-12-26,G,Toronto Raptors,TOR,0,,Toronto Raptors,1,2185116,Standard,2185116,USA,USA,North America,2,,ESPN + Basketball-Reference
+4701208,Moussa Cisse,24,2002-09-10,C,Dallas Mavericks,DAL,0,,Dallas Mavericks,1,2185116,Standard,2185116,Guinea,Guinea,Africa,2,,ESPN + Basketball-Reference
+4700852,Chaz Lanier,24,2001-12-19,G,Detroit Pistons,DET,0,,Detroit Pistons,1,2150917,Standard,3523787,USA,USA,North America,2,,ESPN + Basketball-Reference
+4432185,Micah Peavy,25,2001-07-16,G,Oklahoma City Thunder,OKC,0,,New Orleans Pelicans; Oklahoma City Thunder,2,2150917,Standard,3423887,USA,USA,North America,2,,ESPN + Basketball-Reference
+5060631,Adou Thiero,22,2004-05-08,F,Los Angeles Lakers,LAL,0,,Los Angeles Lakers,1,2150917,Standard,3423787,USA,USA,North America,2,,ESPN + Basketball-Reference
+4433569,Johni Broome,24,2002-07-19,F,Minnesota Timberwolves,MIN,0,,Philadelphia 76ers; Minnesota Timberwolves,2,2150917,Standard,3423787,USA,USA,North America,,,ESPN + Basketball-Reference
+4697268,Kam Jones,24,2002-02-25,G,Milwaukee Bucks,MIL,0,,Indiana Pacers; Milwaukee Bucks,2,2150917,Standard,3423787,USA,USA,North America,2,,ESPN + Basketball-Reference
+4898371,Maxime Raynaud,23,2003-04-07,C,Sacramento Kings,SAC,0,,Sacramento Kings,1,2150917,Standard,3423787,France,France,Europe,2,,ESPN + Basketball-Reference
+5214637,Noah Penda,21,2005-01-07,F,Orlando Magic,ORL,0,,Orlando Magic,1,2150917,Standard,3423787,France,France,Europe,2,,ESPN + Basketball-Reference
+5105977,Rasheer Fleming,22,2004-07-10,F,Phoenix Suns,PHX,0,,Phoenix Suns,1,2150917,Standard,3423787,USA,USA,North America,2,,ESPN + Basketball-Reference
+5023693,Tyrese Proctor,22,2004-04-01,G,Cleveland Cavaliers,CLE,0,,Cleveland Cavaliers,1,2150917,Standard,3423787,Australia,Australia,Oceania,2,,ESPN + Basketball-Reference
+4897262,Will Richard,23,2002-12-24,G,Golden State Warriors,GS,0,,Golden State Warriors,1,2150917,Standard,3423787,USA,USA,North America,2,,ESPN + Basketball-Reference
+4606840,Jamir Watkins,25,2001-07-06,G,Washington Wizards,WSH,0,,Washington Wizards,1,2150917,Standard,3282887,USA,USA,North America,2,,ESPN + Basketball-Reference
+4433174,Dylan Cardwell,24,2001-12-16,C,Sacramento Kings,SAC,0,,Sacramento Kings,1,2150917,Standard,3021917,USA,USA,North America,2,,ESPN + Basketball-Reference
+4431772,Myron Gardner,25,2001-05-21,F,Miami Heat,MIA,0,,Miami Heat,1,2150917,Standard,2545946,USA,USA,North America,2,,ESPN + Basketball-Reference
+4433629,Ryan Nembhard,23,2003-03-10,G,Denver Nuggets,DEN,0,,Dallas Mavericks; Denver Nuggets,2,2150917,Standard,2472792,Canada,Canada,North America,2,,ESPN + Basketball-Reference
+2488653,Mason Plumlee,36,1990-03-05,C,Sacramento Kings,SAC,0,,Brooklyn Nets; Portland Trail Blazers; Denver Nuggets; Detroit Pistons; LA Clippers; Phoenix Suns; Charlotte Hornets; San Antonio Spurs; Sacramento Kings,9,2139724,Standard,83549627,USA,USA,North America,13,2013,ESPN + Basketball-Reference
+3137259,Gabe Vincent,30,1996-06-14,G,Sacramento Kings,SAC,0,,Miami Heat; Los Angeles Lakers; Atlanta Hawks; Sacramento Kings,4,1970799,Standard,38455654,USA,USA,North America,7,2019,ESPN + Basketball-Reference
+5105592,Cam Whitmore,22,2004-07-08,F,Denver Nuggets,DEN,0,,Houston Rockets; Washington Wizards; Denver Nuggets,3,1819437,Standard,11956437,USA,USA,North America,4,,ESPN + Basketball-Reference
+5075626,Baba Miller,22,2004-02-07,F,LA Clippers,LAC,0,,LA Clippers,1,1705630,Standard,1705630,Spain,Spain,Europe,0,,ESPN + Basketball-Reference
+4065813,Alpha Diallo,29,1997-06-29,F,Denver Nuggets,DEN,0,,Denver Nuggets,1,1357763,Standard,1357763,USA,USA,North America,0,,ESPN + Basketball-Reference
+5214989,Bogoljub Markovic,21,2005-07-12,F,Milwaukee Bucks,MIL,0,,Milwaukee Bucks,1,1357763,Standard,1357763,Serbia,Serbia,Europe,0,,ESPN + Basketball-Reference
+5105837,Bruce Thornton,23,2003-09-14,G,Houston Rockets,HOU,0,,Houston Rockets,1,1357763,Standard,1357763,USA,USA,North America,0,,ESPN + Basketball-Reference
+5106058,Emanuel Sharp,22,2004-03-07,G,Sacramento Kings,SAC,0,,Sacramento Kings,1,1357763,Standard,1357763,Israel,Israel,Asia,0,,ESPN + Basketball-Reference
+5105571,Henri Veesaar,22,2004-03-28,C,Atlanta Hawks,ATL,0,,Atlanta Hawks,1,1357763,Standard,1357763,Estonia,Estonia,Europe,0,,ESPN + Basketball-Reference
+5061585,Isaiah Evans,20,2005-12-06,F,Minnesota Timberwolves,MIN,0,,Minnesota Timberwolves,1,1357763,Standard,1357763,USA,USA,North America,0,,ESPN + Basketball-Reference
+4432737,Jaden Bradley,23,2003-09-14,G,Toronto Raptors,TOR,0,,Toronto Raptors,1,1357763,Standard,1357763,USA,USA,North America,0,,ESPN + Basketball-Reference
+4997530,Khalifa Diop,24,2002-01-15,C,Cleveland Cavaliers,CLE,0,,Cleveland Cavaliers,1,1357763,Standard,1357763,Senegal,Senegal,Africa,0,,ESPN + Basketball-Reference
+5041951,Meleek Thomas,20,2006-08-06,G,Cleveland Cavaliers,CLE,0,,Cleveland Cavaliers,1,1357763,Standard,1357763,USA,USA,North America,0,,ESPN + Basketball-Reference
+5107157,Ryan Conwell,22,2004-06-15,G,Miami Heat,MIA,0,,Miami Heat,1,1357763,Standard,1357763,USA,USA,North America,0,,ESPN + Basketball-Reference
+4698719,Trevon Brazile,23,2003-01-07,F,Denver Nuggets,DEN,0,,Denver Nuggets,1,1357763,Standard,1357763,USA,USA,North America,0,,ESPN + Basketball-Reference
+5105806,Jett Howard,23,2003-09-14,G,Dallas Mavericks,DAL,0,,Orlando Magic; Dallas Mavericks,2,,Two-Way / Undisclosed,15834840,USA,USA,North America,4,,ESPN + Basketball-Reference
+4065673,Tony Bradley,28,1998-01-08,C,Utah Jazz,UTAH,0,,Oklahoma City Thunder; Philadelphia 76ers; Chicago Bulls; Indiana Pacers; Atlanta Hawks; Utah Jazz,6,,Two-Way / Undisclosed,12634750,USA,USA,North America,9,2017,ESPN + Basketball-Reference
+4683935,Blake Wesley,23,2003-03-16,G,LA Clippers,LAC,0,,San Antonio Spurs; Portland Trail Blazers; LA Clippers,3,,Two-Way / Undisclosed,12240728,USA,USA,North America,5,,ESPN + Basketball-Reference
+4431752,Kobe Brown,26,2000-01-01,G,Indiana Pacers,IND,0,,LA Clippers; Indiana Pacers,2,,Two-Way / Undisclosed,7602120,USA,USA,North America,4,,ESPN + Basketball-Reference
+4066268,Duop Reath,30,1996-06-26,C,Phoenix Suns,PHX,0,,Portland Trail Blazers; Phoenix Suns,2,,Two-Way / Undisclosed,6221677,South Sudan,Australia,Africa,4,,ESPN + Basketball-Reference
+5105553,Julian Phillips,23,2003-11-05,F,Houston Rockets,HOU,0,,Chicago Bulls; Minnesota Timberwolves; Houston Rockets,3,,Two-Way / Undisclosed,5713534,USA,USA,North America,4,,ESPN + Basketball-Reference
+4431714,Jalen Wilson,26,2000-11-04,F,Atlanta Hawks,ATL,0,,Brooklyn Nets; Atlanta Hawks,2,,Two-Way / Undisclosed,4963534,USA,USA,North America,4,,ESPN + Basketball-Reference
+5099752,Rayan Rupert,22,2004-05-31,G,Philadelphia 76ers,PHI,0,,Portland Trail Blazers; Memphis Grizzlies; Philadelphia 76ers,3,,Two-Way / Undisclosed,3011420,France,France,Europe,4,,ESPN + Basketball-Reference
+4431786,Keshad Johnson,25,2001-06-23,F,Miami Heat,MIA,0,,Miami Heat,1,,Two-Way / Undisclosed,2680260,USA,USA,North America,3,,ESPN + Basketball-Reference
+4593049,Orlando Robinson,26,2000-07-10,C,Chicago Bulls,CHI,0,,Miami Heat; Toronto Raptors; Sacramento Kings; Orlando Magic; Chicago Bulls,5,,Two-Way / Undisclosed,2293656,USA,USA,North America,3,,ESPN + Basketball-Reference
+4397204,Colin Castleton,26,2000-05-25,C,Orlando Magic,ORL,0,,Los Angeles Lakers; Philadelphia 76ers; Toronto Raptors; Memphis Grizzlies; Orlando Magic,5,,Two-Way / Undisclosed,2191897,USA,USA,North America,4,,ESPN + Basketball-Reference
+5107818,Isaac Jones,26,2000-07-11,C,Detroit Pistons,DET,0,,Sacramento Kings; Detroit Pistons,2,,Two-Way / Undisclosed,2108334,USA,USA,North America,3,,ESPN + Basketball-Reference
+4431695,Drew Timme,26,2000-09-09,F,Phoenix Suns,PHX,0,,Brooklyn Nets; Los Angeles Lakers; Phoenix Suns,3,,Two-Way / Undisclosed,2068432,USA,USA,North America,2,,ESPN + Basketball-Reference
+4592714,Pat Spencer,30,1996-07-04,G,Phoenix Suns,PHX,0,,Golden State Warriors; Phoenix Suns,2,,Two-Way / Undisclosed,1296614,USA,USA,North America,4,,ESPN + Basketball-Reference
+4702745,Amari Williams,24,2002-01-28,F,Boston Celtics,BOS,0,,Boston Celtics,1,,Two-Way / Undisclosed,490128,United Kingdom,United Kingdom,Europe,2,,ESPN + Basketball-Reference
+5114350,AK Okereke,23,2003-07-02,F,Los Angeles Lakers,LAL,0,,Los Angeles Lakers,1,,Two-Way / Undisclosed,,USA,USA,North America,0,,Undisclosed (Two-Way / Rookie)
+4593034,Alex Morales,29,1997-11-21,G,Orlando Magic,ORL,0,,Orlando Magic,1,,Two-Way / Undisclosed,,USA,USA,North America,2,,Undisclosed (Two-Way / Rookie)
+4433599,Arthur Kaluma,24,2002-03-01,F,Los Angeles Lakers,LAL,0,,Los Angeles Lakers,1,,Two-Way / Undisclosed,,USA,USA,North America,2,,Undisclosed (Two-Way / Rookie)
+5105854,Braden Smith,23,2003-07-25,G,Indiana Pacers,IND,0,,Indiana Pacers,1,,Two-Way / Undisclosed,,USA,USA,North America,0,,Undisclosed (Two-Way / Rookie)
+4684208,Brooks Barnhizer,24,2002-03-02,F,Oklahoma City Thunder,OKC,0,,Oklahoma City Thunder,1,,Two-Way / Undisclosed,,USA,USA,North America,2,,Undisclosed (Two-Way / Rookie)
+4565698,Bryce Hopkins,24,2002-09-07,F,Denver Nuggets,DEN,0,,Denver Nuggets,1,,Two-Way / Undisclosed,,USA,USA,North America,0,,Undisclosed (Two-Way / Rookie)
+4433144,Caleb Love,25,2001-09-27,G,Philadelphia 76ers,PHI,0,,Portland Trail Blazers; Philadelphia 76ers,2,,Two-Way / Undisclosed,,USA,USA,North America,2,,Undisclosed (Two-Way / Rookie)
+5105817,Carson Cooper,22,2004-04-09,C,Los Angeles Lakers,LAL,0,,Los Angeles Lakers; Memphis Grizzlies,2,,Two-Way / Undisclosed,,USA,USA,North America,0,,Undisclosed (Two-Way / Rookie)
+5174655,Chaney Johnson,24,2002-06-20,F,Brooklyn Nets,BKN,0,,Brooklyn Nets,1,,Two-Way / Undisclosed,,USA,USA,North America,2,,Undisclosed (Two-Way / Rookie)
+4702972,Chris Manon,24,2001-12-09,G,Los Angeles Lakers,LAL,0,,Los Angeles Lakers,1,,Two-Way / Undisclosed,,USA,USA,North America,2,,Undisclosed (Two-Way / Rookie)
+4706557,Chris Youngblood,24,2002-02-09,G,Portland Trail Blazers,POR,0,,Oklahoma City Thunder; Portland Trail Blazers,2,,Two-Way / Undisclosed,,USA,USA,North America,2,,Undisclosed (Two-Way / Rookie)
+4397114,Cormac Ryan,28,1998-10-26,G,Milwaukee Bucks,MIL,0,,Milwaukee Bucks,1,,Two-Way / Undisclosed,,USA,USA,North America,2,,Undisclosed (Two-Way / Rookie)
+4713010,David Jones Garcia,25,2001-11-24,F,San Antonio Spurs,SA,0,,San Antonio Spurs,1,,Two-Way / Undisclosed,,Dominican Republic,Dominican Republic,North America,2,,Undisclosed (Two-Way / Rookie)
+5106283,Dillon Mitchell,23,2003-10-03,F,Boston Celtics,BOS,0,,Boston Celtics,1,,Two-Way / Undisclosed,,USA,USA,North America,0,,Undisclosed (Two-Way / Rookie)
+4397449,Elijah Harkless,26,2000-02-03,G,Detroit Pistons,DET,0,,Utah Jazz; Detroit Pistons,2,,Two-Way / Undisclosed,,USA,USA,North America,3,,Undisclosed (Two-Way / Rookie)
+5106261,Ernest Udeh Jr.,22,2004-01-08,C,Cleveland Cavaliers,CLE,0,,Cleveland Cavaliers,1,,Two-Way / Undisclosed,,USA,USA,North America,0,,Undisclosed (Two-Way / Rookie)
+5105841,Felix Okpara,22,2004-04-20,F,Washington Wizards,WSH,0,,Washington Wizards,1,,Two-Way / Undisclosed,,Nigeria,Nigeria,Africa,0,,Undisclosed (Two-Way / Rookie)
+4703396,Graham Ike,24,2002-08-03,F,Golden State Warriors,GS,0,,Golden State Warriors,1,,Two-Way / Undisclosed,,USA,USA,North America,0,,Undisclosed (Two-Way / Rookie)
+4702670,Grant Nelson,24,2002-03-18,F,Brooklyn Nets,BKN,0,,Brooklyn Nets,1,,Two-Way / Undisclosed,,USA,USA,North America,2,,Undisclosed (Two-Way / Rookie)
+4433618,Harrison Ingram,23,2002-11-27,F,Utah Jazz,UTAH,0,,San Antonio Spurs; Utah Jazz,2,,Two-Way / Undisclosed,,USA,USA,North America,3,,Undisclosed (Two-Way / Rookie)
+5107251,Izaiyah Nelson,23,2003-10-01,F,Orlando Magic,ORL,0,,Orlando Magic,1,,Two-Way / Undisclosed,,USA,USA,North America,0,,Undisclosed (Two-Way / Rookie)
+5107968,Ja'Kobi Gillespie,22,2004-03-10,G,San Antonio Spurs,SA,0,,San Antonio Spurs,1,,Two-Way / Undisclosed,,USA,USA,North America,0,,Undisclosed (Two-Way / Rookie)
+4683730,Jaden Akins,23,2003-02-25,G,New York Knicks,NY,0,,New York Knicks,1,,Two-Way / Undisclosed,,USA,USA,North America,0,,Undisclosed (Two-Way / Rookie)
+4683934,Jahmai Mashack,24,2002-11-10,G,Memphis Grizzlies,MEM,0,,Memphis Grizzlies,1,,Two-Way / Undisclosed,,USA,USA,North America,2,,Undisclosed (Two-Way / Rookie)
+4398207,Jalen Slawson,27,1999-10-22,F,Indiana Pacers,IND,0,,Sacramento Kings; Indiana Pacers,2,,Two-Way / Undisclosed,,USA,USA,North America,3,,Undisclosed (Two-Way / Rookie)
+4703115,Jaron Pierre Jr.,24,2002-07-12,G,New Orleans Pelicans,NO,0,,New Orleans Pelicans,1,,Two-Way / Undisclosed,,USA,USA,North America,0,,Undisclosed (Two-Way / Rookie)
+4781746,Javon Small,23,2002-12-19,G,Memphis Grizzlies,MEM,0,,Memphis Grizzlies,1,,Two-Way / Undisclosed,,USA,USA,North America,2,,Undisclosed (Two-Way / Rookie)
+4898010,Jaylin Sellers,23,2003-06-03,G,Chicago Bulls,CHI,0,,Chicago Bulls,1,,Two-Way / Undisclosed,,USA,USA,North America,0,,Undisclosed (Two-Way / Rookie)
+4703889,Jayson Kent,24,2002-02-03,G,Portland Trail Blazers,POR,0,,Portland Trail Blazers,1,,Two-Way / Undisclosed,,USA,USA,North America,2,,Undisclosed (Two-Way / Rookie)
+4593043,John Tonje,25,2001-04-23,F,Portland Trail Blazers,POR,0,,Boston Celtics; Portland Trail Blazers,2,,Two-Way / Undisclosed,,USA,USA,North America,2,,Undisclosed (Two-Way / Rookie)
+4684682,Jonas Aidoo,23,2002-12-10,C,Utah Jazz,UTAH,0,,Utah Jazz,1,,Two-Way / Undisclosed,,USA,USA,North America,0,,Undisclosed (Two-Way / Rookie)
+5105800,Josh Dix,22,2004-06-29,G,Oklahoma City Thunder,OKC,0,,Oklahoma City Thunder,1,,Two-Way / Undisclosed,,USA,USA,North America,0,,Undisclosed (Two-Way / Rookie)
+4683742,Julian Reese,23,2003-06-30,F,New Orleans Pelicans,NO,0,,Washington Wizards; New Orleans Pelicans,2,,Two-Way / Undisclosed,,USA,USA,North America,2,,Undisclosed (Two-Way / Rookie)
+4411057,Kevin McCullar Jr.,25,2001-03-15,G,Toronto Raptors,TOR,0,,New York Knicks; Toronto Raptors,2,,Two-Way / Undisclosed,,USA,USA,North America,2,,Undisclosed (Two-Way / Rookie)
+4684269,Kylan Boswell,21,2005-04-18,G,Charlotte Hornets,CHA,0,,Charlotte Hornets,1,,Two-Way / Undisclosed,,USA,USA,North America,0,,Undisclosed (Two-Way / Rookie)
+4433149,LJ Cryer,25,2001-10-09,G,Golden State Warriors,GS,0,,Golden State Warriors,1,,Two-Way / Undisclosed,,USA,USA,North America,2,,Undisclosed (Two-Way / Rookie)
+4395650,Leaky Black,27,1999-06-14,F,Sacramento Kings,SAC,0,,Charlotte Hornets; Washington Wizards; Sacramento Kings,3,,Two-Way / Undisclosed,,USA,USA,North America,3,,Undisclosed (Two-Way / Rookie)
+4397784,Malachi Smith,26,1999-12-06,G,Toronto Raptors,TOR,0,,Brooklyn Nets; Toronto Raptors,2,,Two-Way / Undisclosed,,USA,USA,North America,2,,Undisclosed (Two-Way / Rookie)
+4897449,Malevy Leons,27,1999-09-23,F,Golden State Warriors,GS,0,,Oklahoma City Thunder; Golden State Warriors,2,,Two-Way / Undisclosed,,Netherlands,Netherlands,Europe,3,,Undisclosed (Two-Way / Rookie)
+4712862,Malik Dia,22,2004-02-04,F,New Orleans Pelicans,NO,0,,New Orleans Pelicans,1,,Two-Way / Undisclosed,,USA,USA,North America,0,,Undisclosed (Two-Way / Rookie)
+5105337,Maliq Brown,23,2003-11-15,F,San Antonio Spurs,SA,0,,San Antonio Spurs,1,,Two-Way / Undisclosed,,USA,USA,North America,0,,Undisclosed (Two-Way / Rookie)
+5176517,Michael Ajayi,23,2003-05-23,F,Charlotte Hornets,CHA,0,,Charlotte Hornets,1,,Two-Way / Undisclosed,,USA,USA,North America,0,,Undisclosed (Two-Way / Rookie)
+4432586,Nate Bittle,23,2003-06-03,C,Toronto Raptors,TOR,0,,Toronto Raptors,1,,Two-Way / Undisclosed,,USA,USA,North America,0,,Undisclosed (Two-Way / Rookie)
+5105832,Nick Martinelli,22,2004-04-20,F,LA Clippers,LAC,0,,LA Clippers,1,,Two-Way / Undisclosed,,USA,USA,North America,0,,Undisclosed (Two-Way / Rookie)
+4702134,Norchad Omier,25,2001-08-28,C,Cleveland Cavaliers,CLE,0,,LA Clippers; Cleveland Cavaliers,2,,Two-Way / Undisclosed,,Nicaragua,Nicaragua,North America,0,,Undisclosed (Two-Way / Rookie)
+4432827,Oscar Tshiebwe,26,1999-11-27,C,Houston Rockets,HOU,0,,Indiana Pacers; Utah Jazz; Houston Rockets,3,,Two-Way / Undisclosed,,Democratic Republic of Congo,Congo,Africa,4,,Undisclosed (Two-Way / Rookie)
+4701225,PJ Hall,24,2002-02-21,C,Charlotte Hornets,CHA,0,,Denver Nuggets; Memphis Grizzlies; Charlotte Hornets,3,,Two-Way / Undisclosed,,USA,USA,North America,3,,Undisclosed (Two-Way / Rookie)
+4683860,Quadir Copeland,23,2003-09-01,G,Houston Rockets,HOU,0,,Houston Rockets,1,,Two-Way / Undisclosed,,USA,USA,North America,0,,Undisclosed (Two-Way / Rookie)
+4684443,Rafael Castro,23,2003-03-30,F,Atlanta Hawks,ATL,0,,Atlanta Hawks,1,,Two-Way / Undisclosed,,USA,USA,North America,0,,Undisclosed (Two-Way / Rookie)
+4431941,RayJ Dennis,25,2001-03-30,G,Atlanta Hawks,ATL,0,,Indiana Pacers; LA Clippers; Atlanta Hawks,3,,Two-Way / Undisclosed,,USA,USA,North America,3,,Undisclosed (Two-Way / Rookie)
+4432187,Reece Beekman,25,2001-10-08,G,Washington Wizards,WSH,0,,Brooklyn Nets; Golden State Warriors; Washington Wizards,3,,Two-Way / Undisclosed,,USA,USA,North America,2,,Undisclosed (Two-Way / Rookie)
+5105462,Richie Saunders,25,2001-09-19,G,Memphis Grizzlies,MEM,0,,Memphis Grizzlies,1,,Two-Way / Undisclosed,,USA,USA,North America,0,,Undisclosed (Two-Way / Rookie)
+5177362,Riley Minix,26,2000-09-22,F,Cleveland Cavaliers,CLE,0,,San Antonio Spurs; Cleveland Cavaliers,2,,Two-Way / Undisclosed,,USA,USA,North America,3,,Undisclosed (Two-Way / Rookie)
+5157587,Rocco Zikarsky,20,2006-07-11,C,Minnesota Timberwolves,MIN,0,,Minnesota Timberwolves,1,,Two-Way / Undisclosed,,Australia,Australia,Oceania,2,,Undisclosed (Two-Way / Rookie)
+4709131,Sean Pedulla,24,2002-10-10,G,Sacramento Kings,SAC,0,,LA Clippers; Sacramento Kings,2,,Two-Way / Undisclosed,,USA,USA,North America,2,,Undisclosed (Two-Way / Rookie)
+3904625,Tacko Fall,30,1995-12-10,C,Philadelphia 76ers,PHI,0,,Boston Celtics; Cleveland Cavaliers; Philadelphia 76ers,3,,Two-Way / Undisclosed,,Senegal,Senegal,Africa,4,2019,Undisclosed (Two-Way / Rookie)
+5105555,Tobe Awaka,22,2004-01-30,F,Chicago Bulls,CHI,0,,Chicago Bulls,1,,Two-Way / Undisclosed,,USA,USA,North America,0,,Undisclosed (Two-Way / Rookie)
+5106040,Tobi Lawal,23,2003-05-01,F,Dallas Mavericks,DAL,0,,Dallas Mavericks,1,,Two-Way / Undisclosed,,United Kingdom,United Kingdom,Europe,0,,Undisclosed (Two-Way / Rookie)
+4837356,Tre Donaldson,22,2003-12-11,G,Miami Heat,MIA,0,,Miami Heat,1,,Two-Way / Undisclosed,,USA,USA,North America,0,,Undisclosed (Two-Way / Rookie)
+5105626,Tyler Bilodeau,22,2004-04-17,F,Brooklyn Nets,BKN,0,,Brooklyn Nets,1,,Two-Way / Undisclosed,,USA,USA,North America,0,,Undisclosed (Two-Way / Rookie)
+4838721,Tyler Nickel,23,2003-09-05,F,New York Knicks,NY,0,,New York Knicks,1,,Two-Way / Undisclosed,,USA,USA,North America,0,,Undisclosed (Two-Way / Rookie)
+5037878,Ugonna Onyenso,22,2004-09-25,C,Detroit Pistons,DET,0,,Detroit Pistons,1,,Two-Way / Undisclosed,,Nigeria,Nigeria,Africa,0,,Undisclosed (Two-Way / Rookie)
+4700818,Vladislav Goldin,25,2001-05-12,C,Miami Heat,MIA,0,,Miami Heat,1,,Two-Way / Undisclosed,,Russia,Russia,Europe,2,,Undisclosed (Two-Way / Rookie)
+4702099,Zack Austin,25,2001-08-11,G,Cleveland Cavaliers,CLE,0,,Cleveland Cavaliers,1,,Two-Way / Undisclosed,,USA,USA,North America,1,,Undisclosed (Two-Way / Rookie)
+4592979,Zyon Pullin,25,2001-03-03,G,Minnesota Timberwolves,MIN,0,,Memphis Grizzlies; Minnesota Timberwolves,2,,Two-Way / Undisclosed,,USA,USA,North America,3,,Undisclosed (Two-Way / Rookie)
