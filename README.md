@@ -14,6 +14,17 @@ Self-contained HTML/Tailwind/Canvas/SVG dashboard with all 529 players and 414 s
 - Sponsorship Intelligence (13 industries, top brands, champion/international splits, launch timeline, and contract horizons)
 - Sortable, exportable Players & Deals tables + slide-over Player Profile drawer
 
+## r/nba 10-Chart Prototype Studio: `prototype-studio.html`
+
+Standalone browser-ready prototype dashboard for testing `/r/nba` visual themes across **10 NBA data stories** before batch-rendering final PNGs:
+- **4 live visual presets:** `r/nba Dark Mode`, `r/nba Classic Light`, `Hardwood Editorial`, and `Broadcast Neon`
+- **10 data stories:** Rings Sell (#1), The $400M+ Club (#2), 13 Sponsorship Industries (#3), Most-Sponsored Rosters (#4), Global NBA (#5), Endorsement Contract Horizons (#6), Ultimate Journeymen vs. One-Team Lifers (#7), 2026–27 Sneaker Wars (#8), Age vs. The Bag (#9), and the 30-Team Age/Payroll/Deals Matrix (#10)
+- **Reddit workflow tools:** Toggleable `/r/nba` `[OC]` post-card frame, 1-col Feed vs. 2-col Studio Grid layout, one-click Reddit title copy, selection spec copy, and instant client-side `Test PNG ↓` exports
+
+## Reddit-Ready PNG Charts: `charts/`
+
+High-DPI (2500×1640, 200 DPI) Matplotlib PNGs generated via `scripts/generate_reddit_pngs.py` (`01_rings_sell_champion_premium.png` through `06_endorsement_contract_horizons.png`).
+
 ---
 
 ## Dataset 1: `data/nba_players_2026_27.csv` / `.json`
@@ -93,7 +104,8 @@ Covers **414 verified sponsorship & endorsement deals** across **115 currently-r
 13. `Insurance` (8)
 
 ### Reproducibility
-Rebuild scripts are stored in `scripts/`:
+Rebuild & chart scripts are stored in `scripts/`:
 - `scripts/build_players_dataset.py`
 - `scripts/curated_sponsorships.py`
 - `scripts/build_sponsorships_dataset.py`
+- `scripts/generate_reddit_pngs.py`

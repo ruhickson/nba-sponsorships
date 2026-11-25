@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>r/nba 10-Chart Prototype Studio · 2026–27 NBA Data</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --background: #0b0f19;
+      --card: #131926;
+      --border: #242e42;
+      --foreground: #f1f5f9;
+      --muted-foreground: #94a3b8;
+      --primary: #3b82f6;
+      --primary-foreground: #ffffff;
+      color-scheme: dark;
+    }
+    * { box-sizing: border-box; }
+    .tabular-nums { font-variant-numeric: tabular-nums; }
+    .chart-svg { width: 100%; height: auto; display: block; border-radius: 8px; }
+    .pill-btn { transition: all 0.15s ease; }
+  </style>
+</head>
+<body class="bg-[var(--background)] text-[var(--foreground)] antialiased m-0 p-0">
+  <div class="max-w-[1440px] mx-auto px-4 sm:px-6 py-5 space-y-5">
+
+    <!-- Studio Header (r/nba Inspired Banner) -->
+    <header class="bg-[var(--card)] border border-[var(--border)] rounded-xl p-4 space-y-3">
+      <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-3">
+        <div class="flex items-start gap-3">
+          <div class="w-10 h-10 rounded-full flex items-center justify-center font-black text-xs shrink-0 border border-[var(--border)]" style="background:var(--primary);color:var(--primary-foreground)">
+            r/nba
+          </div>
+          <div>
+            <div class="flex flex-wrap items-center gap-2">
+              <h1 class="text-lg font-bold tracking-tight text-[var(--foreground)]">r/nba 10-Chart Prototype Studio</h1>
+              <span class="px-2 py-0.5 text-xs font-semibold rounded-full border border-[var(--border)] text-[var(--primary)]">[OC] Style Preview</span>
+            </div>
+            <p class="text-xs text-[var(--muted-foreground)] mt-0.5">
+              Compare 4 visual themes across all 10 data stories (529 rostered players · 414 tracked deals, Nov 2026) before we lock and batch-render final 200 DPI PNGs.
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-wrap items-center gap-2 text-xs">
+          <span id="sel-counter" class="px-2.5 py-1 rounded-lg bg-[var(--background)] border border-[var(--border)] font-mono tabular-nums text-[var(--muted-foreground)]">10 / 10 selected</span>
+          <button id="btn-copy-summary" class="px-3 py-1.5 rounded-lg bg-[var(--primary)] text-[var(--primary-foreground)] font-medium hover:opacity-90 transition-opacity">
+            Copy Selected Spec
+          </button>
+        </div>
+      </div>
+
+      <!-- Style & View Controls -->
+      <div class="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-[var(--border)] text-xs">
+        <div class="flex flex-wrap items-center gap-1.5">
+          <span class="text-[var(--muted-foreground)] font-medium mr-1">PNG Style Preset:</span>
+          <button data-theme="rnba_dark" class="theme-btn pill-btn px-3 py-1.5 rounded-lg border font-medium">r/nba Dark Mode</button>
+          <button data-theme="rnba_light" class="theme-btn pill-btn px-3 py-1.5 rounded-lg border font-medium">r/nba Classic Light</button>
+          <button data-theme="hardwood" class="theme-btn pill-btn px-3 py-1.5 rounded-lg border font-medium">Hardwood Editorial</button>
+          <button data-theme="broadcast" class="theme-btn pill-btn px-3 py-1.5 rounded-lg border font-medium">Broadcast Neon</button>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-3">
+          <label class="inline-flex items-center gap-1.5 cursor-pointer select-none text-[var(--muted-foreground)]">
+            <input id="chk-reddit-frame" type="checkbox" checked class="accent-[var(--primary)]" />
+            <span>r/nba Post Preview Frame</span>
+          </label>
+          <div class="flex items-center gap-1 bg-[var(--background)] border border-[var(--border)] rounded-lg p-0.5">
+            <button data-layout="feed" class="layout-btn px-2.5 py-1 rounded-md">Feed (1-Col)</button>
+            <button data-layout="grid" class="layout-btn px-2.5 py-1 rounded-md">Studio Grid (2-Col)</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Jump Pills -->
+      <div id="jump-pills" class="flex flex-wrap items-center gap-1.5 pt-1 text-xs"></div>
+    </header>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="hidden fixed bottom-5 right-5 z-50 px-3.5 py-2 rounded-lg bg-[var(--card)] border border-[var(--primary)] text-xs font-medium text-[var(--foreground)] shadow-xl"></div>
+
+    <!-- 10-Chart Prototype Container -->
+    <main id="charts-container" class="grid grid-cols-1 gap-6"></main>
+
+  </div>
+
+  <script>
+    const D = {"c1":{"rosterChampPct":14.2,"dealChampPct":41.1,"champPlayers":75,"totalPlayers":529,"champDeals":170,"totalDeals":414,"industries":[{"ind":"Gambling & Prediction Markets","pct":75.0,"c":6,"tot":8},{"ind":"Health, Wellness & Personal Care","pct":72.7,"c":8,"tot":11},{"ind":"Spirits & Alcohol","pct":61.5,"c":8,"tot":13},{"ind":"Telecommunications","pct":55.6,"c":5,"tot":9},{"ind":"Technology & Consumer Electronics","pct":43.3,"c":13,"tot":30},{"ind":"Fashion & Luxury","pct":42.2,"c":27,"tot":64},{"ind":"Financial Services & Banking","pct":41.2,"c":7,"tot":17},{"ind":"Footwear & Apparel","pct":40.0,"c":36,"tot":90},{"ind":"Food & Beverage","pct":38.8,"c":31,"tot":80},{"ind":"Insurance","pct":37.5,"c":3,"tot":8},{"ind":"Retail & Collectibles","pct":34.9,"c":15,"tot":43},{"ind":"Automotive & Aviation","pct":30.0,"c":6,"tot":20},{"ind":"Gaming & Media","pct":23.8,"c":5,"tot":21}]},"c2":[{"name":"LeBron James","abbr":"PHI","age":41,"titles":4,"deals":15,"career":587.8,"cur":3.9},{"name":"Kevin Durant","abbr":"HOU","age":38,"titles":2,"deals":8,"career":548.9,"cur":43.9},{"name":"Stephen Curry","abbr":"GS","age":38,"titles":4,"deals":9,"career":535.8,"cur":62.6},{"name":"Paul George","abbr":"BOS","age":36,"titles":0,"deals":4,"career":462.9,"cur":54.1},{"name":"James Harden","abbr":"CLE","age":37,"titles":0,"deals":4,"career":444.4,"cur":30.6},{"name":"Kawhi Leonard","abbr":"TOR","age":35,"titles":2,"deals":6,"career":428.6,"cur":50.3},{"name":"Anthony Davis","abbr":"WSH","age":33,"titles":1,"deals":5,"career":424.1,"cur":58.5},{"name":"Jimmy Butler III","abbr":"GS","age":37,"titles":0,"deals":6,"career":423.5,"cur":56.8},{"name":"Damian Lillard","abbr":"POR","age":36,"titles":0,"deals":5,"career":402.5,"cur":35.9},{"name":"Giannis Antetokounmpo","abbr":"MIA","age":31,"titles":1,"deals":10,"career":397.5,"cur":58.5},{"name":"Kyrie Irving","abbr":"DAL","age":34,"titles":1,"deals":4,"career":388.0,"cur":39.5},{"name":"Joel Embiid","abbr":"PHI","age":32,"titles":0,"deals":4,"career":380.0,"cur":58.1}],"c3":[{"ind":"Footwear & Apparel","cnt":90,"pct":21.7,"brands":"Nike, Adidas, Jordan Brand, Li-Ning"},{"ind":"Food & Beverage","cnt":80,"pct":19.3,"brands":"Gatorade, Sprite, McDonald's, Chipotle"},{"ind":"Fashion & Luxury","cnt":64,"pct":15.5,"brands":"Louis Vuitton, Coach, Tissot, BVLGARI"},{"ind":"Retail & Collectibles","cnt":43,"pct":10.4,"brands":"Dick's, Fanatics, Foot Locker, Lowe's"},{"ind":"Technology & Consumer Electronics","cnt":30,"pct":7.2,"brands":"Google, Beats by Dre, Bose, Meta"},{"ind":"Gaming & Media","cnt":21,"pct":5.1,"brands":"2K Sports, PlayStation, Overwatch"},{"ind":"Automotive & Aviation","cnt":20,"pct":4.8,"brands":"Toyota, Turkish Airlines, Lucid, Chevy"},{"ind":"Financial Services & Banking","cnt":17,"pct":4.1,"brands":"JPMorgan Chase, AmEx, SoFi, Chime"},{"ind":"Spirits & Alcohol","cnt":13,"pct":3.1,"brands":"Michelob Ultra, Hennessy, Maker's Mark"},{"ind":"Health, Wellness & Personal Care","cnt":11,"pct":2.7,"brands":"CeraVe, Glaukos, Superpower, Journavx"},{"ind":"Telecommunications","cnt":9,"pct":2.2,"brands":"AT&T, Xfinity, Verizon"},{"ind":"Gambling & Prediction Markets","cnt":8,"pct":1.9,"brands":"Polymarket, Kalshi, FanDuel, PrizePicks"},{"ind":"Insurance","cnt":8,"pct":1.9,"brands":"State Farm, Amica, USAA, AAMI"}],"c4":[{"team":"Philadelphia 76ers","cnt":32,"npl":5,"stars":"James (15), Brown (6), Embiid (4)"},{"team":"Oklahoma City Thunder","cnt":27,"npl":6,"stars":"Gilgeous-Alexander (10), Holmgren (5), Caruso (3)"},{"team":"New York Knicks","cnt":23,"npl":7,"stars":"Brunson (6), Towns (5), Hart (4)"},{"team":"Miami Heat","cnt":22,"npl":4,"stars":"Antetokounmpo (10), Wiggins (4), Adebayo (4)"},{"team":"Boston Celtics","cnt":21,"npl":4,"stars":"Tatum (11), George (4), White (3)"},{"team":"Houston Rockets","cnt":20,"npl":6,"stars":"Durant (8), Thompson (3), Sheppard (3)"},{"team":"Golden State Warriors","cnt":20,"npl":4,"stars":"Curry (9), Butler (6), Green (3)"},{"team":"Portland Trail Blazers","cnt":18,"npl":5,"stars":"Lillard (5), Morant (4), Henderson (4)"},{"team":"San Antonio Spurs","cnt":18,"npl":5,"stars":"Wembanyama (6), Fox (3), Vassell (3)"},{"team":"Minnesota Timberwolves","cnt":15,"npl":4,"stars":"Edwards (5), Ball (4), McDaniels (3)"},{"team":"Los Angeles Lakers","cnt":15,"npl":4,"stars":"Doncic (5), Reaves (4), James (3)"},{"team":"Toronto Raptors","cnt":15,"npl":4,"stars":"Leonard (6), Quickley (3), Barrett (3)"},{"team":"LA Clippers","cnt":14,"npl":5,"stars":"Beal (3), Ingram (3), Garland (3)"},{"team":"Washington Wizards","cnt":14,"npl":4,"stars":"Davis (5), Dybantsa (3), Coulibaly (3)"},{"team":"Denver Nuggets","cnt":14,"npl":4,"stars":"Murray (4), Jokic (4), Gordon (3)"}],"c5":[{"nat":"France","cont":"Europe","p":17,"earn":602.4,"deals":12},{"nat":"Canada","cont":"North America","p":16,"earn":1375.4,"deals":27},{"nat":"Australia","cont":"Oceania","p":9,"earn":781.4,"deals":10},{"nat":"Germany","cont":"Europe","p":7,"earn":403.5,"deals":6},{"nat":"Serbia","cont":"Europe","p":6,"earn":550.0,"deals":4},{"nat":"Nigeria","cont":"Africa","p":6,"earn":80.3,"deals":0},{"nat":"Spain","cont":"Europe","p":5,"earn":62.1,"deals":0},{"nat":"Cameroon","cont":"Africa","p":3,"earn":670.3,"deals":7},{"nat":"Dominican Republic","cont":"North America","p":3,"earn":646.1,"deals":5},{"nat":"Bahamas","cont":"North America","p":3,"earn":309.4,"deals":0},{"nat":"Lithuania","cont":"Europe","p":3,"earn":253.5,"deals":2},{"nat":"United Kingdom","cont":"Europe","p":3,"earn":181.5,"deals":1}],"c6":[{"player":"LeBron James","brand":"Nike","s":2003.5,"e":2037.0,"st":"Lifetime","note":"Lifetime ($1B+ est.)"},{"player":"Kevin Durant","brand":"Nike","s":2007.5,"e":2037.0,"st":"Lifetime","note":"Lifetime (signed 2023)"},{"player":"Damian Lillard","brand":"Adidas","s":2012.5,"e":2037.0,"st":"Lifetime","note":"Lifetime (signed 2024)"},{"player":"Stephen Curry","brand":"Li-Ning","s":2026.5,"e":2036.5,"st":"Active","note":"10-yr · $400M (2026–36)"},{"player":"Stephen Curry","brand":"Under Armour","s":2013.5,"e":2026.8,"st":"Ended","note":"Ended Oct 2026 (13 yrs)"},{"player":"LaMelo Ball","brand":"PUMA","s":2020.8,"e":2030.8,"st":"Active","note":"10-yr · $100M (2020–30)"},{"player":"Devin Booker","brand":"Nike","s":2015.5,"e":2029.5,"st":"Active","note":"Extended thru 2029"},{"player":"Luka Dončić","brand":"Jordan Brand","s":2019.9,"e":2029.5,"st":"Active","note":"Extended thru 2029"},{"player":"James Harden","brand":"Adidas","s":2015.8,"e":2028.8,"st":"Active","note":"13-yr · $200M (2015–28)"},{"player":"Kyrie Irving","brand":"ANTA","s":2023.5,"e":2028.5,"st":"Active","note":"5-yr · CCO (2023–28)"},{"player":"Klay Thompson","brand":"ANTA","s":2014.5,"e":2027.5,"st":"Active","note":"10-yr ext. thru 2027"},{"player":"Zion Williamson","brand":"Jordan Brand","s":2019.6,"e":2026.5,"st":"Ended","note":"7-yr · $75M ended 2026"},{"player":"Shai Gilgeous-Alexander","brand":"Converse","s":2020.5,"e":2026.5,"st":"Ended","note":"Moved to Nike Jun 2026"},{"player":"LeBron James","brand":"DraftKings","s":2024.1,"e":2026.5,"st":"Ended","note":"Ended → Polymarket ($15M/yr)"},{"player":"Kawhi Leonard","brand":"Aspiration","s":2021.5,"e":2025.5,"st":"Ended","note":"4-yr · $28M (NBA probe)"}],"c7":{"journeymen":[{"name":"Dennis Schroder","abbr":"CHA","age":33,"teams":12},{"name":"Mason Plumlee","abbr":"SAC","age":36,"teams":9},{"name":"DeAndre Jordan","abbr":"NO","age":38,"teams":8},{"name":"Svi Mykhailiuk","abbr":"UTAH","age":29,"teams":8},{"name":"Andre Drummond","abbr":"NY","age":33,"teams":7},{"name":"Kentavious Caldwell-Pope","abbr":"PHI","age":33,"teams":7},{"name":"Kyle Anderson","abbr":"TOR","age":33,"teams":7},{"name":"Tyus Jones","abbr":"DEN","age":30,"teams":7},{"name":"Buddy Hield","abbr":"CHI","age":33,"teams":7},{"name":"Taurean Prince","abbr":"DET","age":32,"teams":7}],"lifers":[{"name":"Stephen Curry","abbr":"GS","exp":18,"titles":4,"career":535.8},{"name":"Draymond Green","abbr":"GS","exp":15,"titles":4,"career":257.8},{"name":"Nikola Jokic","abbr":"DEN","exp":12,"titles":1,"career":361.7},{"name":"Devin Booker","abbr":"PHX","exp":12,"titles":0,"career":327.7},{"name":"Joel Embiid","abbr":"PHI","exp":11,"titles":0,"career":380.0},{"name":"Jamal Murray","abbr":"DEN","exp":10,"titles":1,"career":269.3},{"name":"Jayson Tatum","abbr":"BOS","exp":10,"titles":1,"career":266.3},{"name":"Bam Adebayo","abbr":"MIA","exp":10,"titles":0,"career":227.3},{"name":"Jonathan Isaac","abbr":"ORL","exp":10,"titles":0,"career":125.8},{"name":"Keldon Johnson","abbr":"SA","exp":8,"titles":0,"career":84.0}]},"c8":[{"brand":"Nike","cnt":20,"stars":"LeBron, Giannis, SGA, KD +16"},{"brand":"Adidas","cnt":7,"stars":"Lillard, Ant, Harden, Mitchell +3"},{"brand":"Jordan Brand","cnt":6,"stars":"Tatum, Luka, Bam Adebayo, Paolo Banchero +2"},{"brand":"New Balance","cnt":6,"stars":"Kawhi, Cooper Flagg, Jamal Murray, Tyrese Maxey +2"},{"brand":"PUMA","cnt":4,"stars":"Haliburton, LaMelo, Scoot Henderson, Josh Giddey"},{"brand":"Skechers","cnt":4,"stars":"Embiid, Norman Powell, Isaiah Hartenstein, OG Anunoby"},{"brand":"Li-Ning","cnt":3,"stars":"Curry, Butler, CJ McCollum"},{"brand":"361°","cnt":2,"stars":"Jokić, Aaron Gordon"},{"brand":"ANTA","cnt":2,"stars":"Kyrie, Klay Thompson"},{"brand":"Converse","cnt":2,"stars":"Brandon Miller, Payton Pritchard"},{"brand":"Peak","cnt":2,"stars":"Andrew Wiggins, Malik Monk"},{"brand":"741 Performance","cnt":1,"stars":"Jaylen Brown"},{"brand":"Reebok","cnt":1,"stars":"Darius Acuff Jr."},{"brand":"Rigorer","cnt":1,"stars":"Austin Reaves"},{"brand":"Under Armour","cnt":1,"stars":"Fox"}],"c9":[{"label":"19–21","n":66,"avgSal":6.0,"deals":13,"dpp":0.2},{"label":"22–24","n":160,"avgSal":7.3,"deals":73,"dpp":0.46},{"label":"25–27","n":141,"avgSal":14.3,"deals":81,"dpp":0.57},{"label":"28–30","n":84,"avgSal":18.8,"deals":93,"dpp":1.11},{"label":"31–33","n":49,"avgSal":19.7,"deals":71,"dpp":1.45},{"label":"34–36","n":19,"avgSal":19.5,"deals":36,"dpp":1.89},{"label":"37–42","n":10,"avgSal":22.3,"deals":47,"dpp":4.7}],"c10":[{"abbr":"ATL","team":"Atlanta Hawks","pay":193.3,"age":25.67,"deals":10},{"abbr":"BKN","team":"Brooklyn Nets","pay":160.1,"age":23.94,"deals":3},{"abbr":"BOS","team":"Boston Celtics","pay":203.9,"age":26.88,"deals":21},{"abbr":"CHA","team":"Charlotte Hornets","pay":157.7,"age":24.61,"deals":7},{"abbr":"CHI","team":"Chicago Bulls","pay":171.3,"age":24.83,"deals":8},{"abbr":"CLE","team":"Cleveland Cavaliers","pay":206.7,"age":26.22,"deals":13},{"abbr":"DAL","team":"Dallas Mavericks","pay":181.4,"age":24.61,"deals":13},{"abbr":"DEN","team":"Denver Nuggets","pay":223.1,"age":27.0,"deals":14},{"abbr":"DET","team":"Detroit Pistons","pay":189.5,"age":26.0,"deals":9},{"abbr":"GS","team":"Golden State Warriors","pay":219.8,"age":29.06,"deals":20},{"abbr":"HOU","team":"Houston Rockets","pay":200.4,"age":27.59,"deals":20},{"abbr":"IND","team":"Indiana Pacers","pay":206.3,"age":27.47,"deals":7},{"abbr":"LAC","team":"LA Clippers","pay":205.0,"age":26.26,"deals":14},{"abbr":"LAL","team":"Los Angeles Lakers","pay":197.1,"age":25.21,"deals":15},{"abbr":"MEM","team":"Memphis Grizzlies","pay":120.8,"age":24.33,"deals":4},{"abbr":"MIA","team":"Miami Heat","pay":214.6,"age":27.82,"deals":22},{"abbr":"MIL","team":"Milwaukee Bucks","pay":164.9,"age":25.22,"deals":9},{"abbr":"MIN","team":"Minnesota Timberwolves","pay":215.4,"age":25.18,"deals":15},{"abbr":"NO","team":"New Orleans Pelicans","pay":196.4,"age":25.22,"deals":8},{"abbr":"NY","team":"New York Knicks","pay":224.6,"age":27.29,"deals":23},{"abbr":"OKC","team":"Oklahoma City Thunder","pay":220.2,"age":24.5,"deals":27},{"abbr":"ORL","team":"Orlando Magic","pay":218.1,"age":26.24,"deals":13},{"abbr":"PHI","team":"Philadelphia 76ers","pay":224.4,"age":26.71,"deals":32},{"abbr":"PHX","team":"Phoenix Suns","pay":189.6,"age":26.0,"deals":9},{"abbr":"POR","team":"Portland Trail Blazers","pay":214.3,"age":26.06,"deals":18},{"abbr":"SA","team":"San Antonio Spurs","pay":196.1,"age":25.35,"deals":18},{"abbr":"SAC","team":"Sacramento Kings","pay":197.1,"age":26.83,"deals":7},{"abbr":"TOR","team":"Toronto Raptors","pay":201.2,"age":25.65,"deals":15},{"abbr":"UTAH","team":"Utah Jazz","pay":181.9,"age":25.11,"deals":6},{"abbr":"WSH","team":"Washington Wizards","pay":196.6,"age":24.89,"deals":14}]};
+
+    // 4 Distinct /r/nba PNG Style Presets
+    const THEMES = {
+      rnba_dark: {
+        name: 'r/nba Dark Mode',
+        bg: '#111418',
+        panel: '#1A1F26',
+        barTrack: '#222831',
+        border: '#2D3542',
+        fg: '#F1F5F9',
+        muted: '#9AA5B4',
+        dim: '#6E7A8A',
+        accent1: '#C8102E', // NBA Crimson Red
+        accent2: '#2B6CB0', // NBA Royal Blue (lifted for dark)
+        accent3: '#F59E0B', // Championship Gold
+        accent4: '#10B981', // Emerald
+        accent5: '#A855F7', // Violet
+        accent6: '#38BDF8', // Sky
+        neutral: '#4B5563',
+        inkOnAccent: '#FFFFFF',
+        inkOnGold: '#111418',
+        topStripe: ['#1D428A', '#C8102E'],
+        fontDisplay: 'Impact, "Arial Narrow", "Trebuchet MS", sans-serif',
+        fontBody: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+      },
+      rnba_light: {
+        name: 'r/nba Classic Light',
+        bg: '#FFFFFF',
+        panel: '#F6F7F8',
+        barTrack: '#E9EDF2',
+        border: '#D6DCE5',
+        fg: '#1A1A1B',
+        muted: '#57606A',
+        dim: '#7C8590',
+        accent1: '#C8102E', // NBA Red
+        accent2: '#1D428A', // NBA Navy Blue
+        accent3: '#D97706', // Deep Gold
+        accent4: '#059669', // Emerald
+        accent5: '#7C3AED', // Purple
+        accent6: '#0284C7', // Blue
+        neutral: '#64748B',
+        inkOnAccent: '#FFFFFF',
+        inkOnGold: '#FFFFFF',
+        topStripe: ['#1D428A', '#C8102E'],
+        fontDisplay: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+        fontBody: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+      },
+      hardwood: {
+        name: 'Hardwood Editorial',
+        bg: '#F8F3E8',
+        panel: '#EFE7D6',
+        barTrack: '#E5DAC5',
+        border: '#D5C7AE',
+        fg: '#1C1917',
+        muted: '#57534E',
+        dim: '#78716C',
+        accent1: '#C2410C', // Court Orange-Rust
+        accent2: '#1E3A8A', // Classic Ink Blue
+        accent3: '#B45309', // Hardwood Gold
+        accent4: '#047857', // Celtics Emerald
+        accent5: '#6D28D9', // Royal Purple
+        accent6: '#0E7490', // Deep Teal
+        neutral: '#78716C',
+        inkOnAccent: '#FAF6EE',
+        inkOnGold: '#FAF6EE',
+        topStripe: ['#C2410C', '#1E3A8A'],
+        fontDisplay: 'Georgia, "Times New Roman", serif',
+        fontBody: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+      },
+      broadcast: {
+        name: 'Broadcast Neon',
+        bg: '#090D16',
+        panel: '#111827',
+        barTrack: '#1E293B',
+        border: '#293548',
+        fg: '#F8FAFC',
+        muted: '#94A3B8',
+        dim: '#64748B',
+        accent1: '#FF2E54', // Broadcast Coral
+        accent2: '#00D4FF', // Electric Cyan
+        accent3: '#FFB800', // Arena Gold
+        accent4: '#00E5A0', // Neon Mint
+        accent5: '#B36BFF', // Neon Violet
+        accent6: '#3B82F6', // Royal
+        neutral: '#475569',
+        inkOnAccent: '#090D16',
+        inkOnGold: '#090D16',
+        topStripe: ['#00D4FF', '#FF2E54'],
+        fontDisplay: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+        fontBody: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+      },
+    };
+
+    const state = {
+      theme: 'rnba_dark',
+      layout: 'feed',
+      redditFrame: true,
+      selected: new Set([1,2,3,4,5,6,7,8,9,10]),
+    };
+
+    const esc = (s) => String(s ?? '').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+    const FOOTER = 'Data: ESPN, Basketball-Reference, NBA.com, Forbes & public endorsement filings · Snapshot Nov 25, 2026 (N = 529 players, 414 deals)';
+
+    // Chart Metadata for all 10 /r/nba stories
+    const CHARTS = [
+      {
+        id: 1, tag: 'OC · Sponsorships', short: '1. Rings Sell', upvotes: '4.8k', comments: '412',
+        redditTitle: '[OC] Rings Sell: NBA Champions make up just 14.2% of active players, but hold 41.1% of all tracked sponsorships (and 75% of gambling/prediction market deals)',
+        kicker: 'THE CHAMPIONSHIP ENDORSEMENT PREMIUM',
+        title: 'Rings Sell: Champions Are 14% of Players — But Hold 41% of Deals',
+        subtitle: 'NBA title winners average 4.2× more tracked deals per player (2.27 vs. 0.54) and dominate gambling, wellness, and spirits.',
+        render: renderChart1,
+      },
+      {
+        id: 2, tag: 'OC · Salaries', short: '2. $400M+ Club', upvotes: '6.2k', comments: '689',
+        redditTitle: '[OC] The NBA\'s Top 12 Active Career Earners vs. Their 2026–27 Salary — LeBron sits #1 all-time ($587.8M) on a $3.9M Philly vet min, and 5 of the top 12 have 0 rings',
+        kicker: 'ACTIVE ON-COURT WEALTH LEADERS',
+        title: 'The $400M+ Club: Career NBA Earnings vs. 2026–27 Salary',
+        subtitle: 'Top 12 active earners through 2026–27. LeBron took a $3.9M vet min with Philly — and 5 of the top 12 have 0 rings.',
+        render: renderChart2,
+      },
+      {
+        id: 3, tag: 'OC · Business', short: '3. 13 Industries', upvotes: '2.9k', comments: '248',
+        redditTitle: '[OC] Where NBA Endorsement Money Actually Goes: Mapping 414 player sponsorship deals across 13 industries in 2026–27',
+        kicker: 'BRAND & INDUSTRY LANDSCAPE',
+        title: 'Where NBA Endorsements Go: 414 Deals Across 13 Industries',
+        subtitle: 'Footwear, Food & Beverage, and Fashion/Luxury drive 56% of deals — while Prediction Markets & Insurance target top stars.',
+        render: renderChart3,
+      },
+      {
+        id: 4, tag: 'OC · Teams', short: '4. Top Rosters', upvotes: '3.5k', comments: '334',
+        redditTitle: '[OC] Which 2026–27 NBA rosters hoard the most player sponsorship deals? After landing LeBron & Jaylen Brown, Philly leads the league with 32',
+        kicker: 'FRANCHISE STAR POWER',
+        title: 'Which 2026–27 NBA Rosters Hoard the Most Sponsorship Deals?',
+        subtitle: 'After blockbuster 2026 moves (LeBron & Jaylen Brown to PHI; Giannis to MIA), the 76ers lead with 32 tracked deals.',
+        render: renderChart4,
+      },
+      {
+        id: 5, tag: 'OC · Global NBA', short: '5. Global NBA', upvotes: '5.1k', comments: '519',
+        redditTitle: '[OC] The Global NBA in 2026–27: France has the most players (17), Canada dominates career earnings ($1.38B) & deals (27), and Cameroon\'s 3 players out-earn all 17 French players',
+        kicker: 'GLOBAL FOOTPRINT · 45 NATIONALITIES · 6 CONTINENTS',
+        title: 'The Global NBA: France Leads Players, Canada Rules Dollars & Deals',
+        subtitle: '125+ international players across 44 non-USA nations. Cameroon\'s 3 stars out-earn 17 French players ($670M vs. $602M).',
+        render: renderChart5,
+      },
+      {
+        id: 6, tag: 'OC · Contracts', short: '6. Mega-Deals', upvotes: '4.4k', comments: '391',
+        redditTitle: '[OC] Timeline of the NBA\'s longest endorsement bets (2003–2036): Lifetime Nike/Adidas deals, Steph Curry\'s Under Armour → $400M Li-Ning switch, and Kawhi\'s Aspiration probe',
+        kicker: 'MAJOR ENDORSEMENT CONTRACT HORIZONS (2003 → 2036+)',
+        title: 'The Longest Bets in NBA Endorsements: Lifetime & 2026 Shakeups',
+        subtitle: 'Verified timelines of disclosed multi-year, lifetime, and recently ended NBA mega-deals as of November 2026.',
+        render: renderChart6,
+      },
+      {
+        id: 7, tag: 'OC · Loyalty', short: '7. Journeymen vs Lifers', upvotes: '5.7k', comments: '610',
+        redditTitle: '[OC] Ultimate NBA Journeymen vs. One-Team Lifers in 2026–27: Dennis Schröder has played for 12 franchises while Steph Curry (18 yrs) & Draymond (15 yrs) never left',
+        kicker: 'FRANCHISE LOYALTY VS. MOBILITY (ALL 529 PLAYERS)',
+        title: 'Ultimate Journeymen vs. One-Team Lifers in the 2026–27 NBA',
+        subtitle: 'Dennis Schröder leads all active players with 12 NBA franchises played for; Steph Curry enters year 18 with Golden State.',
+        render: renderChart7,
+      },
+      {
+        id: 8, tag: 'OC · Sneakers', short: '8. Sneaker Wars', upvotes: '4.1k', comments: '475',
+        redditTitle: '[OC] The 2026–27 NBA Sneaker Wars: Nike Inc. still leads, Chinese brands (Li-Ning, ANTA, 361°, Peak, Rigorer) stole half the MVP class, and Under Armour is down to 1 star',
+        kicker: '2026–27 NBA FOOTWEAR BATTLEGROUND',
+        title: 'The Sneaker Wars: Nike Leads, But Chinese Brands Stole the Stars',
+        subtitle: 'Active & lifetime footwear deals tracked across 15 brands — Curry ($400M Li-Ning), Jokić (361°), and Kyrie (ANTA) reshape the market.',
+        render: renderChart8,
+      },
+      {
+        id: 9, tag: 'OC · Age Curve', short: '9. Age vs. Bag', upvotes: '3.8k', comments: '296',
+        redditTitle: '[OC] Age vs. The Bag: The 10 oldest NBA players (37+) average $22.3M in salary and 4.70 sponsorship deals each — 24× more endorsements per player than ages 19–21',
+        kicker: 'CAREER EARNINGS & ENDORSEMENT AGE CURVE',
+        title: 'Age vs. The Bag: Why the NBA\'s 37+ Legends Hoard Endorsements',
+        subtitle: 'Survivorship of icons (LeBron, Curry, KD, Harden, Butler) makes the 37–42 bracket the richest in both pay and brand deals.',
+        render: renderChart9,
+      },
+      {
+        id: 10, tag: 'OC · All 30 Teams', short: '10. 30-Team Matrix', upvotes: '6.9k', comments: '742',
+        redditTitle: '[OC] Every 2026–27 NBA Team plotted by Average Roster Age vs. Total Payroll (bubble size = tracked sponsorships) — OKC is somehow top-4 in payroll AND 3rd youngest',
+        kicker: 'ALL 30 NBA FRANCHISES · AGE VS. PAYROLL VS. STAR POWER',
+        title: '2026–27 NBA Team Matrix: Win-Now Superteams vs. Young Cores',
+        subtitle: 'X = Avg Roster Age, Y = 2026–27 Payroll, Bubble Size = Tracked Sponsorships. OKC breaks the curve (24.5 yrs · $220M · 27 deals).',
+        render: renderChart10,
+      },
+    ];
+
+    // SVG Chrome Helper (1000 × 620 viewBox = clean 16:10 Reddit aspect ratio)
+    function svgFrame(meta, t, innerSvg) {
+      return `
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" class="chart-svg" style="background:${t.bg};border:1px solid ${t.border}">
+          <!-- Dual NBA Broadcast Top Accent Stripe -->
+          <rect x="0" y="0" width="500" height="5" fill="${t.topStripe[0]}" />
+          <rect x="500" y="0" width="500" height="5" fill="${t.topStripe[1]}" />
+          <!-- Header -->
+          <text x="38" y="34" font-family="${t.fontBody}" font-size="11" font-weight="800" letter-spacing="1.2" fill="${t.accent1}">${esc(meta.kicker)}</text>
+          <text x="962" y="34" text-anchor="end" font-family="${t.fontBody}" font-size="11" font-weight="700" fill="${t.dim}">r/nba · 2026–27</text>
+          <text x="38" y="63" font-family="${t.fontDisplay}" font-size="21.5" font-weight="800" fill="${t.fg}">${esc(meta.title)}</text>
+          <text x="38" y="85" font-family="${t.fontBody}" font-size="12.2" fill="${t.muted}">${esc(meta.subtitle)}</text>
+          <!-- Chart Body -->
+          ${innerSvg}
+          <!-- Footer -->
+          <line x1="38" y1="584" x2="962" y2="584" stroke="${t.border}" stroke-width="1" />
+          <text x="38" y="603" font-family="${t.fontBody}" font-size="10.5" fill="${t.dim}">${esc(FOOTER)}</text>
+        </svg>
+      `;
+    }
+
+    // ==================== CHART 1: RINGS SELL ====================
+    function renderChart1(t) {
+      const c = D.c1;
+      const lx = 265, rw = 690;
+      let s = '';
+      // Hero comparison bars
+      const hero = [
+        { label: 'Share of NBA Rosters (529)', pct: c.rosterChampPct, n: c.champPlayers, tot: c.totalPlayers, y: 112 },
+        { label: 'Share of Tracked Deals (414)', pct: c.dealChampPct, n: c.champDeals, tot: c.totalDeals, y: 150 },
+      ];
+      hero.forEach((h, idx) => {
+        const w = (h.pct / 100) * rw;
+        s += `<text x="${lx - 12}" y="${h.y + 18}" text-anchor="end" font-family="${t.fontBody}" font-size="12" font-weight="700" fill="${t.fg}">${h.label}</text>`;
+        s += `<rect x="${lx}" y="${h.y}" width="${rw}" height="28" rx="4" fill="${t.barTrack}" />`;
+        s += `<rect x="${lx}" y="${h.y}" width="${w}" height="28" rx="4" fill="${t.accent3}" />`;
+        if (idx === 0) {
+          s += `<text x="${lx + w + 10}" y="${h.y + 18}" font-family="${t.fontBody}" font-size="11.5" font-weight="700" fill="${t.fg}">${h.pct.toFixed(1)}% Champions (${h.n})  ·  ${(100 - h.pct).toFixed(1)}% Non-Champions (${h.tot - h.n})</text>`;
+        } else {
+          s += `<text x="${lx + w - 10}" y="${h.y + 18}" text-anchor="end" font-family="${t.fontBody}" font-size="11.5" font-weight="800" fill="${t.inkOnGold}">${h.pct.toFixed(1)}% Champions (${h.n})</text>`;
+          s += `<text x="${lx + w + 10}" y="${h.y + 18}" font-family="${t.fontBody}" font-size="11.5" fill="${t.muted}">${(100 - h.pct).toFixed(1)}% Non-Champions (${h.tot - h.n})</text>`;
+        }
+      });
+
+      // 13-Industry breakdown
+      const baseY = 216, rowH = 26.5;
+      const baseLineX = lx + (c.rosterChampPct / 100) * rw;
+      const avgLineX = lx + (c.dealChampPct / 100) * rw;
+      s += `<text x="${baseLineX + 5}" y="${baseY - 6}" font-family="${t.fontBody}" font-size="10.5" font-weight="700" fill="${t.accent1}">Roster baseline (${c.rosterChampPct.toFixed(1)}%)</text>`;
+      s += `<text x="${avgLineX + 5}" y="${baseY - 6}" font-family="${t.fontBody}" font-size="10.5" font-weight="700" fill="${t.muted}">All-deals avg (${c.dealChampPct.toFixed(1)}%)</text>`;
+
+      c.industries.forEach((row, i) => {
+        const y = baseY + i * rowH;
+        const w = (row.pct / 100) * rw;
+        const col = row.pct >= 50 ? t.accent3 : (row.pct >= 35 ? t.accent2 : t.neutral);
+        const ink = row.pct >= 50 ? t.inkOnGold : t.inkOnAccent;
+        s += `<text x="${lx - 12}" y="${y + 14}" text-anchor="end" font-family="${t.fontBody}" font-size="11.5" fill="${t.fg}">${esc(row.ind)} <tspan fill="${t.muted}">(n=${row.tot})</tspan></text>`;
+        s += `<rect x="${lx}" y="${y}" width="${rw}" height="20" rx="3" fill="${t.barTrack}" />`;
+        s += `<rect x="${lx}" y="${y}" width="${w}" height="20" rx="3" fill="${col}" />`;
+        s += `<text x="${lx + w - 8}" y="${y + 14}" text-anchor="end" font-family="${t.fontBody}" font-size="11" font-weight="800" fill="${ink}">${Math.round(row.pct)}%</text>`;
+      });
+      const endY = baseY + c.industries.length * rowH;
+      s += `<line x1="${baseLineX}" y1="${baseY - 3}" x2="${baseLineX}" y2="${endY}" stroke="${t.accent1}" stroke-width="1.5" stroke-dasharray="4 3" />`;
+      s += `<line x1="${avgLineX}" y1="${baseY - 3}" x2="${avgLineX}" y2="${endY}" stroke="${t.fg}" stroke-opacity="0.45" stroke-width="1.3" stroke-dasharray="2 3" />`;
+      return s;
+    }
+
+    // ==================== CHART 2: $400M+ CLUB ====================
+    function renderChart2(t) {
+      const rows = D.c2;
+      const lx = 225, w1 = 390, x2 = 690, w2 = 240;
+      let s = '';
+      // Legend
+      const leg = [[t.accent3, 'NBA Champion'], [t.accent2, '0 NBA Titles'], [t.accent4, '$55M+ Salary (2026–27)'], [t.accent1, 'LeBron Vet Min ($3.9M)']];
+      let cx = 38;
+      leg.forEach(([col, lbl]) => {
+        s += `<rect x="${cx}" y="102" width="12" height="10" rx="2" fill="${col}" />`;
+        s += `<text x="${cx + 17}" y="111" font-family="${t.fontBody}" font-size="11" fill="${t.muted}">${lbl}</text>`;
+        cx += lbl.length * 6.5 + 38;
+      });
+
+      s += `<text x="${lx}" y="135" font-family="${t.fontBody}" font-size="12" font-weight="800" fill="${t.fg}">Cumulative Career NBA Earnings ($M)</text>`;
+      s += `<text x="${x2}" y="135" font-family="${t.fontBody}" font-size="12" font-weight="800" fill="${t.fg}">2026–27 Salary ($M)</text>`;
+
+      const baseY = 148, rowH = 35;
+      rows.forEach((p, i) => {
+        const y = baseY + i * rowH;
+        const bw1 = (p.career / 640) * w1;
+        const bw2 = (p.cur / 72) * w2;
+        const col1 = p.titles > 0 ? t.accent3 : t.accent2;
+        const col2 = p.name === 'LeBron James' ? t.accent1 : (p.cur >= 55 ? t.accent4 : t.neutral);
+        const badge = p.titles > 0 ? `★${p.titles}` : '0 rings';
+
+        s += `<text x="${lx - 10}" y="${y + 11}" text-anchor="end" font-family="${t.fontBody}" font-size="11.5" font-weight="700" fill="${t.fg}">${esc(p.name)} <tspan fill="${t.muted}" font-weight="500">(${p.abbr}, ${p.age})</tspan></text>`;
+        s += `<text x="${lx - 10}" y="${y + 24}" text-anchor="end" font-family="${t.fontBody}" font-size="10" fill="${p.titles > 0 ? t.accent3 : t.dim}">${badge} · ${p.deals} deals</text>`;
+
+        s += `<rect x="${lx}" y="${y + 3}" width="${bw1}" height="22" rx="3" fill="${col1}" />`;
+        s += `<text x="${lx + bw1 + 7}" y="${y + 18}" font-family="${t.fontBody}" font-size="11.5" font-weight="800" fill="${t.fg}">$${p.career.toFixed(1)}M</text>`;
+
+        s += `<rect x="${x2}" y="${y + 3}" width="${Math.max(4, bw2)}" height="22" rx="3" fill="${col2}" />`;
+        const curLbl = p.name === 'LeBron James' ? `$${p.cur.toFixed(1)}M ← Vet min w/ PHI` : (p.name === 'Stephen Curry' ? `$${p.cur.toFixed(1)}M (#1)` : `$${p.cur.toFixed(1)}M`);
+        s += `<text x="${x2 + Math.max(4, bw2) + 7}" y="${y + 18}" font-family="${t.fontBody}" font-size="11" font-weight="${p.name === 'LeBron James' || p.name === 'Stephen Curry' ? '800' : '600'}" fill="${p.name === 'LeBron James' ? t.accent1 : (p.name === 'Stephen Curry' ? t.accent4 : t.fg)}">${curLbl}</text>`;
+      });
+      return s;
+    }
+
+    // ==================== CHART 3: 13 INDUSTRIES ====================
+    function renderChart3(t) {
+      const rows = D.c3;
+      const lx = 260, rw = 670, baseY = 114, rowH = 34.5;
+      let s = '';
+      rows.forEach((r, i) => {
+        const y = baseY + i * rowH;
+        const bw = (r.cnt / 135) * rw;
+        let col = t.neutral;
+        if (r.ind === 'Footwear & Apparel') col = t.accent2;
+        else if (r.ind === 'Food & Beverage') col = t.accent4;
+        else if (r.ind === 'Fashion & Luxury') col = t.accent5;
+        else if (r.ind === 'Gambling & Prediction Markets') col = t.accent1;
+        else if (r.ind === 'Insurance') col = t.accent3;
+
+        s += `<text x="${lx - 12}" y="${y + 16}" text-anchor="end" font-family="${t.fontBody}" font-size="11.8" font-weight="700" fill="${t.fg}">${esc(r.ind)}</text>`;
+        s += `<rect x="${lx}" y="${y + 2}" width="${bw}" height="22" rx="3" fill="${col}" />`;
+        s += `<text x="${lx + bw + 8}" y="${y + 17}" font-family="${t.fontBody}" font-size="11" fill="${t.fg}"><tspan font-weight="800">${r.cnt}</tspan> <tspan fill="${t.muted}">(${r.pct.toFixed(1)}%) · ${esc(r.brands)}</tspan></text>`;
+      });
+
+      // Spotlight box
+      s += `
+        <rect x="648" y="340" width="314" height="145" rx="8" fill="${t.panel}" stroke="${t.accent1}" stroke-width="1.3" />
+        <text x="664" y="364" font-family="${t.fontBody}" font-size="11" font-weight="800" fill="${t.accent1}">SPOTLIGHT: EMERGING VERTICALS</text>
+        <text x="664" y="384" font-family="${t.fontBody}" font-size="10.8" fill="${t.fg}">• Gambling &amp; Prediction Markets (8):</text>
+        <text x="674" y="401" font-family="${t.fontBody}" font-size="10.3" fill="${t.muted}">LeBron (Polymarket $15M/yr, ex-DraftKings),</text>
+        <text x="674" y="416" font-family="${t.fontBody}" font-size="10.3" fill="${t.muted}">KD (FanDuel, Kalshi), Giannis (Kalshi),</text>
+        <text x="674" y="431" font-family="${t.fontBody}" font-size="10.3" fill="${t.muted}">Ant (PrizePicks), Jokić (Superbet)</text>
+        <text x="664" y="452" font-family="${t.fontBody}" font-size="10.8" fill="${t.fg}">• Insurance (8): <tspan fill="${t.muted}">State Farm (Flagg, Cade,</tspan></text>
+        <text x="674" y="468" font-family="${t.fontBody}" font-size="10.3" fill="${t.muted}">Trae, Brook), Amica (Tatum), USAA (Castle)</text>
+      `;
+      return s;
+    }
+
+    // ==================== CHART 4: MOST SPONSORED TEAMS ====================
+    function renderChart4(t) {
+      const rows = D.c4;
+      const lx = 215, rw = 710, baseY = 112, rowH = 30.5;
+      let s = '';
+      rows.forEach((r, i) => {
+        const y = baseY + i * rowH;
+        const bw = (r.cnt / 64) * rw;
+        const col = i < 3 ? t.accent1 : (i < 7 ? t.accent2 : t.neutral);
+        const stars = r.stars.replace('Gilgeous-Alexander', 'SGA');
+        s += `<text x="${lx - 12}" y="${y + 15}" text-anchor="end" font-family="${t.fontBody}" font-size="11.5" font-weight="700" fill="${t.fg}">${esc(r.team)}</text>`;
+        s += `<rect x="${lx}" y="${y + 2}" width="${bw}" height="20" rx="3" fill="${col}" />`;
+        s += `<text x="${lx + bw + 8}" y="${y + 16}" font-family="${t.fontBody}" font-size="11" fill="${t.fg}"><tspan font-weight="800">${r.cnt} deals</tspan> <tspan fill="${t.muted}">(${r.npl} players) · ${esc(stars)}</tspan></text>`;
+      });
+      return s;
+    }
+
+    // ==================== CHART 5: GLOBAL NBA ====================
+    function renderChart5(t) {
+      const rows = D.c5;
+      const cMap = { Europe: t.accent6, 'North America': t.accent2, Africa: t.accent3, Oceania: t.accent5 };
+      const x1 = 190, w1 = 215, x2 = 465, w2 = 240, x3 = 765, w3 = 185;
+      let s = '';
+      // Legend
+      const leg = [[t.accent6, 'Europe (70)'], [t.accent2, 'N. America ex-USA (24)'], [t.accent3, 'Africa (17)'], [t.accent5, 'Oceania (10)']];
+      let cx = 38;
+      leg.forEach(([col, lbl]) => {
+        s += `<rect x="${cx}" y="102" width="12" height="10" rx="2" fill="${col}" />`;
+        s += `<text x="${cx + 17}" y="111" font-family="${t.fontBody}" font-size="11" fill="${t.muted}">${lbl}</text>`;
+        cx += lbl.length * 6.4 + 34;
+      });
+
+      s += `<text x="${x1}" y="136" font-family="${t.fontBody}" font-size="12" font-weight="800" fill="${t.fg}">Rostered Players</text>`;
+      s += `<text x="${x2}" y="136" font-family="${t.fontBody}" font-size="12" font-weight="800" fill="${t.fg}">Combined Career Earnings</text>`;
+      s += `<text x="${x3}" y="136" font-family="${t.fontBody}" font-size="12" font-weight="800" fill="${t.fg}">Tracked Deals</text>`;
+
+      const baseY = 150, rowH = 34.5;
+      rows.forEach((r, i) => {
+        const y = baseY + i * rowH;
+        const col = cMap[r.cont] || t.accent2;
+        const bw1 = (r.p / 20) * w1;
+        const bw2 = (r.earn / 1600) * w2;
+        const bw3 = (r.deals / 32) * w3;
+        const eLbl = r.earn >= 1000 ? `$${(r.earn/1000).toFixed(2)}B` : `$${Math.round(r.earn)}M`;
+
+        s += `<text x="${x1 - 12}" y="${y + 15}" text-anchor="end" font-family="${t.fontBody}" font-size="11.8" font-weight="700" fill="${t.fg}">${esc(r.nat)}</text>`;
+        s += `<rect x="${x1}" y="${y + 2}" width="${bw1}" height="20" rx="3" fill="${col}" />`;
+        s += `<text x="${x1 + bw1 + 6}" y="${y + 16}" font-family="${t.fontBody}" font-size="11.5" font-weight="800" fill="${t.fg}">${r.p}</text>`;
+
+        s += `<rect x="${x2}" y="${y + 2}" width="${Math.max(4, bw2)}" height="20" rx="3" fill="${col}" />`;
+        s += `<text x="${x2 + Math.max(4, bw2) + 6}" y="${y + 16}" font-family="${t.fontBody}" font-size="11.2" font-weight="800" fill="${t.fg}">${eLbl}</text>`;
+
+        s += `<rect x="${x3}" y="${y + 2}" width="${r.deals ? Math.max(4, bw3) : 0}" height="20" rx="3" fill="${col}" />`;
+        s += `<text x="${x3 + (r.deals ? Math.max(4, bw3) + 6 : 0)}" y="${y + 16}" font-family="${t.fontBody}" font-size="11.5" font-weight="800" fill="${r.deals ? t.fg : t.dim}">${r.deals}</text>`;
+      });
+      return s;
+    }
+
+    // ==================== CHART 6: CONTRACT HORIZONS ====================
+    function renderChart6(t) {
+      const rows = D.c6;
+      const lx = 265, rx = 955, rw = rx - lx, minY = 2003, maxY = 2038;
+      const sx = (yr) => lx + ((yr - minY) / (maxY - minY)) * rw;
+      let s = '';
+      // Legend
+      const leg = [[t.accent3, 'Lifetime Contract'], [t.accent4, 'Active Multi-Year'], [t.accent1, '2026 Mega-Switch (Curry → Li-Ning)'], [t.neutral, 'Ended / Expired']];
+      let cx = 38;
+      leg.forEach(([col, lbl]) => {
+        s += `<rect x="${cx}" y="102" width="12" height="10" rx="2" fill="${col}" />`;
+        s += `<text x="${cx + 17}" y="111" font-family="${t.fontBody}" font-size="11" fill="${t.muted}">${lbl}</text>`;
+        cx += lbl.length * 6.3 + 34;
+      });
+
+      const baseY = 138, rowH = 27.5;
+      // Year grid
+      for (let yr = 2004; yr <= 2036; yr += 4) {
+        const x = sx(yr);
+        s += `<line x1="${x}" y1="${baseY}" x2="${x}" y2="${baseY + rows.length * rowH}" stroke="${t.border}" stroke-dasharray="3 3" stroke-width="1" />`;
+        s += `<text x="${x}" y="${baseY + rows.length * rowH + 16}" text-anchor="middle" font-family="${t.fontBody}" font-size="10.5" fill="${t.muted}">${yr}</text>`;
+      }
+
+      const nowX = sx(2026.9);
+      rows.forEach((r, i) => {
+        const y = baseY + i * rowH;
+        const x1 = sx(r.s), x2 = sx(r.e);
+        const col = r.brand === 'Li-Ning' ? t.accent1 : (r.st === 'Lifetime' ? t.accent3 : (r.st === 'Active' ? t.accent4 : t.neutral));
+        s += `<text x="${lx - 10}" y="${y + 14}" text-anchor="end" font-family="${t.fontBody}" font-size="11" font-weight="700" fill="${t.fg}">${esc(r.player)} · <tspan fill="${t.muted}" font-weight="600">${esc(r.brand)}</tspan></text>`;
+        s += `<rect x="${x1}" y="${y + 2}" width="${Math.max(8, x2 - x1)}" height="18" rx="3" fill="${col}" />`;
+        s += `<circle cx="${x1}" cy="${y + 11}" r="3.5" fill="${t.fg}" />`;
+        if (r.st === 'Lifetime') {
+          s += `<text x="${x2 + 4}" y="${y + 15}" font-family="${t.fontBody}" font-size="13" font-weight="800" fill="${t.accent3}">→</text>`;
+          s += `<text x="${x1 + 10}" y="${y + 14.5}" font-family="${t.fontBody}" font-size="10.2" font-weight="800" fill="${t.inkOnGold}">${esc(r.note)}</text>`;
+        } else if (x2 - x1 >= 150) {
+          s += `<text x="${x1 + 10}" y="${y + 14.5}" font-family="${t.fontBody}" font-size="10.2" font-weight="800" fill="${r.st === 'Ended' ? t.fg : t.inkOnAccent}">${esc(r.note)}</text>`;
+        } else {
+          const tx = Math.max(x2 + 8, nowX + 8);
+          s += `<text x="${tx}" y="${y + 14.5}" font-family="${t.fontBody}" font-size="10.2" font-weight="${r.brand === 'Li-Ning' ? '800' : '500'}" fill="${r.st === 'Ended' ? t.muted : t.fg}">${esc(r.note)}</text>`;
+        }
+      });
+
+      s += `<line x1="${nowX}" y1="${baseY - 4}" x2="${nowX}" y2="${baseY + rows.length * rowH}" stroke="${t.accent1}" stroke-width="1.6" stroke-dasharray="4 3" />`;
+      s += `<text x="${nowX}" y="${baseY - 8}" text-anchor="middle" font-family="${t.fontBody}" font-size="10.5" font-weight="800" fill="${t.accent1}">Nov 2026</text>`;
+      return s;
+    }
+
+    // ==================== CHART 7: JOURNEYMEN VS ONE-TEAM LIFERS ====================
+    function renderChart7(t) {
+      const { journeymen, lifers } = D.c7;
+      let s = '';
+      // Left Panel: Top 10 Journeymen (Most Franchises)
+      const lx1 = 195, w1 = 240;
+      const lx2 = 680, w2 = 240;
+      s += `<rect x="38" y="106" width="445" height="28" rx="4" fill="${t.panel}" />`;
+      s += `<text x="52" y="124" font-family="${t.fontBody}" font-size="12" font-weight="800" fill="${t.accent1}">ULTIMATE JOURNEYMEN (MOST FRANCHISES)</text>`;
+      s += `<rect x="515" y="106" width="447" height="28" rx="4" fill="${t.panel}" />`;
+      s += `<text x="529" y="124" font-family="${t.fontBody}" font-size="12" font-weight="800" fill="${t.accent4}">ONE-TEAM LIFERS (MOST SEASONS · 1 TEAM)</text>`;
+
+      const baseY = 152, rowH = 40;
+      journeymen.forEach((p, i) => {
+        const y = baseY + i * rowH;
+        const bw = (p.teams / 13) * w1;
+        const col = i === 0 ? t.accent1 : (p.teams >= 8 ? t.accent3 : t.neutral);
+        s += `<text x="${lx1 - 10}" y="${y + 13}" text-anchor="end" font-family="${t.fontBody}" font-size="11.5" font-weight="700" fill="${t.fg}">${esc(p.name)}</text>`;
+        s += `<text x="${lx1 - 10}" y="${y + 26}" text-anchor="end" font-family="${t.fontBody}" font-size="10" fill="${t.muted}">Now ${p.abbr} · Age ${p.age}</text>`;
+        s += `<rect x="${lx1}" y="${y + 4}" width="${bw}" height="22" rx="3" fill="${col}" />`;
+        s += `<text x="${lx1 + bw + 7}" y="${y + 19}" font-family="${t.fontBody}" font-size="11.5" font-weight="800" fill="${t.fg}">${p.teams} <tspan font-weight="500" fill="${t.muted}">teams</tspan></text>`;
+      });
+
+      lifers.forEach((p, i) => {
+        const y = baseY + i * rowH;
+        const bw = (p.exp / 20) * w2;
+        const col = p.titles > 0 ? t.accent4 : t.accent2;
+        const ring = p.titles > 0 ? `★${p.titles} · ` : '';
+        s += `<text x="${lx2 - 10}" y="${y + 13}" text-anchor="end" font-family="${t.fontBody}" font-size="11.5" font-weight="700" fill="${t.fg}">${esc(p.name)}</text>`;
+        s += `<text x="${lx2 - 10}" y="${y + 26}" text-anchor="end" font-family="${t.fontBody}" font-size="10" fill="${p.titles > 0 ? t.accent3 : t.muted}">${ring}${p.abbr} · $${p.career.toFixed(0)}M</text>`;
+        s += `<rect x="${lx2}" y="${y + 4}" width="${bw}" height="22" rx="3" fill="${col}" />`;
+        s += `<text x="${lx2 + bw + 7}" y="${y + 19}" font-family="${t.fontBody}" font-size="11.5" font-weight="800" fill="${t.fg}">${p.exp} <tspan font-weight="500" fill="${t.muted}">yrs</tspan></text>`;
+      });
+
+      return s;
+    }
+
+    // ==================== CHART 8: 2026-27 SNEAKER WARS ====================
+    function renderChart8(t) {
+      const rows = D.c8;
+      const lx = 190, rw = 740, baseY = 136, rowH = 29;
+      let s = '';
+      // Origin legend
+      const leg = [
+        [t.accent2, 'Nike Inc. (Nike / Jordan / Converse)', 38, 101],
+        [t.accent1, 'Chinese Brands (Li-Ning / ANTA / 361° / Peak / Rigorer)', 340, 101],
+        [t.accent4, 'US & European Rivals (Adidas / NB / PUMA / Skechers / UA / Reebok)', 38, 117],
+        [t.accent3, 'Independent (741 Performance)', 525, 117],
+      ];
+      leg.forEach(([col, lbl, x, y]) => {
+        s += `<rect x="${x}" y="${y}" width="11" height="9" rx="2" fill="${col}" />`;
+        s += `<text x="${x + 16}" y="${y + 8}" font-family="${t.fontBody}" font-size="10.5" fill="${t.muted}">${lbl}</text>`;
+      });
+
+      const chinese = new Set(['Li-Ning', 'ANTA', '361°', 'Peak', 'Rigorer']);
+      const nikeInc = new Set(['Nike', 'Jordan Brand', 'Converse']);
+
+      rows.forEach((r, i) => {
+        const y = baseY + i * rowH;
+        const bw = (r.cnt / 25) * 440;
+        const col = nikeInc.has(r.brand) ? t.accent2 : (chinese.has(r.brand) ? t.accent1 : (r.brand === '741 Performance' ? t.accent3 : t.accent4));
+        s += `<text x="${lx - 12}" y="${y + 15}" text-anchor="end" font-family="${t.fontBody}" font-size="11.5" font-weight="700" fill="${t.fg}">${esc(r.brand)}</text>`;
+        s += `<rect x="${lx}" y="${y + 2}" width="${Math.max(10, bw)}" height="20" rx="3" fill="${col}" />`;
+        s += `<text x="${lx + Math.max(10, bw) + 8}" y="${y + 16}" font-family="${t.fontBody}" font-size="11" fill="${t.fg}"><tspan font-weight="800">${r.cnt}</tspan> <tspan fill="${t.muted}">· ${esc(r.stars)}</tspan></text>`;
+      });
+      return s;
+    }
+
+    // ==================== CHART 9: AGE VS THE BAG ====================
+    function renderChart9(t) {
+      const rows = D.c9;
+      const xL = 75, xR = 925, yT = 148, yB = 515;
+      const plotW = xR - xL, plotH = yB - yT;
+      let s = '';
+
+      // Legend
+      s += `<rect x="38" y="102" width="12" height="10" rx="2" fill="${t.accent2}" /><text x="55" y="111" font-family="${t.fontBody}" font-size="11" fill="${t.muted}">Avg 2026–27 Salary ($M, bars)</text>`;
+      s += `<circle cx="270" cy="107" r="5" fill="${t.accent1}" /><line x1="258" y1="107" x2="282" y2="107" stroke="${t.accent1}" stroke-width="2.5" /><text x="290" y="111" font-family="${t.fontBody}" font-size="11" fill="${t.muted}">Avg Tracked Sponsorships per Player (line)</text>`;
+
+      // Horizontal gridlines
+      for (let v = 0; v <= 25; v += 5) {
+        const y = yB - (v / 26) * plotH;
+        s += `<line x1="${xL}" y1="${y}" x2="${xR}" y2="${y}" stroke="${t.border}" stroke-dasharray="3 3" stroke-width="1" />`;
+        s += `<text x="${xL - 10}" y="${y + 4}" text-anchor="end" font-family="${t.fontBody}" font-size="10.5" fill="${t.muted}">$${v}M</text>`;
+      }
+
+      const step = plotW / rows.length;
+      const barW = step * 0.52;
+      const pts = [];
+
+      rows.forEach((r, i) => {
+        const cx = xL + step * (i + 0.5);
+        const bh = (r.avgSal / 26) * plotH;
+        const by = yB - bh;
+        s += `<rect x="${cx - barW / 2}" y="${by}" width="${barW}" height="${bh}" rx="4" fill="${i === rows.length - 1 ? t.accent3 : t.accent2}" opacity="0.88" />`;
+        s += `<text x="${cx}" y="${by + 16}" text-anchor="middle" font-family="${t.fontBody}" font-size="10.8" font-weight="800" fill="${i === rows.length - 1 ? t.inkOnGold : t.inkOnAccent}">$${r.avgSal.toFixed(1)}M</text>`;
+        s += `<text x="${cx}" y="${yB + 18}" text-anchor="middle" font-family="${t.fontBody}" font-size="11.5" font-weight="700" fill="${t.fg}">Age ${r.label}</text>`;
+        s += `<text x="${cx}" y="${yB + 33}" text-anchor="middle" font-family="${t.fontBody}" font-size="10" fill="${t.muted}">n=${r.n} players</text>`;
+
+        const ly = yB - (r.dpp / 5.2) * plotH;
+        pts.push({ x: cx, y: ly, r });
+      });
+
+      // Line overlay for Deals per Player
+      const pathD = pts.map((pt, i) => `${i === 0 ? 'M' : 'L'} ${pt.x} ${pt.y}`).join(' ');
+      s += `<path d="${pathD}" fill="none" stroke="${t.bg}" stroke-width="5.5" stroke-linejoin="round" opacity="0.85" />`;
+      s += `<path d="${pathD}" fill="none" stroke="${t.accent1}" stroke-width="3.2" stroke-linejoin="round" />`;
+      pts.forEach((pt, i) => {
+        const lbl = `${pt.r.dpp.toFixed(2)} / p`;
+        const bwPill = i === pts.length - 1 ? 88 : 58;
+        const lblText = i === pts.length - 1 ? `${pt.r.dpp.toFixed(2)} deals/p` : lbl;
+        const pillY = pt.y - 26;
+        s += `<circle cx="${pt.x}" cy="${pt.y}" r="${i === pts.length - 1 ? 8 : 5.5}" fill="${t.accent1}" stroke="${t.bg}" stroke-width="2" />`;
+        s += `<rect x="${pt.x - bwPill / 2}" y="${pillY}" width="${bwPill}" height="18" rx="4" fill="${t.bg}" stroke="${t.accent1}" stroke-width="1" />`;
+        s += `<text x="${pt.x}" y="${pillY + 12.5}" text-anchor="middle" font-family="${t.fontBody}" font-size="10.5" font-weight="800" fill="${t.accent1}">${lblText}</text>`;
+      });
+
+      // Right axis labels for Deals per Player
+      for (let d = 0; d <= 5; d += 1) {
+        const y = yB - (d / 5.2) * plotH;
+        s += `<text x="${xR + 10}" y="${y + 4}" text-anchor="start" font-family="${t.fontBody}" font-size="10.5" font-weight="700" fill="${t.accent1}">${d.toFixed(1)}</text>`;
+      }
+
+      // Callout placed cleanly in open upper-left space above rookie bars
+      s += `
+        <rect x="96" y="152" width="356" height="74" rx="7" fill="${t.panel}" stroke="${t.accent3}" stroke-width="1.2" />
+        <text x="110" y="172" font-family="${t.fontBody}" font-size="11" font-weight="800" fill="${t.accent3}">THE 37+ SURVIVOR EFFECT (10 PLAYERS)</text>
+        <text x="110" y="191" font-family="${t.fontBody}" font-size="10.5" fill="${t.fg}">Only icons survive past 36: LeBron, Curry, KD,</text>
+        <text x="110" y="208" font-family="${t.fontBody}" font-size="10.5" fill="${t.muted}">Harden, Butler, Horford, Conley → 47 deals (24× rookies!)</text>
+      `;
+      return s;
+    }
+
+    // ==================== CHART 10: ALL 30 TEAMS MATRIX ====================
+    function renderChart10(t) {
+      const teams = D.c10;
+      const xL = 78, xR = 954, yT = 128, yB = 528;
+      const plotW = xR - xL, plotH = yB - yT;
+      const minAge = 23.4, maxAge = 29.6, minPay = 112, maxPay = 238;
+      const sx = (a) => xL + ((a - minAge) / (maxAge - minAge)) * plotW;
+      const sy = (p) => yB - ((p - minPay) / (maxPay - minPay)) * plotH;
+
+      const medAge = 26.0, medPay = 199;
+      const qx = sx(medAge), qy = sy(medPay);
+
+      let s = '';
+      // Quadrant subtle backgrounds & labels
+      s += `<rect x="${xL}" y="${yT}" width="${qx - xL}" height="${qy - yT}" fill="${t.accent4}" fill-opacity="0.06" />`;
+      s += `<rect x="${qx}" y="${yT}" width="${xR - qx}" height="${qy - yT}" fill="${t.accent1}" fill-opacity="0.06" />`;
+      s += `<rect x="${xL}" y="${qy}" width="${qx - xL}" height="${yB - qy}" fill="${t.accent2}" fill-opacity="0.05" />`;
+      s += `<text x="${xL + 12}" y="${yT + 20}" font-family="${t.fontBody}" font-size="11" font-weight="800" fill="${t.accent4}">YOUNG &amp; LOADED</text>`;
+      s += `<text x="${xR - 12}" y="${yT + 20}" text-anchor="end" font-family="${t.fontBody}" font-size="11" font-weight="800" fill="${t.accent1}">WIN-NOW SUPERTEAMS</text>`;
+      s += `<text x="${xL + 12}" y="${yB - 12}" font-family="${t.fontBody}" font-size="11" font-weight="800" fill="${t.accent2}">REBUILDING / YOUTH CORES</text>`;
+      s += `<text x="${xR - 12}" y="${yB - 12}" text-anchor="end" font-family="${t.fontBody}" font-size="11" font-weight="800" fill="${t.muted}">VETERAN VALUE ROSTERS</text>`;
+
+      // Bubble size & color mini-legend in top margin
+      s += `<circle cx="46" cy="108" r="5.5" fill="${t.accent1}" /><text x="57" y="112" font-family="${t.fontBody}" font-size="10.2" fill="${t.muted}">20+ deals</text>`;
+      s += `<circle cx="128" cy="108" r="5.5" fill="${t.accent4}" /><text x="139" y="112" font-family="${t.fontBody}" font-size="10.2" fill="${t.muted}">Young &amp; &gt;$199M</text>`;
+      s += `<circle cx="242" cy="108" r="5.5" fill="${t.accent3}" /><text x="253" y="112" font-family="${t.fontBody}" font-size="10.2" fill="${t.muted}">Vet &amp; &gt;$199M</text>`;
+      s += `<circle cx="344" cy="108" r="5.5" fill="${t.accent2}" /><text x="355" y="112" font-family="${t.fontBody}" font-size="10.2" fill="${t.muted}">Below median pay</text>`;
+      s += `<text x="954" y="112" text-anchor="end" font-family="${t.fontBody}" font-size="10.2" fill="${t.dim}">Size = tracked deals · Medians: 26.0 yrs / $199M</text>`;
+
+      // Grid lines
+      for (let p = 120; p <= 230; p += 20) {
+        const y = sy(p);
+        s += `<line x1="${xL}" y1="${y}" x2="${xR}" y2="${y}" stroke="${t.border}" stroke-dasharray="3 3" stroke-width="0.9" />`;
+        s += `<text x="${xL - 10}" y="${y + 4}" text-anchor="end" font-family="${t.fontBody}" font-size="10.5" fill="${t.muted}">$${p}M</text>`;
+      }
+      for (let a = 24; a <= 29; a += 1) {
+        const x = sx(a);
+        s += `<line x1="${x}" y1="${yT}" x2="${x}" y2="${yB}" stroke="${t.border}" stroke-dasharray="3 3" stroke-width="0.9" />`;
+        s += `<text x="${x}" y="${yB + 18}" text-anchor="middle" font-family="${t.fontBody}" font-size="10.5" fill="${t.muted}">${a} yrs</text>`;
+      }
+      // Quadrant dividers
+      s += `<line x1="${qx}" y1="${yT}" x2="${qx}" y2="${yB}" stroke="${t.muted}" stroke-opacity="0.45" stroke-width="1.2" />`;
+      s += `<line x1="${xL}" y1="${qy}" x2="${xR}" y2="${qy}" stroke="${t.muted}" stroke-opacity="0.45" stroke-width="1.2" />`;
+
+      // Axis captions
+      s += `<text x="${(xL + xR) / 2}" y="${yB + 36}" text-anchor="middle" font-family="${t.fontBody}" font-size="11" font-weight="700" fill="${t.muted}">Average 2026–27 Roster Age (Years)</text>`;
+      s += `<text x="20" y="${(yT + yB) / 2}" text-anchor="middle" transform="rotate(-90 20 ${(yT + yB) / 2})" font-family="${t.fontBody}" font-size="11" font-weight="700" fill="${t.muted}">Total 2026–27 Payroll ($M)</text>`;
+
+      // Plot all 30 teams sorted small-to-large so big stars draw clearly on top
+      [...teams].sort((a, b) => a.deals - b.deals).forEach(tm => {
+        const cx = sx(tm.age), cy = sy(tm.pay);
+        const r = Math.max(9.5, 6.5 + Math.sqrt(tm.deals) * 3.1);
+        const col = tm.deals >= 20 ? t.accent1 : (tm.age < medAge && tm.pay >= medPay ? t.accent4 : (tm.pay >= medPay ? t.accent3 : t.accent2));
+        const ink = col === t.accent3 ? t.inkOnGold : t.inkOnAccent;
+        s += `<circle cx="${cx}" cy="${cy}" r="${r}" fill="${col}" fill-opacity="0.88" stroke="${t.bg}" stroke-width="1.5" />`;
+        s += `<text x="${cx}" y="${cy + 3.2}" text-anchor="middle" font-family="${t.fontBody}" font-size="${r >= 15 ? 9.8 : 8.5}" font-weight="800" fill="${ink}">${esc(tm.abbr)}</text>`;
+      });
+
+      // Standout callout tags with subtle leader lines in clean open zones
+      const callouts = [
+        { abbr: 'OKC', tx: 295, ty: 158, anchor: 'middle', txt: 'OKC: 24.5 yrs · $220M · 27 deals' },
+        { abbr: 'PHI', tx: 545, ty: 145, anchor: 'middle', txt: 'PHI: #1 deals (32) · $224M' },
+        { abbr: 'GS',  tx: 938, ty: 244, anchor: 'end', txt: 'GS: Oldest (29.1 yrs) · $220M' },
+        { abbr: 'MEM', tx: 270, ty: 492, anchor: 'start', txt: 'MEM: Lowest payroll ($121M)' },
+      ];
+      callouts.forEach(c => {
+        const tm = teams.find(x => x.abbr === c.abbr);
+        if (!tm) return;
+        const x = sx(tm.age), y = sy(tm.pay);
+        const r = Math.max(9.5, 6.5 + Math.sqrt(tm.deals) * 3.1);
+        const ang = Math.atan2(c.ty - y, c.tx - x);
+        const lx1 = x + Math.cos(ang) * (r + 2);
+        const ly1 = y + Math.sin(ang) * (r + 2);
+        s += `<line x1="${lx1}" y1="${ly1}" x2="${c.tx}" y2="${c.ty - 3}" stroke="${t.muted}" stroke-width="1" stroke-dasharray="2 2" />`;
+        s += `<text x="${c.tx}" y="${c.ty}" text-anchor="${c.anchor}" font-family="${t.fontBody}" font-size="10.2" font-weight="800" fill="${t.fg}">${c.txt}</text>`;
+      });
+
+      return s;
+    }
+
+    // Client-side instant PNG download of any prototype SVG!
+    window.downloadPrototypePNG = function(chartId) {
+      const svgEl = document.querySelector(`#chart-card-${chartId} svg`);
+      if (!svgEl) return;
+      const xml = new XMLSerializer().serializeToString(svgEl);
+      const blob = new Blob([xml], { type: 'image/svg+xml;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const img = new Image();
+      img.onload = () => {
+        const canvas = document.createElement('canvas');
+        canvas.width = 2000; canvas.height = 1240;
+        const ctx = canvas.getContext('2d');
+        ctx.drawImage(img, 0, 0, 2000, 1240);
+        URL.revokeObjectURL(url);
+        const a = document.createElement('a');
+        a.download = `rnba_${String(chartId).padStart(2,'0')}_${state.theme}.png`;
+        a.href = canvas.toDataURL('image/png');
+        a.click();
+        showToast(`Downloaded prototype PNG #${chartId} (${THEMES[state.theme].name})`);
+      };
+      img.src = url;
+    };
+
+    window.copyTitle = function(chartId) {
+      const meta = CHARTS.find(c => c.id === chartId);
+      if (!meta) return;
+      navigator.clipboard?.writeText(meta.redditTitle).catch(() => {});
+      showToast(`Copied r/nba title for Chart #${chartId}`);
+    };
+
+    window.toggleSelect = function(chartId) {
+      if (state.selected.has(chartId)) state.selected.delete(chartId);
+      else state.selected.add(chartId);
+      updateCounter();
+    };
+
+    function updateCounter() {
+      document.getElementById('sel-counter').textContent = `${state.selected.size} / 10 selected`;
+    }
+
+    function showToast(msg) {
+      const el = document.getElementById('toast');
+      el.textContent = msg;
+      el.classList.remove('hidden');
+      clearTimeout(window._t);
+      window._t = setTimeout(() => el.classList.add('hidden'), 2400);
+    }
+
+    function renderAll() {
+      const t = THEMES[state.theme];
+
+      // Update active theme buttons
+      document.querySelectorAll('.theme-btn').forEach(b => {
+        const act = b.dataset.theme === state.theme;
+        b.style.background = act ? 'var(--primary)' : 'var(--background)';
+        b.style.color = act ? 'var(--primary-foreground)' : 'var(--foreground)';
+        b.style.borderColor = act ? 'var(--primary)' : 'var(--border)';
+      });
+
+      // Update layout buttons
+      document.querySelectorAll('.layout-btn').forEach(b => {
+        const act = b.dataset.layout === state.layout;
+        b.style.background = act ? 'var(--primary)' : 'transparent';
+        b.style.color = act ? 'var(--primary-foreground)' : 'var(--muted-foreground)';
+      });
+
+      const container = document.getElementById('charts-container');
+      container.className = state.layout === 'grid'
+        ? 'grid grid-cols-1 xl:grid-cols-2 gap-6'
+        : 'grid grid-cols-1 max-w-[1040px] mx-auto gap-6';
+
+      container.innerHTML = CHARTS.map(meta => {
+        const checked = state.selected.has(meta.id) ? 'checked' : '';
+        const svgHtml = svgFrame(meta, t, meta.render(t));
+
+        const redditHeader = state.redditFrame ? `
+          <div class="flex items-start gap-3 px-4 pt-3.5 pb-2.5 border-b border-[var(--border)]">
+            <div class="flex flex-col items-center gap-0.5 text-xs font-mono tabular-nums text-[var(--muted-foreground)] pt-0.5 shrink-0">
+              <span style="color:var(--primary)">▲</span>
+              <span class="font-bold text-[var(--foreground)]">${meta.upvotes}</span>
+              <span>▼</span>
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="flex flex-wrap items-center gap-1.5 text-xs text-[var(--muted-foreground)] mb-1">
+                <span class="font-bold text-[var(--foreground)]">r/nba</span>
+                <span>·</span>
+                <span>Posted by u/you · just now</span>
+                <span class="px-2 py-0.5 rounded-full text-xs font-semibold bg-[var(--background)] border border-[var(--border)] text-[var(--primary)]">${esc(meta.tag)}</span>
+              </div>
+              <h2 class="text-sm font-semibold text-[var(--foreground)] leading-snug">${esc(meta.redditTitle)}</h2>
+            </div>
+          </div>
+        ` : '';
+
+        return `
+          <article id="chart-card-${meta.id}" class="bg-[var(--card)] border border-[var(--border)] rounded-xl overflow-hidden shadow-sm">
+            ${redditHeader}
+            <div class="p-3.5">${svgHtml}</div>
+            <div class="flex flex-wrap items-center justify-between gap-2 px-4 py-2.5 border-t border-[var(--border)] bg-[var(--background)] text-xs">
+              <label class="inline-flex items-center gap-2 cursor-pointer select-none font-medium text-[var(--foreground)]">
+                <input type="checkbox" ${checked} onchange="toggleSelect(${meta.id})" class="accent-[var(--primary)]" />
+                <span>Include #${meta.id} in final PNG batch</span>
+              </label>
+              <div class="flex items-center gap-2">
+                ${state.redditFrame ? `<span class="text-[var(--muted-foreground)] mr-1">💬 ${meta.comments} comments</span>` : ''}
+                <button onclick="copyTitle(${meta.id})" class="px-2.5 py-1 rounded-md border border-[var(--border)] text-[var(--muted-foreground)] hover:text-[var(--foreground)] hover:border-[var(--primary)]">Copy Title</button>
+                <button onclick="downloadPrototypePNG(${meta.id})" class="px-2.5 py-1 rounded-md border border-[var(--primary)] text-[var(--primary)] font-medium hover:opacity-80">Test PNG ↓</button>
+              </div>
+            </div>
+          </article>
+        `;
+      }).join('');
+    }
+
+    // Build jump pills
+    document.getElementById('jump-pills').innerHTML = CHARTS.map(c =>
+      `<a href="#chart-card-${c.id}" class="px-2 py-1 rounded-md bg-[var(--background)] border border-[var(--border)] text-[var(--muted-foreground)] hover:text-[var(--foreground)] hover:border-[var(--primary)] transition-colors">${esc(c.short)}</a>`
+    ).join('');
+
+    // Bind controls
+    document.querySelectorAll('.theme-btn').forEach(b => b.addEventListener('click', () => { state.theme = b.dataset.theme; renderAll(); }));
+    document.querySelectorAll('.layout-btn').forEach(b => b.addEventListener('click', () => { state.layout = b.dataset.layout; renderAll(); }));
+    document.getElementById('chk-reddit-frame').addEventListener('change', (e) => { state.redditFrame = e.target.checked; renderAll(); });
+    document.getElementById('btn-copy-summary').addEventListener('click', () => {
+      const sel = [...state.selected].sort((a,b) => a - b);
+      const spec = `Theme: ${THEMES[state.theme].name} | Selected Charts (${sel.length}): ${sel.map(id => '#' + id + ' ' + CHARTS.find(c => c.id === id).short).join(', ')}`;
+      navigator.clipboard?.writeText(spec).catch(() => {});
+      showToast('Copied selection spec to clipboard!');
+    });
+
+    updateCounter();
+    renderAll();
+  </script>
+</body>
+</html>
