@@ -38,7 +38,7 @@
               <span class="px-2 py-0.5 text-xs font-semibold rounded-full border border-[var(--border)] text-[var(--primary)]">[OC] Style Preview</span>
             </div>
             <p class="text-xs text-[var(--muted-foreground)] mt-0.5">
-              Compare 4 visual themes across all 10 data stories (529 rostered players · 414 tracked deals, Nov 2026) before we lock and batch-render final 200 DPI PNGs.
+              Compare 4 visual themes across all 10 data stories (529 rostered players · 448 tracked deals · 129 sponsored players, Nov 2026) before batch-rendering final 200 DPI PNGs.
             </p>
           </div>
         </div>
@@ -85,7 +85,7 @@
   </div>
 
   <script>
-    const D = {"c1":{"rosterChampPct":14.2,"dealChampPct":41.1,"champPlayers":75,"totalPlayers":529,"champDeals":170,"totalDeals":414,"industries":[{"ind":"Gambling & Prediction Markets","pct":75.0,"c":6,"tot":8},{"ind":"Health, Wellness & Personal Care","pct":72.7,"c":8,"tot":11},{"ind":"Spirits & Alcohol","pct":61.5,"c":8,"tot":13},{"ind":"Telecommunications","pct":55.6,"c":5,"tot":9},{"ind":"Technology & Consumer Electronics","pct":43.3,"c":13,"tot":30},{"ind":"Fashion & Luxury","pct":42.2,"c":27,"tot":64},{"ind":"Financial Services & Banking","pct":41.2,"c":7,"tot":17},{"ind":"Footwear & Apparel","pct":40.0,"c":36,"tot":90},{"ind":"Food & Beverage","pct":38.8,"c":31,"tot":80},{"ind":"Insurance","pct":37.5,"c":3,"tot":8},{"ind":"Retail & Collectibles","pct":34.9,"c":15,"tot":43},{"ind":"Automotive & Aviation","pct":30.0,"c":6,"tot":20},{"ind":"Gaming & Media","pct":23.8,"c":5,"tot":21}]},"c2":[{"name":"LeBron James","abbr":"PHI","age":41,"titles":4,"deals":15,"career":587.8,"cur":3.9},{"name":"Kevin Durant","abbr":"HOU","age":38,"titles":2,"deals":8,"career":548.9,"cur":43.9},{"name":"Stephen Curry","abbr":"GS","age":38,"titles":4,"deals":9,"career":535.8,"cur":62.6},{"name":"Paul George","abbr":"BOS","age":36,"titles":0,"deals":4,"career":462.9,"cur":54.1},{"name":"James Harden","abbr":"CLE","age":37,"titles":0,"deals":4,"career":444.4,"cur":30.6},{"name":"Kawhi Leonard","abbr":"TOR","age":35,"titles":2,"deals":6,"career":428.6,"cur":50.3},{"name":"Anthony Davis","abbr":"WSH","age":33,"titles":1,"deals":5,"career":424.1,"cur":58.5},{"name":"Jimmy Butler III","abbr":"GS","age":37,"titles":0,"deals":6,"career":423.5,"cur":56.8},{"name":"Damian Lillard","abbr":"POR","age":36,"titles":0,"deals":5,"career":402.5,"cur":35.9},{"name":"Giannis Antetokounmpo","abbr":"MIA","age":31,"titles":1,"deals":10,"career":397.5,"cur":58.5},{"name":"Kyrie Irving","abbr":"DAL","age":34,"titles":1,"deals":4,"career":388.0,"cur":39.5},{"name":"Joel Embiid","abbr":"PHI","age":32,"titles":0,"deals":4,"career":380.0,"cur":58.1}],"c3":[{"ind":"Footwear & Apparel","cnt":90,"pct":21.7,"brands":"Nike, Adidas, Jordan Brand, Li-Ning"},{"ind":"Food & Beverage","cnt":80,"pct":19.3,"brands":"Gatorade, Sprite, McDonald's, Chipotle"},{"ind":"Fashion & Luxury","cnt":64,"pct":15.5,"brands":"Louis Vuitton, Coach, Tissot, BVLGARI"},{"ind":"Retail & Collectibles","cnt":43,"pct":10.4,"brands":"Dick's, Fanatics, Foot Locker, Lowe's"},{"ind":"Technology & Consumer Electronics","cnt":30,"pct":7.2,"brands":"Google, Beats by Dre, Bose, Meta"},{"ind":"Gaming & Media","cnt":21,"pct":5.1,"brands":"2K Sports, PlayStation, Overwatch"},{"ind":"Automotive & Aviation","cnt":20,"pct":4.8,"brands":"Toyota, Turkish Airlines, Lucid, Chevy"},{"ind":"Financial Services & Banking","cnt":17,"pct":4.1,"brands":"JPMorgan Chase, AmEx, SoFi, Chime"},{"ind":"Spirits & Alcohol","cnt":13,"pct":3.1,"brands":"Michelob Ultra, Hennessy, Maker's Mark"},{"ind":"Health, Wellness & Personal Care","cnt":11,"pct":2.7,"brands":"CeraVe, Glaukos, Superpower, Journavx"},{"ind":"Telecommunications","cnt":9,"pct":2.2,"brands":"AT&T, Xfinity, Verizon"},{"ind":"Gambling & Prediction Markets","cnt":8,"pct":1.9,"brands":"Polymarket, Kalshi, FanDuel, PrizePicks"},{"ind":"Insurance","cnt":8,"pct":1.9,"brands":"State Farm, Amica, USAA, AAMI"}],"c4":[{"team":"Philadelphia 76ers","cnt":32,"npl":5,"stars":"James (15), Brown (6), Embiid (4)"},{"team":"Oklahoma City Thunder","cnt":27,"npl":6,"stars":"Gilgeous-Alexander (10), Holmgren (5), Caruso (3)"},{"team":"New York Knicks","cnt":23,"npl":7,"stars":"Brunson (6), Towns (5), Hart (4)"},{"team":"Miami Heat","cnt":22,"npl":4,"stars":"Antetokounmpo (10), Wiggins (4), Adebayo (4)"},{"team":"Boston Celtics","cnt":21,"npl":4,"stars":"Tatum (11), George (4), White (3)"},{"team":"Houston Rockets","cnt":20,"npl":6,"stars":"Durant (8), Thompson (3), Sheppard (3)"},{"team":"Golden State Warriors","cnt":20,"npl":4,"stars":"Curry (9), Butler (6), Green (3)"},{"team":"Portland Trail Blazers","cnt":18,"npl":5,"stars":"Lillard (5), Morant (4), Henderson (4)"},{"team":"San Antonio Spurs","cnt":18,"npl":5,"stars":"Wembanyama (6), Fox (3), Vassell (3)"},{"team":"Minnesota Timberwolves","cnt":15,"npl":4,"stars":"Edwards (5), Ball (4), McDaniels (3)"},{"team":"Los Angeles Lakers","cnt":15,"npl":4,"stars":"Doncic (5), Reaves (4), James (3)"},{"team":"Toronto Raptors","cnt":15,"npl":4,"stars":"Leonard (6), Quickley (3), Barrett (3)"},{"team":"LA Clippers","cnt":14,"npl":5,"stars":"Beal (3), Ingram (3), Garland (3)"},{"team":"Washington Wizards","cnt":14,"npl":4,"stars":"Davis (5), Dybantsa (3), Coulibaly (3)"},{"team":"Denver Nuggets","cnt":14,"npl":4,"stars":"Murray (4), Jokic (4), Gordon (3)"}],"c5":[{"nat":"France","cont":"Europe","p":17,"earn":602.4,"deals":12},{"nat":"Canada","cont":"North America","p":16,"earn":1375.4,"deals":27},{"nat":"Australia","cont":"Oceania","p":9,"earn":781.4,"deals":10},{"nat":"Germany","cont":"Europe","p":7,"earn":403.5,"deals":6},{"nat":"Serbia","cont":"Europe","p":6,"earn":550.0,"deals":4},{"nat":"Nigeria","cont":"Africa","p":6,"earn":80.3,"deals":0},{"nat":"Spain","cont":"Europe","p":5,"earn":62.1,"deals":0},{"nat":"Cameroon","cont":"Africa","p":3,"earn":670.3,"deals":7},{"nat":"Dominican Republic","cont":"North America","p":3,"earn":646.1,"deals":5},{"nat":"Bahamas","cont":"North America","p":3,"earn":309.4,"deals":0},{"nat":"Lithuania","cont":"Europe","p":3,"earn":253.5,"deals":2},{"nat":"United Kingdom","cont":"Europe","p":3,"earn":181.5,"deals":1}],"c6":[{"player":"LeBron James","brand":"Nike","s":2003.5,"e":2037.0,"st":"Lifetime","note":"Lifetime ($1B+ est.)"},{"player":"Kevin Durant","brand":"Nike","s":2007.5,"e":2037.0,"st":"Lifetime","note":"Lifetime (signed 2023)"},{"player":"Damian Lillard","brand":"Adidas","s":2012.5,"e":2037.0,"st":"Lifetime","note":"Lifetime (signed 2024)"},{"player":"Stephen Curry","brand":"Li-Ning","s":2026.5,"e":2036.5,"st":"Active","note":"10-yr · $400M (2026–36)"},{"player":"Stephen Curry","brand":"Under Armour","s":2013.5,"e":2026.8,"st":"Ended","note":"Ended Oct 2026 (13 yrs)"},{"player":"LaMelo Ball","brand":"PUMA","s":2020.8,"e":2030.8,"st":"Active","note":"10-yr · $100M (2020–30)"},{"player":"Devin Booker","brand":"Nike","s":2015.5,"e":2029.5,"st":"Active","note":"Extended thru 2029"},{"player":"Luka Dončić","brand":"Jordan Brand","s":2019.9,"e":2029.5,"st":"Active","note":"Extended thru 2029"},{"player":"James Harden","brand":"Adidas","s":2015.8,"e":2028.8,"st":"Active","note":"13-yr · $200M (2015–28)"},{"player":"Kyrie Irving","brand":"ANTA","s":2023.5,"e":2028.5,"st":"Active","note":"5-yr · CCO (2023–28)"},{"player":"Klay Thompson","brand":"ANTA","s":2014.5,"e":2027.5,"st":"Active","note":"10-yr ext. thru 2027"},{"player":"Zion Williamson","brand":"Jordan Brand","s":2019.6,"e":2026.5,"st":"Ended","note":"7-yr · $75M ended 2026"},{"player":"Shai Gilgeous-Alexander","brand":"Converse","s":2020.5,"e":2026.5,"st":"Ended","note":"Moved to Nike Jun 2026"},{"player":"LeBron James","brand":"DraftKings","s":2024.1,"e":2026.5,"st":"Ended","note":"Ended → Polymarket ($15M/yr)"},{"player":"Kawhi Leonard","brand":"Aspiration","s":2021.5,"e":2025.5,"st":"Ended","note":"4-yr · $28M (NBA probe)"}],"c7":{"journeymen":[{"name":"Dennis Schroder","abbr":"CHA","age":33,"teams":12},{"name":"Mason Plumlee","abbr":"SAC","age":36,"teams":9},{"name":"DeAndre Jordan","abbr":"NO","age":38,"teams":8},{"name":"Svi Mykhailiuk","abbr":"UTAH","age":29,"teams":8},{"name":"Andre Drummond","abbr":"NY","age":33,"teams":7},{"name":"Kentavious Caldwell-Pope","abbr":"PHI","age":33,"teams":7},{"name":"Kyle Anderson","abbr":"TOR","age":33,"teams":7},{"name":"Tyus Jones","abbr":"DEN","age":30,"teams":7},{"name":"Buddy Hield","abbr":"CHI","age":33,"teams":7},{"name":"Taurean Prince","abbr":"DET","age":32,"teams":7}],"lifers":[{"name":"Stephen Curry","abbr":"GS","exp":18,"titles":4,"career":535.8},{"name":"Draymond Green","abbr":"GS","exp":15,"titles":4,"career":257.8},{"name":"Nikola Jokic","abbr":"DEN","exp":12,"titles":1,"career":361.7},{"name":"Devin Booker","abbr":"PHX","exp":12,"titles":0,"career":327.7},{"name":"Joel Embiid","abbr":"PHI","exp":11,"titles":0,"career":380.0},{"name":"Jamal Murray","abbr":"DEN","exp":10,"titles":1,"career":269.3},{"name":"Jayson Tatum","abbr":"BOS","exp":10,"titles":1,"career":266.3},{"name":"Bam Adebayo","abbr":"MIA","exp":10,"titles":0,"career":227.3},{"name":"Jonathan Isaac","abbr":"ORL","exp":10,"titles":0,"career":125.8},{"name":"Keldon Johnson","abbr":"SA","exp":8,"titles":0,"career":84.0}]},"c8":[{"brand":"Nike","cnt":20,"stars":"LeBron, Giannis, SGA, KD +16"},{"brand":"Adidas","cnt":7,"stars":"Lillard, Ant, Harden, Mitchell +3"},{"brand":"Jordan Brand","cnt":6,"stars":"Tatum, Luka, Bam Adebayo, Paolo Banchero +2"},{"brand":"New Balance","cnt":6,"stars":"Kawhi, Cooper Flagg, Jamal Murray, Tyrese Maxey +2"},{"brand":"PUMA","cnt":4,"stars":"Haliburton, LaMelo, Scoot Henderson, Josh Giddey"},{"brand":"Skechers","cnt":4,"stars":"Embiid, Norman Powell, Isaiah Hartenstein, OG Anunoby"},{"brand":"Li-Ning","cnt":3,"stars":"Curry, Butler, CJ McCollum"},{"brand":"361°","cnt":2,"stars":"Jokić, Aaron Gordon"},{"brand":"ANTA","cnt":2,"stars":"Kyrie, Klay Thompson"},{"brand":"Converse","cnt":2,"stars":"Brandon Miller, Payton Pritchard"},{"brand":"Peak","cnt":2,"stars":"Andrew Wiggins, Malik Monk"},{"brand":"741 Performance","cnt":1,"stars":"Jaylen Brown"},{"brand":"Reebok","cnt":1,"stars":"Darius Acuff Jr."},{"brand":"Rigorer","cnt":1,"stars":"Austin Reaves"},{"brand":"Under Armour","cnt":1,"stars":"Fox"}],"c9":[{"label":"19–21","n":66,"avgSal":6.0,"deals":13,"dpp":0.2},{"label":"22–24","n":160,"avgSal":7.3,"deals":73,"dpp":0.46},{"label":"25–27","n":141,"avgSal":14.3,"deals":81,"dpp":0.57},{"label":"28–30","n":84,"avgSal":18.8,"deals":93,"dpp":1.11},{"label":"31–33","n":49,"avgSal":19.7,"deals":71,"dpp":1.45},{"label":"34–36","n":19,"avgSal":19.5,"deals":36,"dpp":1.89},{"label":"37–42","n":10,"avgSal":22.3,"deals":47,"dpp":4.7}],"c10":[{"abbr":"ATL","team":"Atlanta Hawks","pay":193.3,"age":25.67,"deals":10},{"abbr":"BKN","team":"Brooklyn Nets","pay":160.1,"age":23.94,"deals":3},{"abbr":"BOS","team":"Boston Celtics","pay":203.9,"age":26.88,"deals":21},{"abbr":"CHA","team":"Charlotte Hornets","pay":157.7,"age":24.61,"deals":7},{"abbr":"CHI","team":"Chicago Bulls","pay":171.3,"age":24.83,"deals":8},{"abbr":"CLE","team":"Cleveland Cavaliers","pay":206.7,"age":26.22,"deals":13},{"abbr":"DAL","team":"Dallas Mavericks","pay":181.4,"age":24.61,"deals":13},{"abbr":"DEN","team":"Denver Nuggets","pay":223.1,"age":27.0,"deals":14},{"abbr":"DET","team":"Detroit Pistons","pay":189.5,"age":26.0,"deals":9},{"abbr":"GS","team":"Golden State Warriors","pay":219.8,"age":29.06,"deals":20},{"abbr":"HOU","team":"Houston Rockets","pay":200.4,"age":27.59,"deals":20},{"abbr":"IND","team":"Indiana Pacers","pay":206.3,"age":27.47,"deals":7},{"abbr":"LAC","team":"LA Clippers","pay":205.0,"age":26.26,"deals":14},{"abbr":"LAL","team":"Los Angeles Lakers","pay":197.1,"age":25.21,"deals":15},{"abbr":"MEM","team":"Memphis Grizzlies","pay":120.8,"age":24.33,"deals":4},{"abbr":"MIA","team":"Miami Heat","pay":214.6,"age":27.82,"deals":22},{"abbr":"MIL","team":"Milwaukee Bucks","pay":164.9,"age":25.22,"deals":9},{"abbr":"MIN","team":"Minnesota Timberwolves","pay":215.4,"age":25.18,"deals":15},{"abbr":"NO","team":"New Orleans Pelicans","pay":196.4,"age":25.22,"deals":8},{"abbr":"NY","team":"New York Knicks","pay":224.6,"age":27.29,"deals":23},{"abbr":"OKC","team":"Oklahoma City Thunder","pay":220.2,"age":24.5,"deals":27},{"abbr":"ORL","team":"Orlando Magic","pay":218.1,"age":26.24,"deals":13},{"abbr":"PHI","team":"Philadelphia 76ers","pay":224.4,"age":26.71,"deals":32},{"abbr":"PHX","team":"Phoenix Suns","pay":189.6,"age":26.0,"deals":9},{"abbr":"POR","team":"Portland Trail Blazers","pay":214.3,"age":26.06,"deals":18},{"abbr":"SA","team":"San Antonio Spurs","pay":196.1,"age":25.35,"deals":18},{"abbr":"SAC","team":"Sacramento Kings","pay":197.1,"age":26.83,"deals":7},{"abbr":"TOR","team":"Toronto Raptors","pay":201.2,"age":25.65,"deals":15},{"abbr":"UTAH","team":"Utah Jazz","pay":181.9,"age":25.11,"deals":6},{"abbr":"WSH","team":"Washington Wizards","pay":196.6,"age":24.89,"deals":14}]};
+    const D = {"c1":{"rosterChampPct":14.2,"dealChampPct":40.4,"champPlayers":75,"totalPlayers":529,"champDeals":181,"totalDeals":448,"champAvg":2.41,"nonChampAvg":0.59,"industries":[{"ind":"Gambling & Prediction Markets","pct":75.0,"c":6,"tot":8},{"ind":"Health, Wellness & Personal Care","pct":69.2,"c":9,"tot":13},{"ind":"Telecommunications","pct":60.0,"c":6,"tot":10},{"ind":"Spirits & Alcohol","pct":57.1,"c":8,"tot":14},{"ind":"Fashion & Luxury","pct":41.5,"c":27,"tot":65},{"ind":"Technology & Consumer Electronics","pct":40.6,"c":13,"tot":32},{"ind":"Food & Beverage","pct":40.5,"c":34,"tot":84},{"ind":"Footwear & Apparel","pct":38.5,"c":40,"tot":104},{"ind":"Financial Services & Banking","pct":38.1,"c":8,"tot":21},{"ind":"Insurance","pct":37.5,"c":3,"tot":8},{"ind":"Retail & Collectibles","pct":34.1,"c":15,"tot":44},{"ind":"Gaming & Media","pct":27.3,"c":6,"tot":22},{"ind":"Automotive & Aviation","pct":26.1,"c":6,"tot":23}]},"c2":[{"name":"LeBron James","abbr":"PHI","age":41,"titles":4,"deals":15,"career":587.8,"cur":3.9},{"name":"Kevin Durant","abbr":"HOU","age":38,"titles":2,"deals":8,"career":548.9,"cur":43.9},{"name":"Stephen Curry","abbr":"GS","age":38,"titles":4,"deals":9,"career":535.8,"cur":62.6},{"name":"Paul George","abbr":"BOS","age":36,"titles":0,"deals":4,"career":462.9,"cur":54.1},{"name":"James Harden","abbr":"CLE","age":37,"titles":0,"deals":4,"career":444.4,"cur":30.6},{"name":"Kawhi Leonard","abbr":"TOR","age":35,"titles":2,"deals":6,"career":428.6,"cur":50.3},{"name":"Anthony Davis","abbr":"WSH","age":33,"titles":1,"deals":5,"career":424.1,"cur":58.5},{"name":"Jimmy Butler III","abbr":"GS","age":37,"titles":0,"deals":6,"career":423.5,"cur":56.8},{"name":"Damian Lillard","abbr":"POR","age":36,"titles":0,"deals":5,"career":402.5,"cur":35.9},{"name":"Giannis Antetokounmpo","abbr":"MIA","age":31,"titles":1,"deals":10,"career":397.5,"cur":58.5},{"name":"Kyrie Irving","abbr":"DAL","age":34,"titles":1,"deals":4,"career":388.0,"cur":39.5},{"name":"Joel Embiid","abbr":"PHI","age":32,"titles":0,"deals":4,"career":380.0,"cur":58.1}],"c3":[{"ind":"Footwear & Apparel","cnt":104,"pct":23.2,"brands":"Nike, Adidas, Jordan Brand, New Balance, Li-Ning"},{"ind":"Food & Beverage","cnt":84,"pct":18.8,"brands":"Gatorade, Sprite, McDonald's, PepsiCo"},{"ind":"Fashion & Luxury","cnt":65,"pct":14.5,"brands":"Louis Vuitton, Coach, Tissot, BVLGARI"},{"ind":"Retail & Collectibles","cnt":44,"pct":9.8,"brands":"Dick's, Fanatics, Foot Locker, Macy's"},{"ind":"Technology & Consumer Electronics","cnt":32,"pct":7.1,"brands":"Google, Beats by Dre, Bose, Dialpad"},{"ind":"Automotive & Aviation","cnt":23,"pct":5.1,"brands":"Toyota, Turkish Airlines, Mercedes-Benz, CarMax"},{"ind":"Gaming & Media","cnt":22,"pct":4.9,"brands":"2K Sports, PlayStation, Nintendo, Overwatch"},{"ind":"Financial Services & Banking","cnt":21,"pct":4.7,"brands":"Chase, AmEx, SoFi, Klarna, BTCC"},{"ind":"Spirits & Alcohol","cnt":14,"pct":3.1,"brands":"Michelob Ultra, Hennessy, Cognac Frapin, Maker's Mark"},{"ind":"Health, Wellness & Personal Care","cnt":13,"pct":2.9,"brands":"CeraVe, Glaukos, Dove, Zamst"},{"ind":"Telecommunications","cnt":10,"pct":2.2,"brands":"AT&T, Xfinity, Verizon"},{"ind":"Gambling & Prediction Markets","cnt":8,"pct":1.8,"brands":"Polymarket, Kalshi, FanDuel, PrizePicks"},{"ind":"Insurance","cnt":8,"pct":1.8,"brands":"State Farm, Amica, USAA, AAMI"}],"c4":[{"team":"Philadelphia 76ers","cnt":32,"npl":5,"stars":"James (15), Brown (6), Embiid (4)"},{"team":"Oklahoma City Thunder","cnt":27,"npl":6,"stars":"Gilgeous-Alexander (10), Holmgren (5), Caruso (3)"},{"team":"Houston Rockets","cnt":24,"npl":7,"stars":"Durant (8), Adams (4), Thompson (3)"},{"team":"Golden State Warriors","cnt":24,"npl":5,"stars":"Curry (9), Butler (6), Horford (4)"},{"team":"Boston Celtics","cnt":24,"npl":5,"stars":"Tatum (11), George (4), White (3)"},{"team":"New York Knicks","cnt":23,"npl":7,"stars":"Brunson (6), Towns (5), Hart (4)"},{"team":"San Antonio Spurs","cnt":23,"npl":7,"stars":"Wembanyama (6), Fox (3), Vassell (3)"},{"team":"Miami Heat","cnt":23,"npl":5,"stars":"Antetokounmpo (10), Wiggins (4), Adebayo (4)"},{"team":"Washington Wizards","cnt":18,"npl":6,"stars":"Davis (5), Dybantsa (3), Coulibaly (3)"},{"team":"Portland Trail Blazers","cnt":18,"npl":5,"stars":"Lillard (5), Morant (4), Henderson (4)"},{"team":"Minnesota Timberwolves","cnt":15,"npl":4,"stars":"Edwards (5), Ball (4), McDaniels (3)"},{"team":"Los Angeles Lakers","cnt":15,"npl":4,"stars":"Doncic (5), Reaves (4), James (3)"},{"team":"Toronto Raptors","cnt":15,"npl":4,"stars":"Leonard (6), Quickley (3), Barrett (3)"},{"team":"Sacramento Kings","cnt":14,"npl":7,"stars":"Sabonis (3), Monk (3), LaVine (3)"},{"team":"LA Clippers","cnt":14,"npl":5,"stars":"Beal (3), Ingram (3), Garland (3)"}],"c5":[{"nat":"France","cont":"Europe","p":17,"earn":602.4,"deals":12},{"nat":"Canada","cont":"North America","p":16,"earn":1375.4,"deals":27},{"nat":"Australia","cont":"Oceania","p":9,"earn":781.4,"deals":11},{"nat":"Germany","cont":"Europe","p":7,"earn":403.5,"deals":6},{"nat":"Serbia","cont":"Europe","p":6,"earn":550.0,"deals":4},{"nat":"Nigeria","cont":"Africa","p":6,"earn":80.3,"deals":0},{"nat":"Spain","cont":"Europe","p":5,"earn":62.1,"deals":0},{"nat":"Cameroon","cont":"Africa","p":3,"earn":670.3,"deals":7},{"nat":"Dominican Republic","cont":"North America","p":3,"earn":646.1,"deals":9},{"nat":"Bahamas","cont":"North America","p":3,"earn":309.4,"deals":1},{"nat":"Lithuania","cont":"Europe","p":3,"earn":253.5,"deals":5},{"nat":"United Kingdom","cont":"Europe","p":3,"earn":181.5,"deals":1}],"c6":[{"player":"LeBron James","brand":"Nike","s":2003.5,"e":2037.0,"st":"Lifetime","note":"Lifetime ($1B+ est.)"},{"player":"Kevin Durant","brand":"Nike","s":2007.5,"e":2037.0,"st":"Lifetime","note":"Lifetime (signed 2023)"},{"player":"Damian Lillard","brand":"Adidas","s":2012.5,"e":2037.0,"st":"Lifetime","note":"Lifetime (signed 2024)"},{"player":"Stephen Curry","brand":"Li-Ning","s":2026.5,"e":2036.5,"st":"Active","note":"10-yr · $400M (2026–36)"},{"player":"Stephen Curry","brand":"Under Armour","s":2013.5,"e":2026.8,"st":"Ended","note":"Ended Oct 2026 (13 yrs)"},{"player":"LaMelo Ball","brand":"PUMA","s":2020.8,"e":2030.8,"st":"Active","note":"10-yr · $100M (2020–30)"},{"player":"Devin Booker","brand":"Nike","s":2015.5,"e":2029.5,"st":"Active","note":"Extended thru 2029"},{"player":"Luka Dončić","brand":"Jordan Brand","s":2019.9,"e":2029.5,"st":"Active","note":"Extended thru 2029"},{"player":"James Harden","brand":"Adidas","s":2015.8,"e":2028.8,"st":"Active","note":"13-yr · $200M (2015–28)"},{"player":"Kyrie Irving","brand":"ANTA","s":2023.5,"e":2028.5,"st":"Active","note":"5-yr · CCO (2023–28)"},{"player":"Klay Thompson","brand":"ANTA","s":2014.5,"e":2027.5,"st":"Active","note":"10-yr ext. thru 2027"},{"player":"Zion Williamson","brand":"Jordan Brand","s":2019.6,"e":2026.5,"st":"Ended","note":"7-yr · $75M ended 2026"},{"player":"Shai Gilgeous-Alexander","brand":"Converse","s":2020.5,"e":2026.5,"st":"Ended","note":"Moved to Nike Jun 2026"},{"player":"LeBron James","brand":"DraftKings","s":2024.1,"e":2026.5,"st":"Ended","note":"Ended → Polymarket ($15M/yr)"},{"player":"Kawhi Leonard","brand":"Aspiration","s":2021.5,"e":2025.5,"st":"Ended","note":"4-yr · $28M (NBA probe)"}],"c7":{"industries":[{"ind":"Gambling & Prediction Markets","medCareer":379.6,"meanCareer":366.4,"medSal":46.4,"players":6,"deals":8,"vice":true},{"ind":"Health, Wellness & Personal Care","medCareer":316.5,"meanCareer":342.6,"medSal":40.5,"players":12,"deals":13,"vice":false},{"ind":"Automotive & Aviation","medCareer":265.3,"meanCareer":278.1,"medSal":47.6,"players":22,"deals":23,"vice":false},{"ind":"Spirits & Alcohol","medCareer":227.3,"meanCareer":260.9,"medSal":36.5,"players":13,"deals":14,"vice":true},{"ind":"Technology & Consumer Electronics","medCareer":215.3,"meanCareer":217.3,"medSal":33.3,"players":27,"deals":32,"vice":false},{"ind":"Telecommunications","medCareer":196.3,"meanCareer":210.7,"medSal":21.0,"players":9,"deals":10,"vice":false},{"ind":"Financial Services & Banking","medCareer":194.6,"meanCareer":207.2,"medSal":37.7,"players":21,"deals":21,"vice":false},{"ind":"Insurance","medCareer":190.4,"meanCareer":164.0,"medSal":19.8,"players":8,"deals":8,"vice":false},{"ind":"Gaming & Media","medCareer":181.4,"meanCareer":210.7,"medSal":40.8,"players":21,"deals":22,"vice":false},{"ind":"Retail & Collectibles","medCareer":181.4,"meanCareer":200.5,"medSal":27.7,"players":37,"deals":44,"vice":false},{"ind":"Footwear & Apparel","medCareer":178.8,"meanCareer":203.1,"medSal":31.7,"players":94,"deals":104,"vice":false},{"ind":"Food & Beverage","medCareer":170.3,"meanCareer":205.4,"medSal":32.6,"players":64,"deals":84,"vice":false},{"ind":"Fashion & Luxury","medCareer":129.6,"meanCareer":153.4,"medSal":35.2,"players":52,"deals":65,"vice":false}],"quartiles":[{"q":"Q1","range":"$5M–$83M","n":32,"viceN":0,"pct":0.0},{"q":"Q2","range":"$83M–$153M","n":32,"viceN":5,"pct":15.6},{"q":"Q3","range":"$153M–$258M","n":32,"viceN":5,"pct":15.6},{"q":"Q4","range":"$258M–$588M","n":33,"viceN":8,"pct":24.2}],"viceMed":233.0,"otherMed":142.6,"allSponMed":153.4},"c8":[{"brand":"Nike","cnt":24,"stars":"LeBron, KD, Paul George, Anthony Davis +20"},{"brand":"Adidas","cnt":9,"stars":"Harden, Lillard, Mitchell, Harrison Barnes +5"},{"brand":"Jordan Brand","cnt":7,"stars":"Tatum, Luka, Trae Young, Bam Adebayo +3"},{"brand":"New Balance","cnt":7,"stars":"Kawhi, Zach LaVine, Jamal Murray, Darius Garland +3"},{"brand":"PUMA","cnt":6,"stars":"Michael Porter Jr., Haliburton, Deandre Ayton, LaMelo +2"},{"brand":"Skechers","cnt":4,"stars":"Embiid, OG Anunoby, Norman Powell, Isaiah Hartenstein"},{"brand":"Li-Ning","cnt":3,"stars":"Curry, Butler, CJ McCollum"},{"brand":"361°","cnt":2,"stars":"Jokić, Aaron Gordon"},{"brand":"ANTA","cnt":2,"stars":"Kyrie, Klay Thompson"},{"brand":"Converse","cnt":2,"stars":"Brandon Miller, Payton Pritchard"},{"brand":"741 Performance","cnt":1,"stars":"Jaylen Brown"},{"brand":"Peak","cnt":1,"stars":"Andrew Wiggins"},{"brand":"Reebok","cnt":1,"stars":"Darius Acuff Jr."},{"brand":"Rigorer","cnt":1,"stars":"Austin Reaves"},{"brand":"Stria Sports","cnt":1,"stars":"Andre Drummond"}],"c9":{"exp":[{"label":"0–1 yr","n":76,"sponPct":2.6,"avgDeals":0.05},{"label":"2–4 yrs","n":188,"sponPct":9.6,"avgDeals":0.33},{"label":"5–7 yrs","n":111,"sponPct":25.2,"avgDeals":0.77},{"label":"8–10 yrs","n":82,"sponPct":42.7,"avgDeals":1.37},{"label":"11–14 yrs","n":47,"sponPct":51.1,"avgDeals":1.79},{"label":"15+ yrs","n":24,"sponPct":91.7,"avgDeals":4.17}],"rings":[{"label":"0 Rings","n":454,"sponPct":19.4,"avgDeals":0.59},{"label":"1 Ring","n":64,"sponPct":48.4,"avgDeals":1.97},{"label":"2–3 Rings","n":7,"sponPct":85.7,"avgDeals":3.43},{"label":"4 Rings","n":4,"sponPct":100.0,"avgDeals":7.75}]},"c10":[{"abbr":"ATL","team":"Atlanta Hawks","pay":193.3,"age":25.67,"deals":10},{"abbr":"BKN","team":"Brooklyn Nets","pay":160.1,"age":23.94,"deals":4},{"abbr":"BOS","team":"Boston Celtics","pay":203.9,"age":26.88,"deals":24},{"abbr":"CHA","team":"Charlotte Hornets","pay":157.7,"age":24.61,"deals":7},{"abbr":"CHI","team":"Chicago Bulls","pay":171.3,"age":24.83,"deals":8},{"abbr":"CLE","team":"Cleveland Cavaliers","pay":206.7,"age":26.22,"deals":13},{"abbr":"DAL","team":"Dallas Mavericks","pay":181.4,"age":24.61,"deals":13},{"abbr":"DEN","team":"Denver Nuggets","pay":223.1,"age":27.0,"deals":14},{"abbr":"DET","team":"Detroit Pistons","pay":189.5,"age":26.0,"deals":10},{"abbr":"GS","team":"Golden State Warriors","pay":219.8,"age":29.06,"deals":24},{"abbr":"HOU","team":"Houston Rockets","pay":200.4,"age":27.59,"deals":24},{"abbr":"IND","team":"Indiana Pacers","pay":206.3,"age":27.47,"deals":7},{"abbr":"LAC","team":"LA Clippers","pay":205.0,"age":26.26,"deals":14},{"abbr":"LAL","team":"Los Angeles Lakers","pay":197.1,"age":25.21,"deals":15},{"abbr":"MEM","team":"Memphis Grizzlies","pay":120.8,"age":24.33,"deals":4},{"abbr":"MIA","team":"Miami Heat","pay":214.6,"age":27.82,"deals":23},{"abbr":"MIL","team":"Milwaukee Bucks","pay":164.9,"age":25.22,"deals":9},{"abbr":"MIN","team":"Minnesota Timberwolves","pay":215.4,"age":25.18,"deals":15},{"abbr":"NO","team":"New Orleans Pelicans","pay":196.4,"age":25.22,"deals":8},{"abbr":"NY","team":"New York Knicks","pay":224.6,"age":27.29,"deals":23},{"abbr":"OKC","team":"Oklahoma City Thunder","pay":220.2,"age":24.5,"deals":27},{"abbr":"ORL","team":"Orlando Magic","pay":218.1,"age":26.24,"deals":13},{"abbr":"PHI","team":"Philadelphia 76ers","pay":224.4,"age":26.71,"deals":32},{"abbr":"PHX","team":"Phoenix Suns","pay":189.6,"age":26.0,"deals":9},{"abbr":"POR","team":"Portland Trail Blazers","pay":214.3,"age":26.06,"deals":18},{"abbr":"SA","team":"San Antonio Spurs","pay":196.1,"age":25.35,"deals":23},{"abbr":"SAC","team":"Sacramento Kings","pay":197.1,"age":26.83,"deals":14},{"abbr":"TOR","team":"Toronto Raptors","pay":201.2,"age":25.65,"deals":15},{"abbr":"UTAH","team":"Utah Jazz","pay":181.9,"age":25.11,"deals":10},{"abbr":"WSH","team":"Washington Wizards","pay":196.6,"age":24.89,"deals":18}]};
 
     // 4 Distinct /r/nba PNG Style Presets
     const THEMES = {
@@ -180,23 +180,23 @@
     };
 
     const state = {
-      theme: 'rnba_dark',
+      theme: 'hardwood',
       layout: 'feed',
       redditFrame: true,
       selected: new Set([1,2,3,4,5,6,7,8,9,10]),
     };
 
     const esc = (s) => String(s ?? '').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
-    const FOOTER = 'Data: ESPN, Basketball-Reference, NBA.com, Forbes & public endorsement filings · Snapshot Nov 25, 2026 (N = 529 players, 414 deals)';
+    const FOOTER = 'Data: ESPN, Basketball-Reference, NBA.com, Forbes & public endorsement filings · Snapshot Nov 25, 2026 (N = 529 players, 448 deals, 129 sponsored)';
 
     // Chart Metadata for all 10 /r/nba stories
     const CHARTS = [
       {
-        id: 1, tag: 'OC · Sponsorships', short: '1. Rings Sell', upvotes: '4.8k', comments: '412',
-        redditTitle: '[OC] Rings Sell: NBA Champions make up just 14.2% of active players, but hold 41.1% of all tracked sponsorships (and 75% of gambling/prediction market deals)',
+        id: 1, tag: 'OC · Rings & Deals', short: '1. Rings Sell', upvotes: '4.8k', comments: '412',
+        redditTitle: '[OC] Rings Sell: NBA Champions make up just 14.2% of active players, yet hold 40.4% of all tracked sponsorships — adding +0.55 deals/ring even controlling for pay & tenure',
         kicker: 'THE CHAMPIONSHIP ENDORSEMENT PREMIUM',
-        title: 'Rings Sell: Champions Are 14% of Players — But Hold 41% of Deals',
-        subtitle: 'NBA title winners average 4.2× more tracked deals per player (2.27 vs. 0.54) and dominate gambling, wellness, and spirits.',
+        title: 'Rings Sell: Champions Are 14% of Players — But Hold 40% of Deals',
+        subtitle: 'Title winners average 4.1× more tracked deals (2.41 vs. 0.59, r = +0.44) and hold +0.55 extra deals/ring even controlling for salary.',
         render: renderChart1,
       },
       {
@@ -209,10 +209,10 @@
       },
       {
         id: 3, tag: 'OC · Business', short: '3. 13 Industries', upvotes: '2.9k', comments: '248',
-        redditTitle: '[OC] Where NBA Endorsement Money Actually Goes: Mapping 414 player sponsorship deals across 13 industries in 2026–27',
+        redditTitle: '[OC] Where NBA Endorsement Money Actually Goes: Mapping 448 player sponsorship deals across 13 industries in 2026–27',
         kicker: 'BRAND & INDUSTRY LANDSCAPE',
-        title: 'Where NBA Endorsements Go: 414 Deals Across 13 Industries',
-        subtitle: 'Footwear, Food & Beverage, and Fashion/Luxury drive 56% of deals — while Prediction Markets & Insurance target top stars.',
+        title: 'Where NBA Endorsements Go: 448 Deals Across 13 Industries',
+        subtitle: 'Footwear, Food & Beverage, and Fashion/Luxury drive 56% of deals — while Prediction Markets & Spirits target top-earning stars.',
         render: renderChart3,
       },
       {
@@ -240,11 +240,11 @@
         render: renderChart6,
       },
       {
-        id: 7, tag: 'OC · Loyalty', short: '7. Journeymen vs Lifers', upvotes: '5.7k', comments: '610',
-        redditTitle: '[OC] Ultimate NBA Journeymen vs. One-Team Lifers in 2026–27: Dennis Schröder has played for 12 franchises while Steph Curry (18 yrs) & Draymond (15 yrs) never left',
-        kicker: 'FRANCHISE LOYALTY VS. MOBILITY (ALL 529 PLAYERS)',
-        title: 'Ultimate Journeymen vs. One-Team Lifers in the 2026–27 NBA',
-        subtitle: 'Dennis Schröder leads all active players with 12 NBA franchises played for; Steph Curry enters year 18 with Golden State.',
+        id: 7, tag: 'OC · Vice & Wealth', short: '7. Who Sells What?', upvotes: '5.9k', comments: '718',
+        redditTitle: '[OC] Do richer NBA players sign more gambling & alcohol deals? Ranking all 13 sponsorship industries by median player career earnings ($379.6M for Gambling vs. $129.6M for Fashion)',
+        kicker: 'WHO SELLS WHAT · PLAYER WEALTH BY SPONSORSHIP INDUSTRY',
+        title: 'Who Sells What? Gambling & Spirits Skew Richest, Fashion Skews Youngest',
+        subtitle: 'Median career NBA earnings of endorsers in each industry. Vice-sponsored stars earn $233M median vs. $143M for other sponsored players (p = 0.006).',
         render: renderChart7,
       },
       {
@@ -256,11 +256,11 @@
         render: renderChart8,
       },
       {
-        id: 9, tag: 'OC · Age Curve', short: '9. Age vs. Bag', upvotes: '3.8k', comments: '296',
-        redditTitle: '[OC] Age vs. The Bag: The 10 oldest NBA players (37+) average $22.3M in salary and 4.70 sponsorship deals each — 24× more endorsements per player than ages 19–21',
-        kicker: 'CAREER EARNINGS & ENDORSEMENT AGE CURVE',
-        title: 'Age vs. The Bag: Why the NBA\'s 37+ Legends Hoard Endorsements',
-        subtitle: 'Survivorship of icons (LeBron, Curry, KD, Harden, Butler) makes the 37–42 bracket the richest in both pay and brand deals.',
+        id: 9, tag: 'OC · Tenure vs Rings', short: '9. Tenure & Rings', upvotes: '4.7k', comments: '532',
+        redditTitle: '[OC] Years in the NBA (r = +0.52) & Rings (r = +0.44) vs. Sponsorships — The Twist: controlling for pay, experience flips NEGATIVE (−0.12/yr) while rings stay +0.55 deals/ring',
+        kicker: 'EXPERIENCE & CHAMPIONSHIPS VS. SPONSORSHIP VOLUME (N = 529)',
+        title: 'Tenure vs. Rings: Why Veterans Lead Raw — But Youth Wins at Equal Pay',
+        subtitle: '92% of 15+ yr vets have deals (4.17 avg), yet holding pay constant, young max stars beat veteran grinders while rings add +0.55 deals each.',
         render: renderChart9,
       },
       {
@@ -280,11 +280,12 @@
           <!-- Dual NBA Broadcast Top Accent Stripe -->
           <rect x="0" y="0" width="500" height="5" fill="${t.topStripe[0]}" />
           <rect x="500" y="0" width="500" height="5" fill="${t.topStripe[1]}" />
-          <!-- Header -->
-          <text x="38" y="34" font-family="${t.fontBody}" font-size="11" font-weight="800" letter-spacing="1.2" fill="${t.accent1}">${esc(meta.kicker)}</text>
-          <text x="962" y="34" text-anchor="end" font-family="${t.fontBody}" font-size="11" font-weight="700" fill="${t.dim}">r/nba · 2026–27</text>
-          <text x="38" y="63" font-family="${t.fontDisplay}" font-size="21.5" font-weight="800" fill="${t.fg}">${esc(meta.title)}</text>
-          <text x="38" y="85" font-family="${t.fontBody}" font-size="12.2" fill="${t.muted}">${esc(meta.subtitle)}</text>
+          <!-- Top-Left Watermark + Header -->
+          <text x="38" y="21" font-family="${t.fontBody}" font-size="9.5" font-weight="600" fill="${t.dim}" opacity="0.85">Created by reddit user TopoHaiHai</text>
+          <text x="962" y="21" text-anchor="end" font-family="${t.fontBody}" font-size="10.5" font-weight="700" fill="${t.dim}">r/nba · 2026–27</text>
+          <text x="38" y="38" font-family="${t.fontBody}" font-size="10.8" font-weight="800" letter-spacing="1.2" fill="${t.accent1}">${esc(meta.kicker)}</text>
+          <text x="38" y="65" font-family="${t.fontDisplay}" font-size="21" font-weight="800" fill="${t.fg}">${esc(meta.title)}</text>
+          <text x="38" y="86" font-family="${t.fontBody}" font-size="12" fill="${t.muted}">${esc(meta.subtitle)}</text>
           <!-- Chart Body -->
           ${innerSvg}
           <!-- Footer -->
@@ -301,8 +302,8 @@
       let s = '';
       // Hero comparison bars
       const hero = [
-        { label: 'Share of NBA Rosters (529)', pct: c.rosterChampPct, n: c.champPlayers, tot: c.totalPlayers, y: 112 },
-        { label: 'Share of Tracked Deals (414)', pct: c.dealChampPct, n: c.champDeals, tot: c.totalDeals, y: 150 },
+        { label: `Share of NBA Rosters (${c.totalPlayers})`, pct: c.rosterChampPct, n: c.champPlayers, tot: c.totalPlayers, y: 112 },
+        { label: `Share of Tracked Deals (${c.totalDeals})`, pct: c.dealChampPct, n: c.champDeals, tot: c.totalDeals, y: 150 },
       ];
       hero.forEach((h, idx) => {
         const w = (h.pct / 100) * rw;
@@ -518,40 +519,67 @@
       return s;
     }
 
-    // ==================== CHART 7: JOURNEYMEN VS ONE-TEAM LIFERS ====================
+    // ==================== CHART 7: WHO SELLS WHAT? (Q1: WEALTH BY INDUSTRY) ====================
     function renderChart7(t) {
-      const { journeymen, lifers } = D.c7;
+      const { industries, quartiles, allSponMed } = D.c7;
+      const lx = 262, rw = 420, maxVal = 430;
+      const sx = (v) => lx + (v / maxVal) * rw;
       let s = '';
-      // Left Panel: Top 10 Journeymen (Most Franchises)
-      const lx1 = 195, w1 = 240;
-      const lx2 = 680, w2 = 240;
-      s += `<rect x="38" y="106" width="445" height="28" rx="4" fill="${t.panel}" />`;
-      s += `<text x="52" y="124" font-family="${t.fontBody}" font-size="12" font-weight="800" fill="${t.accent1}">ULTIMATE JOURNEYMEN (MOST FRANCHISES)</text>`;
-      s += `<rect x="515" y="106" width="447" height="28" rx="4" fill="${t.panel}" />`;
-      s += `<text x="529" y="124" font-family="${t.fontBody}" font-size="12" font-weight="800" fill="${t.accent4}">ONE-TEAM LIFERS (MOST SEASONS · 1 TEAM)</text>`;
 
-      const baseY = 152, rowH = 40;
-      journeymen.forEach((p, i) => {
-        const y = baseY + i * rowH;
-        const bw = (p.teams / 13) * w1;
-        const col = i === 0 ? t.accent1 : (p.teams >= 8 ? t.accent3 : t.neutral);
-        s += `<text x="${lx1 - 10}" y="${y + 13}" text-anchor="end" font-family="${t.fontBody}" font-size="11.5" font-weight="700" fill="${t.fg}">${esc(p.name)}</text>`;
-        s += `<text x="${lx1 - 10}" y="${y + 26}" text-anchor="end" font-family="${t.fontBody}" font-size="10" fill="${t.muted}">Now ${p.abbr} · Age ${p.age}</text>`;
-        s += `<rect x="${lx1}" y="${y + 4}" width="${bw}" height="22" rx="3" fill="${col}" />`;
-        s += `<text x="${lx1 + bw + 7}" y="${y + 19}" font-family="${t.fontBody}" font-size="11.5" font-weight="800" fill="${t.fg}">${p.teams} <tspan font-weight="500" fill="${t.muted}">teams</tspan></text>`;
+      // Legend
+      const leg = [
+        [t.accent1, 'Alcohol & Gambling ("Vice")'],
+        [t.accent3, 'Above Sponsored Median ($158M+)'],
+        [t.accent2, 'Mid-Tier / Mass-Market'],
+        [t.accent5, 'Fashion & Luxury (Youngest / Lowest Median)'],
+      ];
+      let cx = 38;
+      leg.forEach(([col, lbl]) => {
+        s += `<rect x="${cx}" y="102" width="11" height="9" rx="2" fill="${col}" />`;
+        s += `<text x="${cx + 16}" y="110" font-family="${t.fontBody}" font-size="10.4" fill="${t.muted}">${lbl}</text>`;
+        cx += lbl.length * 5.8 + 30;
       });
 
-      lifers.forEach((p, i) => {
+      const baseY = 138, rowH = 31.5;
+      // Reference line at all-sponsored median
+      const medX = sx(allSponMed);
+      s += `<line x1="${medX}" y1="${baseY - 6}" x2="${medX}" y2="${baseY + industries.length * rowH}" stroke="${t.muted}" stroke-dasharray="4 3" stroke-width="1.3" />`;
+      s += `<text x="${medX + 5}" y="${baseY - 9}" font-family="${t.fontBody}" font-size="10" font-weight="700" fill="${t.muted}">All sponsored median ($${allSponMed.toFixed(0)}M)</text>`;
+
+      industries.forEach((r, i) => {
         const y = baseY + i * rowH;
-        const bw = (p.exp / 20) * w2;
-        const col = p.titles > 0 ? t.accent4 : t.accent2;
-        const ring = p.titles > 0 ? `★${p.titles} · ` : '';
-        s += `<text x="${lx2 - 10}" y="${y + 13}" text-anchor="end" font-family="${t.fontBody}" font-size="11.5" font-weight="700" fill="${t.fg}">${esc(p.name)}</text>`;
-        s += `<text x="${lx2 - 10}" y="${y + 26}" text-anchor="end" font-family="${t.fontBody}" font-size="10" fill="${p.titles > 0 ? t.accent3 : t.muted}">${ring}${p.abbr} · $${p.career.toFixed(0)}M</text>`;
-        s += `<rect x="${lx2}" y="${y + 4}" width="${bw}" height="22" rx="3" fill="${col}" />`;
-        s += `<text x="${lx2 + bw + 7}" y="${y + 19}" font-family="${t.fontBody}" font-size="11.5" font-weight="800" fill="${t.fg}">${p.exp} <tspan font-weight="500" fill="${t.muted}">yrs</tspan></text>`;
+        const bw = (r.medCareer / maxVal) * rw;
+        const col = r.vice ? t.accent1 : (r.ind === 'Fashion & Luxury' ? t.accent5 : (r.medCareer >= 220 ? t.accent3 : t.accent2));
+        s += `<text x="${lx - 10}" y="${y + 15}" text-anchor="end" font-family="${t.fontBody}" font-size="11.2" font-weight="${r.vice ? '800' : '600'}" fill="${r.vice ? t.accent1 : t.fg}">${esc(r.ind)} <tspan fill="${t.muted}" font-weight="500">(n=${r.players})</tspan></text>`;
+        s += `<rect x="${lx}" y="${y + 3}" width="${bw}" height="19" rx="3" fill="${col}" opacity="0.92" />`;
+        s += `<text x="${lx + bw + 7}" y="${y + 16.5}" font-family="${t.fontBody}" font-size="11" font-weight="800" fill="${r.vice ? t.accent1 : t.fg}">$${r.medCareer.toFixed(1)}M</text>`;
       });
 
+      // Right-hand side analytical panel: Wealth Quartiles & Caveat
+      s += `<rect x="748" y="138" width="214" height="252" rx="8" fill="${t.panel}" stroke="${t.accent1}" stroke-width="1.2" />`;
+      s += `<text x="762" y="160" font-family="${t.fontBody}" font-size="10.8" font-weight="800" fill="${t.accent1}">VICE DEALS BY WEALTH QUARTILE</text>`;
+      s += `<text x="762" y="176" font-family="${t.fontBody}" font-size="9.8" fill="${t.muted}">% of 129 sponsored players with an</text>`;
+      s += `<text x="762" y="189" font-family="${t.fontBody}" font-size="9.8" fill="${t.muted}">Alcohol or Gambling deal:</text>`;
+
+      quartiles.forEach((q, idx) => {
+        const qy = 206 + idx * 42;
+        const bw = (q.pct / 30) * 184;
+        const col = q.pct === 0 ? t.neutral : (idx === 3 ? t.accent1 : t.accent3);
+        s += `<text x="762" y="${qy + 10}" font-family="${t.fontBody}" font-size="10.2" font-weight="700" fill="${t.fg}">${q.q} <tspan font-weight="500" fill="${t.muted}">(${q.range})</tspan></text>`;
+        s += `<text x="948" y="${qy + 10}" text-anchor="end" font-family="${t.fontBody}" font-size="10.5" font-weight="800" fill="${col}">${q.pct.toFixed(1)}%</text>`;
+        s += `<rect x="762" y="${qy + 16}" width="186" height="12" rx="3" fill="${t.barTrack}" />`;
+        if (bw > 0) s += `<rect x="762" y="${qy + 16}" width="${bw}" height="12" rx="3" fill="${col}" />`;
+      });
+
+      // Bottom-right caveat card (honest stats!)
+      s += `<rect x="748" y="404" width="214" height="145" rx="8" fill="${t.panel}" stroke="${t.border}" stroke-width="1.1" />`;
+      s += `<text x="762" y="426" font-family="${t.fontBody}" font-size="10.5" font-weight="800" fill="${t.accent3}">STATISTICAL REALITY CHECK</text>`;
+      s += `<text x="762" y="445" font-family="${t.fontBody}" font-size="9.8" fill="${t.fg}">• Vice players: <tspan font-weight="800">$233M</tspan> median vs.</text>`;
+      s += `<text x="769" y="460" font-family="${t.fontBody}" font-size="9.8" fill="${t.muted}">$143M non-vice (Mann-Whitney p=0.006)</text>`;
+      s += `<text x="762" y="480" font-family="${t.fontBody}" font-size="9.8" fill="${t.fg}">• Caveat: Small n (18 players / 22 deals)</text>`;
+      s += `<text x="769" y="495" font-family="${t.fontBody}" font-size="9.8" fill="${t.muted}">&amp; stars hold larger portfolios overall.</text>`;
+      s += `<text x="762" y="515" font-family="${t.fontBody}" font-size="9.8" fill="${t.fg}">• Q1 ($5M–$83M) has <tspan font-weight="800">0 vice deals</tspan>;</text>`;
+      s += `<text x="769" y="530" font-family="${t.fontBody}" font-size="9.8" fill="${t.muted}">younger stars tilt heavily to Fashion.</text>`;
       return s;
     }
 
@@ -586,68 +614,65 @@
       return s;
     }
 
-    // ==================== CHART 9: AGE VS THE BAG ====================
+    // ==================== CHART 9: EXPERIENCE & RINGS VS SPONSORSHIPS (Q3 + Q4) ====================
     function renderChart9(t) {
-      const rows = D.c9;
-      const xL = 75, xR = 925, yT = 148, yB = 515;
-      const plotW = xR - xL, plotH = yB - yT;
+      const { exp, rings } = D.c9;
       let s = '';
 
-      // Legend
-      s += `<rect x="38" y="102" width="12" height="10" rx="2" fill="${t.accent2}" /><text x="55" y="111" font-family="${t.fontBody}" font-size="11" fill="${t.muted}">Avg 2026–27 Salary ($M, bars)</text>`;
-      s += `<circle cx="270" cy="107" r="5" fill="${t.accent1}" /><line x1="258" y1="107" x2="282" y2="107" stroke="${t.accent1}" stroke-width="2.5" /><text x="290" y="111" font-family="${t.fontBody}" font-size="11" fill="${t.muted}">Avg Tracked Sponsorships per Player (line)</text>`;
+      // Panel headers
+      s += `<rect x="38" y="106" width="510" height="28" rx="4" fill="${t.panel}" />`;
+      s += `<text x="52" y="124" font-family="${t.fontBody}" font-size="11.5" font-weight="800" fill="${t.accent2}">YEARS IN THE NBA (Raw r = +0.52 · ρ = +0.48)</text>`;
+      s += `<rect x="572" y="106" width="390" height="28" rx="4" fill="${t.panel}" />`;
+      s += `<text x="586" y="124" font-family="${t.fontBody}" font-size="11.5" font-weight="800" fill="${t.accent3}">NBA CHAMPIONSHIPS (Raw r = +0.44 · ρ = +0.31)</text>`;
 
-      // Horizontal gridlines
-      for (let v = 0; v <= 25; v += 5) {
-        const y = yB - (v / 26) * plotH;
-        s += `<line x1="${xL}" y1="${y}" x2="${xR}" y2="${y}" stroke="${t.border}" stroke-dasharray="3 3" stroke-width="1" />`;
-        s += `<text x="${xL - 10}" y="${y + 4}" text-anchor="end" font-family="${t.fontBody}" font-size="10.5" fill="${t.muted}">$${v}M</text>`;
+      // Left Panel: Experience buckets (vertical bars)
+      const xL1 = 68, xR1 = 538, yT = 160, yB = 420;
+      const plotW1 = xR1 - xL1, plotH = yB - yT;
+      for (let v = 0; v <= 4; v += 1) {
+        const y = yB - (v / 4.7) * plotH;
+        s += `<line x1="${xL1}" y1="${y}" x2="${xR1}" y2="${y}" stroke="${t.border}" stroke-dasharray="3 3" stroke-width="0.9" />`;
+        s += `<text x="${xL1 - 8}" y="${y + 4}" text-anchor="end" font-family="${t.fontBody}" font-size="10" fill="${t.muted}">${v.toFixed(0)}</text>`;
       }
-
-      const step = plotW / rows.length;
-      const barW = step * 0.52;
-      const pts = [];
-
-      rows.forEach((r, i) => {
-        const cx = xL + step * (i + 0.5);
-        const bh = (r.avgSal / 26) * plotH;
+      const step1 = plotW1 / exp.length;
+      const bw1 = step1 * 0.56;
+      exp.forEach((b, i) => {
+        const cx = xL1 + step1 * (i + 0.5);
+        const bh = (b.avgDeals / 4.7) * plotH;
         const by = yB - bh;
-        s += `<rect x="${cx - barW / 2}" y="${by}" width="${barW}" height="${bh}" rx="4" fill="${i === rows.length - 1 ? t.accent3 : t.accent2}" opacity="0.88" />`;
-        s += `<text x="${cx}" y="${by + 16}" text-anchor="middle" font-family="${t.fontBody}" font-size="10.8" font-weight="800" fill="${i === rows.length - 1 ? t.inkOnGold : t.inkOnAccent}">$${r.avgSal.toFixed(1)}M</text>`;
-        s += `<text x="${cx}" y="${yB + 18}" text-anchor="middle" font-family="${t.fontBody}" font-size="11.5" font-weight="700" fill="${t.fg}">Age ${r.label}</text>`;
-        s += `<text x="${cx}" y="${yB + 33}" text-anchor="middle" font-family="${t.fontBody}" font-size="10" fill="${t.muted}">n=${r.n} players</text>`;
-
-        const ly = yB - (r.dpp / 5.2) * plotH;
-        pts.push({ x: cx, y: ly, r });
+        const col = i === exp.length - 1 ? t.accent1 : t.accent2;
+        s += `<rect x="${cx - bw1 / 2}" y="${by}" width="${bw1}" height="${Math.max(3, bh)}" rx="4" fill="${col}" opacity="0.92" />`;
+        s += `<text x="${cx}" y="${by - 7}" text-anchor="middle" font-family="${t.fontBody}" font-size="11.2" font-weight="800" fill="${col}">${b.avgDeals.toFixed(2)}</text>`;
+        s += `<text x="${cx}" y="${yB + 17}" text-anchor="middle" font-family="${t.fontBody}" font-size="10.8" font-weight="700" fill="${t.fg}">${esc(b.label)}</text>`;
+        s += `<text x="${cx}" y="${yB + 31}" text-anchor="middle" font-family="${t.fontBody}" font-size="9.5" fill="${t.muted}">${b.sponPct.toFixed(0)}% spon (n=${b.n})</text>`;
       });
 
-      // Line overlay for Deals per Player
-      const pathD = pts.map((pt, i) => `${i === 0 ? 'M' : 'L'} ${pt.x} ${pt.y}`).join(' ');
-      s += `<path d="${pathD}" fill="none" stroke="${t.bg}" stroke-width="5.5" stroke-linejoin="round" opacity="0.85" />`;
-      s += `<path d="${pathD}" fill="none" stroke="${t.accent1}" stroke-width="3.2" stroke-linejoin="round" />`;
-      pts.forEach((pt, i) => {
-        const lbl = `${pt.r.dpp.toFixed(2)} / p`;
-        const bwPill = i === pts.length - 1 ? 88 : 58;
-        const lblText = i === pts.length - 1 ? `${pt.r.dpp.toFixed(2)} deals/p` : lbl;
-        const pillY = pt.y - 26;
-        s += `<circle cx="${pt.x}" cy="${pt.y}" r="${i === pts.length - 1 ? 8 : 5.5}" fill="${t.accent1}" stroke="${t.bg}" stroke-width="2" />`;
-        s += `<rect x="${pt.x - bwPill / 2}" y="${pillY}" width="${bwPill}" height="18" rx="4" fill="${t.bg}" stroke="${t.accent1}" stroke-width="1" />`;
-        s += `<text x="${pt.x}" y="${pillY + 12.5}" text-anchor="middle" font-family="${t.fontBody}" font-size="10.5" font-weight="800" fill="${t.accent1}">${lblText}</text>`;
-      });
-
-      // Right axis labels for Deals per Player
-      for (let d = 0; d <= 5; d += 1) {
-        const y = yB - (d / 5.2) * plotH;
-        s += `<text x="${xR + 10}" y="${y + 4}" text-anchor="start" font-family="${t.fontBody}" font-size="10.5" font-weight="700" fill="${t.accent1}">${d.toFixed(1)}</text>`;
+      // Right Panel: NBA Titles (vertical bars)
+      const xL2 = 602, xR2 = 954;
+      const plotW2 = xR2 - xL2;
+      for (let v = 0; v <= 8; v += 2) {
+        const y = yB - (v / 8.8) * plotH;
+        s += `<line x1="${xL2}" y1="${y}" x2="${xR2}" y2="${y}" stroke="${t.border}" stroke-dasharray="3 3" stroke-width="0.9" />`;
+        s += `<text x="${xL2 - 8}" y="${y + 4}" text-anchor="end" font-family="${t.fontBody}" font-size="10" fill="${t.muted}">${v.toFixed(0)}</text>`;
       }
+      const step2 = plotW2 / rings.length;
+      const bw2 = step2 * 0.54;
+      rings.forEach((b, i) => {
+        const cx = xL2 + step2 * (i + 0.5);
+        const bh = (b.avgDeals / 8.8) * plotH;
+        const by = yB - bh;
+        const col = i === 0 ? t.neutral : (i === rings.length - 1 ? t.accent3 : t.accent4);
+        s += `<rect x="${cx - bw2 / 2}" y="${by}" width="${bw2}" height="${Math.max(4, bh)}" rx="4" fill="${col}" opacity="0.92" />`;
+        s += `<text x="${cx}" y="${by - 7}" text-anchor="middle" font-family="${t.fontBody}" font-size="11.2" font-weight="800" fill="${col === t.neutral ? t.fg : col}">${b.avgDeals.toFixed(2)}</text>`;
+        s += `<text x="${cx}" y="${yB + 17}" text-anchor="middle" font-family="${t.fontBody}" font-size="10.8" font-weight="700" fill="${t.fg}">${esc(b.label)}</text>`;
+        s += `<text x="${cx}" y="${yB + 31}" text-anchor="middle" font-family="${t.fontBody}" font-size="9.5" fill="${t.muted}">${b.sponPct.toFixed(0)}% spon (n=${b.n})</text>`;
+      });
 
-      // Callout placed cleanly in open upper-left space above rookie bars
-      s += `
-        <rect x="96" y="152" width="356" height="74" rx="7" fill="${t.panel}" stroke="${t.accent3}" stroke-width="1.2" />
-        <text x="110" y="172" font-family="${t.fontBody}" font-size="11" font-weight="800" fill="${t.accent3}">THE 37+ SURVIVOR EFFECT (10 PLAYERS)</text>
-        <text x="110" y="191" font-family="${t.fontBody}" font-size="10.5" fill="${t.fg}">Only icons survive past 36: LeBron, Curry, KD,</text>
-        <text x="110" y="208" font-family="${t.fontBody}" font-size="10.5" fill="${t.muted}">Harden, Butler, Horford, Conley → 47 deals (24× rookies!)</text>
-      `;
+      // Bottom full-width Multivariate Insight Banner
+      s += `<rect x="38" y="472" width="924" height="94" rx="8" fill="${t.panel}" stroke="${t.accent3}" stroke-width="1.3" />`;
+      s += `<text x="56" y="495" font-family="${t.fontBody}" font-size="11.2" font-weight="800" fill="${t.accent3}">THE MULTIVARIATE PLOT TWIST (OLS: Experience + Titles + Career Earnings + 2026–27 Salary · N = 448, R² = 0.67)</text>`;
+      s += `<text x="56" y="517" font-family="${t.fontBody}" font-size="11" fill="${t.fg}">• <tspan font-weight="800" fill="${t.accent1}">Experience flips NEGATIVE (−0.12 deals/yr, p &lt; 10⁻⁷)</tspan> once you control for pay: veterans look dominant only via survivorship—at equal pay, young stars (Wemby, Flagg, Ant) win.</text>`;
+      s += `<text x="56" y="537" font-family="${t.fontBody}" font-size="11" fill="${t.fg}">• <tspan font-weight="800" fill="${t.accent4}">Championships stay POSITIVE (+0.55 deals/ring, p &lt; 10⁻⁶)</tspan> even controlling for pay &amp; tenure — and still +0.34 deals/ring excluding LeBron &amp; Curry (p = 0.0014).</text>`;
+      s += `<text x="56" y="555" font-family="${t.fontBody}" font-size="10.2" fill="${t.muted}">Note: Within sponsored players only, experience is flat for active deals (ρ = −0.15, p = 0.09) — longer careers mostly accumulate historical deals.</text>`;
       return s;
     }
 

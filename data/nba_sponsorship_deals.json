@@ -97,6 +97,70 @@
   },
   {
     "deal_id": "DEAL-0007",
+    "player_id": "3213",
+    "player_name": "Al Horford",
+    "current_team": "Golden State Warriors",
+    "brand": "Nike",
+    "industry": "Footwear & Apparel",
+    "sub_industry": "Basketball Footwear",
+    "deal_type": "Footwear Endorsement",
+    "start_date": "2007",
+    "end_date": "Undisclosed (Ongoing)",
+    "deal_status": "Active",
+    "reported_value_notes": "Career-long Nike Basketball footwear partner",
+    "source": "https://www.forbes.com/profile/al-horford/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0008",
+    "player_id": "3213",
+    "player_name": "Al Horford",
+    "current_team": "Golden State Warriors",
+    "brand": "Dove",
+    "industry": "Health, Wellness & Personal Care",
+    "sub_industry": "Personal Care",
+    "deal_type": "Brand Endorsement",
+    "start_date": "2018",
+    "end_date": "Undisclosed",
+    "deal_status": "Historical / Status Unconfirmed",
+    "reported_value_notes": "Unilever / Dove personal care endorsement campaign",
+    "source": "https://bookingagentinfo.com/celebrity/al-horford/endorsements/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0009",
+    "player_id": "3213",
+    "player_name": "Al Horford",
+    "current_team": "Golden State Warriors",
+    "brand": "Dunkin'",
+    "industry": "Food & Beverage",
+    "sub_industry": "Coffee & Quick-Service",
+    "deal_type": "Brand Endorsement",
+    "start_date": "2017",
+    "end_date": "Undisclosed",
+    "deal_status": "Historical / Status Unconfirmed",
+    "reported_value_notes": "Regional & national Dunkin' campaign partner",
+    "source": "https://bookingagentinfo.com/celebrity/al-horford/endorsements/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0010",
+    "player_id": "3213",
+    "player_name": "Al Horford",
+    "current_team": "Golden State Warriors",
+    "brand": "Banco Popular",
+    "industry": "Financial Services & Banking",
+    "sub_industry": "Banks",
+    "deal_type": "Brand Endorsement",
+    "start_date": "2016",
+    "end_date": "Undisclosed",
+    "deal_status": "Historical / Status Unconfirmed",
+    "reported_value_notes": "Dominican Republic regional financial services partnership",
+    "source": "https://www.forbes.com/profile/al-horford/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0011",
     "player_id": "2991350",
     "player_name": "Alex Caruso",
     "current_team": "Oklahoma City Thunder",
@@ -112,7 +176,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0008",
+    "deal_id": "DEAL-0012",
     "player_id": "2991350",
     "player_name": "Alex Caruso",
     "current_team": "Oklahoma City Thunder",
@@ -128,7 +192,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0009",
+    "deal_id": "DEAL-0013",
     "player_id": "2991350",
     "player_name": "Alex Caruso",
     "current_team": "Oklahoma City Thunder",
@@ -144,7 +208,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0010",
+    "deal_id": "DEAL-0014",
     "player_id": "4871144",
     "player_name": "Alperen Sengun",
     "current_team": "Houston Rockets",
@@ -160,7 +224,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0011",
+    "deal_id": "DEAL-0015",
     "player_id": "4871144",
     "player_name": "Alperen Sengun",
     "current_team": "Houston Rockets",
@@ -176,7 +240,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0012",
+    "deal_id": "DEAL-0016",
     "player_id": "4684740",
     "player_name": "Amen Thompson",
     "current_team": "Houston Rockets",
@@ -192,7 +256,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0013",
+    "deal_id": "DEAL-0017",
     "player_id": "4684740",
     "player_name": "Amen Thompson",
     "current_team": "Houston Rockets",
@@ -208,7 +272,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0014",
+    "deal_id": "DEAL-0018",
     "player_id": "4684740",
     "player_name": "Amen Thompson",
     "current_team": "Houston Rockets",
@@ -224,7 +288,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0015",
+    "deal_id": "DEAL-0019",
     "player_id": "6585",
     "player_name": "Andre Drummond",
     "current_team": "New York Knicks",
@@ -240,7 +304,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0016",
+    "deal_id": "DEAL-0020",
     "player_id": "3059319",
     "player_name": "Andrew Wiggins",
     "current_team": "Miami Heat",
@@ -256,7 +320,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0017",
+    "deal_id": "DEAL-0021",
     "player_id": "3059319",
     "player_name": "Andrew Wiggins",
     "current_team": "Miami Heat",
@@ -272,7 +336,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0018",
+    "deal_id": "DEAL-0022",
     "player_id": "3059319",
     "player_name": "Andrew Wiggins",
     "current_team": "Miami Heat",
@@ -288,7 +352,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0019",
+    "deal_id": "DEAL-0023",
     "player_id": "3059319",
     "player_name": "Andrew Wiggins",
     "current_team": "Miami Heat",
@@ -304,7 +368,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0020",
+    "deal_id": "DEAL-0024",
     "player_id": "6583",
     "player_name": "Anthony Davis",
     "current_team": "Washington Wizards",
@@ -320,7 +384,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0021",
+    "deal_id": "DEAL-0025",
     "player_id": "6583",
     "player_name": "Anthony Davis",
     "current_team": "Washington Wizards",
@@ -336,7 +400,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0022",
+    "deal_id": "DEAL-0026",
     "player_id": "6583",
     "player_name": "Anthony Davis",
     "current_team": "Washington Wizards",
@@ -352,7 +416,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0023",
+    "deal_id": "DEAL-0027",
     "player_id": "6583",
     "player_name": "Anthony Davis",
     "current_team": "Washington Wizards",
@@ -368,7 +432,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0024",
+    "deal_id": "DEAL-0028",
     "player_id": "6583",
     "player_name": "Anthony Davis",
     "current_team": "Washington Wizards",
@@ -384,7 +448,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0025",
+    "deal_id": "DEAL-0029",
     "player_id": "4594268",
     "player_name": "Anthony Edwards",
     "current_team": "Minnesota Timberwolves",
@@ -400,7 +464,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0026",
+    "deal_id": "DEAL-0030",
     "player_id": "4594268",
     "player_name": "Anthony Edwards",
     "current_team": "Minnesota Timberwolves",
@@ -416,7 +480,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0027",
+    "deal_id": "DEAL-0031",
     "player_id": "4594268",
     "player_name": "Anthony Edwards",
     "current_team": "Minnesota Timberwolves",
@@ -432,7 +496,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0028",
+    "deal_id": "DEAL-0032",
     "player_id": "4594268",
     "player_name": "Anthony Edwards",
     "current_team": "Minnesota Timberwolves",
@@ -448,7 +512,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0029",
+    "deal_id": "DEAL-0033",
     "player_id": "4594268",
     "player_name": "Anthony Edwards",
     "current_team": "Minnesota Timberwolves",
@@ -464,7 +528,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0030",
+    "deal_id": "DEAL-0034",
     "player_id": "4684742",
     "player_name": "Ausar Thompson",
     "current_team": "Detroit Pistons",
@@ -480,7 +544,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0031",
+    "deal_id": "DEAL-0035",
     "player_id": "4684742",
     "player_name": "Ausar Thompson",
     "current_team": "Detroit Pistons",
@@ -496,7 +560,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0032",
+    "deal_id": "DEAL-0036",
     "player_id": "4684742",
     "player_name": "Ausar Thompson",
     "current_team": "Detroit Pistons",
@@ -512,7 +576,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0033",
+    "deal_id": "DEAL-0037",
     "player_id": "4066457",
     "player_name": "Austin Reaves",
     "current_team": "Los Angeles Lakers",
@@ -528,7 +592,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0034",
+    "deal_id": "DEAL-0038",
     "player_id": "4066457",
     "player_name": "Austin Reaves",
     "current_team": "Los Angeles Lakers",
@@ -544,7 +608,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0035",
+    "deal_id": "DEAL-0039",
     "player_id": "4066457",
     "player_name": "Austin Reaves",
     "current_team": "Los Angeles Lakers",
@@ -560,7 +624,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0036",
+    "deal_id": "DEAL-0040",
     "player_id": "4066457",
     "player_name": "Austin Reaves",
     "current_team": "Los Angeles Lakers",
@@ -576,7 +640,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0037",
+    "deal_id": "DEAL-0041",
     "player_id": "4066261",
     "player_name": "Bam Adebayo",
     "current_team": "Miami Heat",
@@ -592,7 +656,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0038",
+    "deal_id": "DEAL-0042",
     "player_id": "4066261",
     "player_name": "Bam Adebayo",
     "current_team": "Miami Heat",
@@ -608,7 +672,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0039",
+    "deal_id": "DEAL-0043",
     "player_id": "4066261",
     "player_name": "Bam Adebayo",
     "current_team": "Miami Heat",
@@ -624,7 +688,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0040",
+    "deal_id": "DEAL-0044",
     "player_id": "4066261",
     "player_name": "Bam Adebayo",
     "current_team": "Miami Heat",
@@ -640,7 +704,23 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0041",
+    "deal_id": "DEAL-0045",
+    "player_id": "3907387",
+    "player_name": "Ben Simmons",
+    "current_team": "Sacramento Kings",
+    "brand": "Nike",
+    "industry": "Footwear & Apparel",
+    "sub_industry": "Basketball Footwear",
+    "deal_type": "Multi-Year Endorsement",
+    "start_date": "2016-06",
+    "end_date": "Undisclosed",
+    "deal_status": "Historical / Status Unconfirmed",
+    "reported_value_notes": "Signed reported 5-year, $20M+ rookie Nike deal ahead of 2016 NBA Draft",
+    "source": "https://www.cbssports.com/nba/news/ben-simmons-signs-lucrative-rookie-shoe-deal-with-nike/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0046",
     "player_id": "5104155",
     "player_name": "Bilal Coulibaly",
     "current_team": "Washington Wizards",
@@ -656,7 +736,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0042",
+    "deal_id": "DEAL-0047",
     "player_id": "5104155",
     "player_name": "Bilal Coulibaly",
     "current_team": "Washington Wizards",
@@ -672,7 +752,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0043",
+    "deal_id": "DEAL-0048",
     "player_id": "5104155",
     "player_name": "Bilal Coulibaly",
     "current_team": "Washington Wizards",
@@ -688,7 +768,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0044",
+    "deal_id": "DEAL-0049",
     "player_id": "6580",
     "player_name": "Bradley Beal",
     "current_team": "LA Clippers",
@@ -704,7 +784,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0045",
+    "deal_id": "DEAL-0050",
     "player_id": "6580",
     "player_name": "Bradley Beal",
     "current_team": "LA Clippers",
@@ -720,7 +800,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0046",
+    "deal_id": "DEAL-0051",
     "player_id": "6580",
     "player_name": "Bradley Beal",
     "current_team": "LA Clippers",
@@ -736,7 +816,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0047",
+    "deal_id": "DEAL-0052",
     "player_id": "3913176",
     "player_name": "Brandon Ingram",
     "current_team": "LA Clippers",
@@ -752,7 +832,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0048",
+    "deal_id": "DEAL-0053",
     "player_id": "3913176",
     "player_name": "Brandon Ingram",
     "current_team": "LA Clippers",
@@ -768,7 +848,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0049",
+    "deal_id": "DEAL-0054",
     "player_id": "3913176",
     "player_name": "Brandon Ingram",
     "current_team": "LA Clippers",
@@ -784,7 +864,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0050",
+    "deal_id": "DEAL-0055",
     "player_id": "4433287",
     "player_name": "Brandon Miller",
     "current_team": "Charlotte Hornets",
@@ -800,7 +880,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0051",
+    "deal_id": "DEAL-0056",
     "player_id": "4433287",
     "player_name": "Brandon Miller",
     "current_team": "Charlotte Hornets",
@@ -816,7 +896,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0052",
+    "deal_id": "DEAL-0057",
     "player_id": "4433287",
     "player_name": "Brandon Miller",
     "current_team": "Charlotte Hornets",
@@ -832,7 +912,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0053",
+    "deal_id": "DEAL-0058",
     "player_id": "4683774",
     "player_name": "Bronny James",
     "current_team": "Los Angeles Lakers",
@@ -848,7 +928,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0054",
+    "deal_id": "DEAL-0059",
     "player_id": "4683774",
     "player_name": "Bronny James",
     "current_team": "Los Angeles Lakers",
@@ -864,7 +944,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0055",
+    "deal_id": "DEAL-0060",
     "player_id": "4683774",
     "player_name": "Bronny James",
     "current_team": "Los Angeles Lakers",
@@ -880,7 +960,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0056",
+    "deal_id": "DEAL-0061",
     "player_id": "3448",
     "player_name": "Brook Lopez",
     "current_team": "LA Clippers",
@@ -896,7 +976,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0057",
+    "deal_id": "DEAL-0062",
     "player_id": "3448",
     "player_name": "Brook Lopez",
     "current_team": "LA Clippers",
@@ -912,7 +992,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0058",
+    "deal_id": "DEAL-0063",
     "player_id": "2490149",
     "player_name": "CJ McCollum",
     "current_team": "Atlanta Hawks",
@@ -928,7 +1008,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0059",
+    "deal_id": "DEAL-0064",
     "player_id": "2490149",
     "player_name": "CJ McCollum",
     "current_team": "Atlanta Hawks",
@@ -944,7 +1024,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0060",
+    "deal_id": "DEAL-0065",
     "player_id": "2490149",
     "player_name": "CJ McCollum",
     "current_team": "Atlanta Hawks",
@@ -960,7 +1040,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0061",
+    "deal_id": "DEAL-0066",
     "player_id": "2490149",
     "player_name": "CJ McCollum",
     "current_team": "Atlanta Hawks",
@@ -976,7 +1056,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0062",
+    "deal_id": "DEAL-0067",
     "player_id": "4432166",
     "player_name": "Cade Cunningham",
     "current_team": "Detroit Pistons",
@@ -992,7 +1072,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0063",
+    "deal_id": "DEAL-0068",
     "player_id": "4432166",
     "player_name": "Cade Cunningham",
     "current_team": "Detroit Pistons",
@@ -1008,7 +1088,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0064",
+    "deal_id": "DEAL-0069",
     "player_id": "4432166",
     "player_name": "Cade Cunningham",
     "current_team": "Detroit Pistons",
@@ -1024,7 +1104,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0065",
+    "deal_id": "DEAL-0070",
     "player_id": "4432166",
     "player_name": "Cade Cunningham",
     "current_team": "Detroit Pistons",
@@ -1040,7 +1120,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0066",
+    "deal_id": "DEAL-0071",
     "player_id": "4433255",
     "player_name": "Chet Holmgren",
     "current_team": "Oklahoma City Thunder",
@@ -1056,7 +1136,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0067",
+    "deal_id": "DEAL-0072",
     "player_id": "4433255",
     "player_name": "Chet Holmgren",
     "current_team": "Oklahoma City Thunder",
@@ -1072,7 +1152,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0068",
+    "deal_id": "DEAL-0073",
     "player_id": "4433255",
     "player_name": "Chet Holmgren",
     "current_team": "Oklahoma City Thunder",
@@ -1088,7 +1168,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0069",
+    "deal_id": "DEAL-0074",
     "player_id": "4433255",
     "player_name": "Chet Holmgren",
     "current_team": "Oklahoma City Thunder",
@@ -1104,7 +1184,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0070",
+    "deal_id": "DEAL-0075",
     "player_id": "4433255",
     "player_name": "Chet Holmgren",
     "current_team": "Oklahoma City Thunder",
@@ -1120,7 +1200,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0071",
+    "deal_id": "DEAL-0076",
     "player_id": "4395651",
     "player_name": "Coby White",
     "current_team": "Charlotte Hornets",
@@ -1136,7 +1216,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0072",
+    "deal_id": "DEAL-0077",
     "player_id": "4395651",
     "player_name": "Coby White",
     "current_team": "Charlotte Hornets",
@@ -1152,7 +1232,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0073",
+    "deal_id": "DEAL-0078",
     "player_id": "4395651",
     "player_name": "Coby White",
     "current_team": "Charlotte Hornets",
@@ -1168,7 +1248,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0074",
+    "deal_id": "DEAL-0079",
     "player_id": "5041939",
     "player_name": "Cooper Flagg",
     "current_team": "Dallas Mavericks",
@@ -1184,7 +1264,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0075",
+    "deal_id": "DEAL-0080",
     "player_id": "5041939",
     "player_name": "Cooper Flagg",
     "current_team": "Dallas Mavericks",
@@ -1200,7 +1280,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0076",
+    "deal_id": "DEAL-0081",
     "player_id": "5041939",
     "player_name": "Cooper Flagg",
     "current_team": "Dallas Mavericks",
@@ -1216,7 +1296,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0077",
+    "deal_id": "DEAL-0082",
     "player_id": "5041939",
     "player_name": "Cooper Flagg",
     "current_team": "Dallas Mavericks",
@@ -1232,7 +1312,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0078",
+    "deal_id": "DEAL-0083",
     "player_id": "5041939",
     "player_name": "Cooper Flagg",
     "current_team": "Dallas Mavericks",
@@ -1248,7 +1328,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0079",
+    "deal_id": "DEAL-0084",
     "player_id": "5041939",
     "player_name": "Cooper Flagg",
     "current_team": "Dallas Mavericks",
@@ -1264,7 +1344,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0080",
+    "deal_id": "DEAL-0085",
     "player_id": "4897943",
     "player_name": "Dalton Knecht",
     "current_team": "New York Knicks",
@@ -1280,7 +1360,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0081",
+    "deal_id": "DEAL-0086",
     "player_id": "4897943",
     "player_name": "Dalton Knecht",
     "current_team": "New York Knicks",
@@ -1296,7 +1376,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0082",
+    "deal_id": "DEAL-0087",
     "player_id": "4897943",
     "player_name": "Dalton Knecht",
     "current_team": "New York Knicks",
@@ -1312,7 +1392,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0083",
+    "deal_id": "DEAL-0088",
     "player_id": "6606",
     "player_name": "Damian Lillard",
     "current_team": "Portland Trail Blazers",
@@ -1328,7 +1408,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0084",
+    "deal_id": "DEAL-0089",
     "player_id": "6606",
     "player_name": "Damian Lillard",
     "current_team": "Portland Trail Blazers",
@@ -1344,7 +1424,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0085",
+    "deal_id": "DEAL-0090",
     "player_id": "6606",
     "player_name": "Damian Lillard",
     "current_team": "Portland Trail Blazers",
@@ -1360,7 +1440,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0086",
+    "deal_id": "DEAL-0091",
     "player_id": "6606",
     "player_name": "Damian Lillard",
     "current_team": "Portland Trail Blazers",
@@ -1376,7 +1456,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0087",
+    "deal_id": "DEAL-0092",
     "player_id": "6606",
     "player_name": "Damian Lillard",
     "current_team": "Portland Trail Blazers",
@@ -1392,7 +1472,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0088",
+    "deal_id": "DEAL-0093",
     "player_id": "5142620",
     "player_name": "Darius Acuff Jr.",
     "current_team": "Sacramento Kings",
@@ -1408,7 +1488,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0089",
+    "deal_id": "DEAL-0094",
     "player_id": "4396907",
     "player_name": "Darius Garland",
     "current_team": "LA Clippers",
@@ -1424,7 +1504,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0090",
+    "deal_id": "DEAL-0095",
     "player_id": "4396907",
     "player_name": "Darius Garland",
     "current_team": "LA Clippers",
@@ -1440,7 +1520,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0091",
+    "deal_id": "DEAL-0096",
     "player_id": "4396907",
     "player_name": "Darius Garland",
     "current_team": "LA Clippers",
@@ -1456,7 +1536,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0092",
+    "deal_id": "DEAL-0097",
     "player_id": "4066259",
     "player_name": "De'Aaron Fox",
     "current_team": "San Antonio Spurs",
@@ -1472,7 +1552,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0093",
+    "deal_id": "DEAL-0098",
     "player_id": "4066259",
     "player_name": "De'Aaron Fox",
     "current_team": "San Antonio Spurs",
@@ -1488,7 +1568,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0094",
+    "deal_id": "DEAL-0099",
     "player_id": "4066259",
     "player_name": "De'Aaron Fox",
     "current_team": "San Antonio Spurs",
@@ -1504,7 +1584,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0095",
+    "deal_id": "DEAL-0100",
     "player_id": "4065732",
     "player_name": "De'Andre Hunter",
     "current_team": "Sacramento Kings",
@@ -1520,7 +1600,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0096",
+    "deal_id": "DEAL-0101",
     "player_id": "3978",
     "player_name": "DeMar DeRozan",
     "current_team": "Denver Nuggets",
@@ -1536,7 +1616,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0097",
+    "deal_id": "DEAL-0102",
     "player_id": "3978",
     "player_name": "DeMar DeRozan",
     "current_team": "Denver Nuggets",
@@ -1552,7 +1632,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0098",
+    "deal_id": "DEAL-0103",
     "player_id": "3978",
     "player_name": "DeMar DeRozan",
     "current_team": "Denver Nuggets",
@@ -1568,7 +1648,23 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0099",
+    "deal_id": "DEAL-0104",
+    "player_id": "4278129",
+    "player_name": "Deandre Ayton",
+    "current_team": "Washington Wizards",
+    "brand": "PUMA",
+    "industry": "Footwear & Apparel",
+    "sub_industry": "Basketball Footwear",
+    "deal_type": "Multi-Year Endorsement",
+    "start_date": "2018-06",
+    "end_date": "Undisclosed (Ongoing)",
+    "deal_status": "Active",
+    "reported_value_notes": "Signed multi-year PUMA Hoops deal ahead of 2018 NBA Draft and extended as flagship center",
+    "source": "https://www.slamonline.com/kicks/deandre-ayton-signs-puma/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0105",
     "player_id": "3907497",
     "player_name": "Dejounte Murray",
     "current_team": "New Orleans Pelicans",
@@ -1584,7 +1680,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0100",
+    "deal_id": "DEAL-0106",
     "player_id": "3907497",
     "player_name": "Dejounte Murray",
     "current_team": "New Orleans Pelicans",
@@ -1600,7 +1696,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0101",
+    "deal_id": "DEAL-0107",
     "player_id": "4683688",
     "player_name": "Dereck Lively II",
     "current_team": "Dallas Mavericks",
@@ -1616,7 +1712,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0102",
+    "deal_id": "DEAL-0108",
     "player_id": "4683688",
     "player_name": "Dereck Lively II",
     "current_team": "Dallas Mavericks",
@@ -1632,7 +1728,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0103",
+    "deal_id": "DEAL-0109",
     "player_id": "4683688",
     "player_name": "Dereck Lively II",
     "current_team": "Dallas Mavericks",
@@ -1648,7 +1744,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0104",
+    "deal_id": "DEAL-0110",
     "player_id": "3078576",
     "player_name": "Derrick White",
     "current_team": "Boston Celtics",
@@ -1664,7 +1760,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0105",
+    "deal_id": "DEAL-0111",
     "player_id": "3078576",
     "player_name": "Derrick White",
     "current_team": "Boston Celtics",
@@ -1680,7 +1776,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0106",
+    "deal_id": "DEAL-0112",
     "player_id": "3078576",
     "player_name": "Derrick White",
     "current_team": "Boston Celtics",
@@ -1696,7 +1792,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0107",
+    "deal_id": "DEAL-0113",
     "player_id": "4066320",
     "player_name": "Desmond Bane",
     "current_team": "Orlando Magic",
@@ -1712,7 +1808,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0108",
+    "deal_id": "DEAL-0114",
     "player_id": "4066320",
     "player_name": "Desmond Bane",
     "current_team": "Orlando Magic",
@@ -1728,7 +1824,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0109",
+    "deal_id": "DEAL-0115",
     "player_id": "4066320",
     "player_name": "Desmond Bane",
     "current_team": "Orlando Magic",
@@ -1744,7 +1840,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0110",
+    "deal_id": "DEAL-0116",
     "player_id": "3136193",
     "player_name": "Devin Booker",
     "current_team": "Phoenix Suns",
@@ -1760,7 +1856,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0111",
+    "deal_id": "DEAL-0117",
     "player_id": "3136193",
     "player_name": "Devin Booker",
     "current_team": "Phoenix Suns",
@@ -1776,7 +1872,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0112",
+    "deal_id": "DEAL-0118",
     "player_id": "3136193",
     "player_name": "Devin Booker",
     "current_team": "Phoenix Suns",
@@ -1792,7 +1888,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0113",
+    "deal_id": "DEAL-0119",
     "player_id": "3136193",
     "player_name": "Devin Booker",
     "current_team": "Phoenix Suns",
@@ -1808,7 +1904,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0114",
+    "deal_id": "DEAL-0120",
     "player_id": "3136193",
     "player_name": "Devin Booker",
     "current_team": "Phoenix Suns",
@@ -1824,7 +1920,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0115",
+    "deal_id": "DEAL-0121",
     "player_id": "4395630",
     "player_name": "Devin Vassell",
     "current_team": "San Antonio Spurs",
@@ -1840,7 +1936,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0116",
+    "deal_id": "DEAL-0122",
     "player_id": "4395630",
     "player_name": "Devin Vassell",
     "current_team": "San Antonio Spurs",
@@ -1856,7 +1952,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0117",
+    "deal_id": "DEAL-0123",
     "player_id": "4395630",
     "player_name": "Devin Vassell",
     "current_team": "San Antonio Spurs",
@@ -1872,7 +1968,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0118",
+    "deal_id": "DEAL-0124",
     "player_id": "3155526",
     "player_name": "Dillon Brooks",
     "current_team": "Phoenix Suns",
@@ -1888,7 +1984,55 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0119",
+    "deal_id": "DEAL-0125",
+    "player_id": "3155942",
+    "player_name": "Domantas Sabonis",
+    "current_team": "Sacramento Kings",
+    "brand": "Dialpad",
+    "industry": "Technology & Consumer Electronics",
+    "sub_industry": "Enterprise AI & Software",
+    "deal_type": "Brand Ambassador",
+    "start_date": "2023-04",
+    "end_date": "Undisclosed (Ongoing)",
+    "deal_status": "Active",
+    "reported_value_notes": "Brand ambassador agreement with AI customer intelligence platform Dialpad announced April 2023",
+    "source": "https://www.dialpad.com/press/dialpad-teams-up-with-nba-all-star-domantas-sabonis/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0126",
+    "player_id": "3155942",
+    "player_name": "Domantas Sabonis",
+    "current_team": "Sacramento Kings",
+    "brand": "Bank of America",
+    "industry": "Financial Services & Banking",
+    "sub_industry": "Banks",
+    "deal_type": "Brand Endorsement",
+    "start_date": "2022",
+    "end_date": "Undisclosed",
+    "deal_status": "Historical / Status Unconfirmed",
+    "reported_value_notes": "Financial services brand partnership",
+    "source": "https://bookingagentinfo.com/celebrity/domantas-sabonis/endorsements/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0127",
+    "player_id": "3155942",
+    "player_name": "Domantas Sabonis",
+    "current_team": "Sacramento Kings",
+    "brand": "Moose Knuckles",
+    "industry": "Fashion & Luxury",
+    "sub_industry": "Luxury Outerwear",
+    "deal_type": "Brand Endorsement",
+    "start_date": "2022",
+    "end_date": "Undisclosed",
+    "deal_status": "Historical / Status Unconfirmed",
+    "reported_value_notes": "Luxury outerwear fashion campaign",
+    "source": "https://bookingagentinfo.com/celebrity/domantas-sabonis/endorsements/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0128",
     "player_id": "3908809",
     "player_name": "Donovan Mitchell",
     "current_team": "Cleveland Cavaliers",
@@ -1904,7 +2048,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0120",
+    "deal_id": "DEAL-0129",
     "player_id": "3908809",
     "player_name": "Donovan Mitchell",
     "current_team": "Cleveland Cavaliers",
@@ -1920,7 +2064,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0121",
+    "deal_id": "DEAL-0130",
     "player_id": "3908809",
     "player_name": "Donovan Mitchell",
     "current_team": "Cleveland Cavaliers",
@@ -1936,7 +2080,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0122",
+    "deal_id": "DEAL-0131",
     "player_id": "3908809",
     "player_name": "Donovan Mitchell",
     "current_team": "Cleveland Cavaliers",
@@ -1952,7 +2096,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0123",
+    "deal_id": "DEAL-0132",
     "player_id": "6589",
     "player_name": "Draymond Green",
     "current_team": "Golden State Warriors",
@@ -1968,7 +2112,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0124",
+    "deal_id": "DEAL-0133",
     "player_id": "6589",
     "player_name": "Draymond Green",
     "current_team": "Golden State Warriors",
@@ -1984,7 +2128,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0125",
+    "deal_id": "DEAL-0134",
     "player_id": "6589",
     "player_name": "Draymond Green",
     "current_team": "Golden State Warriors",
@@ -2000,7 +2144,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0126",
+    "deal_id": "DEAL-0135",
     "player_id": "5037871",
     "player_name": "Dylan Harper",
     "current_team": "San Antonio Spurs",
@@ -2016,7 +2160,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0127",
+    "deal_id": "DEAL-0136",
     "player_id": "5037871",
     "player_name": "Dylan Harper",
     "current_team": "San Antonio Spurs",
@@ -2032,7 +2176,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0128",
+    "deal_id": "DEAL-0137",
     "player_id": "5037871",
     "player_name": "Dylan Harper",
     "current_team": "San Antonio Spurs",
@@ -2048,7 +2192,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0129",
+    "deal_id": "DEAL-0138",
     "player_id": "4869342",
     "player_name": "Dyson Daniels",
     "current_team": "Atlanta Hawks",
@@ -2064,7 +2208,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0130",
+    "deal_id": "DEAL-0139",
     "player_id": "4869342",
     "player_name": "Dyson Daniels",
     "current_team": "Atlanta Hawks",
@@ -2080,7 +2224,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0131",
+    "deal_id": "DEAL-0140",
     "player_id": "4869342",
     "player_name": "Dyson Daniels",
     "current_team": "Atlanta Hawks",
@@ -2096,7 +2240,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0132",
+    "deal_id": "DEAL-0141",
     "player_id": "4432158",
     "player_name": "Evan Mobley",
     "current_team": "Cleveland Cavaliers",
@@ -2112,7 +2256,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0133",
+    "deal_id": "DEAL-0142",
     "player_id": "4432158",
     "player_name": "Evan Mobley",
     "current_team": "Cleveland Cavaliers",
@@ -2128,7 +2272,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0134",
+    "deal_id": "DEAL-0143",
     "player_id": "4432158",
     "player_name": "Evan Mobley",
     "current_team": "Cleveland Cavaliers",
@@ -2144,7 +2288,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0135",
+    "deal_id": "DEAL-0144",
     "player_id": "4566434",
     "player_name": "Franz Wagner",
     "current_team": "Orlando Magic",
@@ -2160,7 +2304,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0136",
+    "deal_id": "DEAL-0145",
     "player_id": "4566434",
     "player_name": "Franz Wagner",
     "current_team": "Orlando Magic",
@@ -2176,7 +2320,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0137",
+    "deal_id": "DEAL-0146",
     "player_id": "4566434",
     "player_name": "Franz Wagner",
     "current_team": "Orlando Magic",
@@ -2192,7 +2336,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0138",
+    "deal_id": "DEAL-0147",
     "player_id": "2991230",
     "player_name": "Fred VanVleet",
     "current_team": "Houston Rockets",
@@ -2208,7 +2352,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0139",
+    "deal_id": "DEAL-0148",
     "player_id": "2991230",
     "player_name": "Fred VanVleet",
     "current_team": "Houston Rockets",
@@ -2224,7 +2368,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0140",
+    "deal_id": "DEAL-0149",
     "player_id": "3032977",
     "player_name": "Giannis Antetokounmpo",
     "current_team": "Miami Heat",
@@ -2240,7 +2384,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0141",
+    "deal_id": "DEAL-0150",
     "player_id": "3032977",
     "player_name": "Giannis Antetokounmpo",
     "current_team": "Miami Heat",
@@ -2256,7 +2400,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0142",
+    "deal_id": "DEAL-0151",
     "player_id": "3032977",
     "player_name": "Giannis Antetokounmpo",
     "current_team": "Miami Heat",
@@ -2272,7 +2416,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0143",
+    "deal_id": "DEAL-0152",
     "player_id": "3032977",
     "player_name": "Giannis Antetokounmpo",
     "current_team": "Miami Heat",
@@ -2288,7 +2432,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0144",
+    "deal_id": "DEAL-0153",
     "player_id": "3032977",
     "player_name": "Giannis Antetokounmpo",
     "current_team": "Miami Heat",
@@ -2304,7 +2448,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0145",
+    "deal_id": "DEAL-0154",
     "player_id": "3032977",
     "player_name": "Giannis Antetokounmpo",
     "current_team": "Miami Heat",
@@ -2320,7 +2464,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0146",
+    "deal_id": "DEAL-0155",
     "player_id": "3032977",
     "player_name": "Giannis Antetokounmpo",
     "current_team": "Miami Heat",
@@ -2336,7 +2480,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0147",
+    "deal_id": "DEAL-0156",
     "player_id": "3032977",
     "player_name": "Giannis Antetokounmpo",
     "current_team": "Miami Heat",
@@ -2352,7 +2496,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0148",
+    "deal_id": "DEAL-0157",
     "player_id": "3032977",
     "player_name": "Giannis Antetokounmpo",
     "current_team": "Miami Heat",
@@ -2368,7 +2512,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0149",
+    "deal_id": "DEAL-0158",
     "player_id": "3032977",
     "player_name": "Giannis Antetokounmpo",
     "current_team": "Miami Heat",
@@ -2384,7 +2528,55 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0150",
+    "deal_id": "DEAL-0159",
+    "player_id": "6578",
+    "player_name": "Harrison Barnes",
+    "current_team": "San Antonio Spurs",
+    "brand": "Adidas",
+    "industry": "Footwear & Apparel",
+    "sub_industry": "Basketball Footwear",
+    "deal_type": "Footwear Endorsement",
+    "start_date": "2012",
+    "end_date": "Undisclosed (Ongoing)",
+    "deal_status": "Active",
+    "reported_value_notes": "Long-standing multi-year Adidas Basketball footwear & apparel partnership",
+    "source": "https://bookingagentinfo.com/celebrity/harrison-barnes/endorsements/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0160",
+    "player_id": "6578",
+    "player_name": "Harrison Barnes",
+    "current_team": "San Antonio Spurs",
+    "brand": "Beyond Meat",
+    "industry": "Food & Beverage",
+    "sub_industry": "Plant-Based Food",
+    "deal_type": "Brand Endorsement",
+    "start_date": "2019",
+    "end_date": "Undisclosed",
+    "deal_status": "Historical / Status Unconfirmed",
+    "reported_value_notes": "Plant-based food ambassador partnership",
+    "source": "https://bookingagentinfo.com/celebrity/harrison-barnes/endorsements/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0161",
+    "player_id": "6578",
+    "player_name": "Harrison Barnes",
+    "current_team": "San Antonio Spurs",
+    "brand": "PepsiCo",
+    "industry": "Food & Beverage",
+    "sub_industry": "Soft Drinks & Snacks",
+    "deal_type": "Brand Endorsement",
+    "start_date": "2017",
+    "end_date": "Undisclosed",
+    "deal_status": "Historical / Status Unconfirmed",
+    "reported_value_notes": "PepsiCo brand ambassador campaign",
+    "source": "https://www.forbes.com/profile/harrison-barnes/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0162",
     "player_id": "4395724",
     "player_name": "Immanuel Quickley",
     "current_team": "Toronto Raptors",
@@ -2400,7 +2592,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0151",
+    "deal_id": "DEAL-0163",
     "player_id": "4395724",
     "player_name": "Immanuel Quickley",
     "current_team": "Toronto Raptors",
@@ -2416,7 +2608,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0152",
+    "deal_id": "DEAL-0164",
     "player_id": "4395724",
     "player_name": "Immanuel Quickley",
     "current_team": "Toronto Raptors",
@@ -2432,7 +2624,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0153",
+    "deal_id": "DEAL-0165",
     "player_id": "4222252",
     "player_name": "Isaiah Hartenstein",
     "current_team": "Oklahoma City Thunder",
@@ -2448,7 +2640,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0154",
+    "deal_id": "DEAL-0166",
     "player_id": "4222252",
     "player_name": "Isaiah Hartenstein",
     "current_team": "Oklahoma City Thunder",
@@ -2464,7 +2656,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0155",
+    "deal_id": "DEAL-0167",
     "player_id": "4222252",
     "player_name": "Isaiah Hartenstein",
     "current_team": "Oklahoma City Thunder",
@@ -2480,7 +2672,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0156",
+    "deal_id": "DEAL-0168",
     "player_id": "4279888",
     "player_name": "Ja Morant",
     "current_team": "Portland Trail Blazers",
@@ -2496,7 +2688,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0157",
+    "deal_id": "DEAL-0169",
     "player_id": "4279888",
     "player_name": "Ja Morant",
     "current_team": "Portland Trail Blazers",
@@ -2512,7 +2704,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0158",
+    "deal_id": "DEAL-0170",
     "player_id": "4279888",
     "player_name": "Ja Morant",
     "current_team": "Portland Trail Blazers",
@@ -2528,7 +2720,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0159",
+    "deal_id": "DEAL-0171",
     "player_id": "4279888",
     "player_name": "Ja Morant",
     "current_team": "Portland Trail Blazers",
@@ -2544,7 +2736,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0160",
+    "deal_id": "DEAL-0172",
     "player_id": "4431671",
     "player_name": "Jaden McDaniels",
     "current_team": "Minnesota Timberwolves",
@@ -2560,7 +2752,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0161",
+    "deal_id": "DEAL-0173",
     "player_id": "4431671",
     "player_name": "Jaden McDaniels",
     "current_team": "Minnesota Timberwolves",
@@ -2576,7 +2768,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0162",
+    "deal_id": "DEAL-0174",
     "player_id": "4431671",
     "player_name": "Jaden McDaniels",
     "current_team": "Minnesota Timberwolves",
@@ -2592,7 +2784,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0163",
+    "deal_id": "DEAL-0175",
     "player_id": "3934672",
     "player_name": "Jalen Brunson",
     "current_team": "New York Knicks",
@@ -2608,7 +2800,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0164",
+    "deal_id": "DEAL-0176",
     "player_id": "3934672",
     "player_name": "Jalen Brunson",
     "current_team": "New York Knicks",
@@ -2624,7 +2816,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0165",
+    "deal_id": "DEAL-0177",
     "player_id": "3934672",
     "player_name": "Jalen Brunson",
     "current_team": "New York Knicks",
@@ -2640,7 +2832,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0166",
+    "deal_id": "DEAL-0178",
     "player_id": "3934672",
     "player_name": "Jalen Brunson",
     "current_team": "New York Knicks",
@@ -2656,7 +2848,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0167",
+    "deal_id": "DEAL-0179",
     "player_id": "3934672",
     "player_name": "Jalen Brunson",
     "current_team": "New York Knicks",
@@ -2672,7 +2864,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0168",
+    "deal_id": "DEAL-0180",
     "player_id": "3934672",
     "player_name": "Jalen Brunson",
     "current_team": "New York Knicks",
@@ -2688,7 +2880,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0169",
+    "deal_id": "DEAL-0181",
     "player_id": "4433621",
     "player_name": "Jalen Duren",
     "current_team": "Detroit Pistons",
@@ -2704,7 +2896,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0170",
+    "deal_id": "DEAL-0182",
     "player_id": "4433621",
     "player_name": "Jalen Duren",
     "current_team": "Detroit Pistons",
@@ -2720,7 +2912,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0171",
+    "deal_id": "DEAL-0183",
     "player_id": "4437244",
     "player_name": "Jalen Green",
     "current_team": "Phoenix Suns",
@@ -2736,7 +2928,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0172",
+    "deal_id": "DEAL-0184",
     "player_id": "4437244",
     "player_name": "Jalen Green",
     "current_team": "Phoenix Suns",
@@ -2752,7 +2944,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0173",
+    "deal_id": "DEAL-0185",
     "player_id": "4437244",
     "player_name": "Jalen Green",
     "current_team": "Phoenix Suns",
@@ -2768,7 +2960,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0174",
+    "deal_id": "DEAL-0186",
     "player_id": "4701230",
     "player_name": "Jalen Johnson",
     "current_team": "Atlanta Hawks",
@@ -2784,7 +2976,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0175",
+    "deal_id": "DEAL-0187",
     "player_id": "4701230",
     "player_name": "Jalen Johnson",
     "current_team": "Atlanta Hawks",
@@ -2800,7 +2992,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0176",
+    "deal_id": "DEAL-0188",
     "player_id": "4701230",
     "player_name": "Jalen Johnson",
     "current_team": "Atlanta Hawks",
@@ -2816,7 +3008,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0177",
+    "deal_id": "DEAL-0189",
     "player_id": "4432165",
     "player_name": "Jalen Suggs",
     "current_team": "Orlando Magic",
@@ -2832,7 +3024,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0178",
+    "deal_id": "DEAL-0190",
     "player_id": "4432165",
     "player_name": "Jalen Suggs",
     "current_team": "Orlando Magic",
@@ -2848,7 +3040,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0179",
+    "deal_id": "DEAL-0191",
     "player_id": "4432165",
     "player_name": "Jalen Suggs",
     "current_team": "Orlando Magic",
@@ -2864,7 +3056,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0180",
+    "deal_id": "DEAL-0192",
     "player_id": "4593803",
     "player_name": "Jalen Williams",
     "current_team": "Oklahoma City Thunder",
@@ -2880,7 +3072,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0181",
+    "deal_id": "DEAL-0193",
     "player_id": "4593803",
     "player_name": "Jalen Williams",
     "current_team": "Oklahoma City Thunder",
@@ -2896,7 +3088,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0182",
+    "deal_id": "DEAL-0194",
     "player_id": "4593803",
     "player_name": "Jalen Williams",
     "current_team": "Oklahoma City Thunder",
@@ -2912,7 +3104,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0183",
+    "deal_id": "DEAL-0195",
     "player_id": "3936299",
     "player_name": "Jamal Murray",
     "current_team": "Denver Nuggets",
@@ -2928,7 +3120,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0184",
+    "deal_id": "DEAL-0196",
     "player_id": "3936299",
     "player_name": "Jamal Murray",
     "current_team": "Denver Nuggets",
@@ -2944,7 +3136,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0185",
+    "deal_id": "DEAL-0197",
     "player_id": "3936299",
     "player_name": "Jamal Murray",
     "current_team": "Denver Nuggets",
@@ -2960,7 +3152,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0186",
+    "deal_id": "DEAL-0198",
     "player_id": "3936299",
     "player_name": "Jamal Murray",
     "current_team": "Denver Nuggets",
@@ -2976,7 +3168,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0187",
+    "deal_id": "DEAL-0199",
     "player_id": "3992",
     "player_name": "James Harden",
     "current_team": "Cleveland Cavaliers",
@@ -2992,7 +3184,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0188",
+    "deal_id": "DEAL-0200",
     "player_id": "3992",
     "player_name": "James Harden",
     "current_team": "Cleveland Cavaliers",
@@ -3008,7 +3200,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0189",
+    "deal_id": "DEAL-0201",
     "player_id": "3992",
     "player_name": "James Harden",
     "current_team": "Cleveland Cavaliers",
@@ -3024,7 +3216,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0190",
+    "deal_id": "DEAL-0202",
     "player_id": "3992",
     "player_name": "James Harden",
     "current_team": "Cleveland Cavaliers",
@@ -3040,7 +3232,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0191",
+    "deal_id": "DEAL-0203",
     "player_id": "4683778",
     "player_name": "Jared McCain",
     "current_team": "Oklahoma City Thunder",
@@ -3056,7 +3248,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0192",
+    "deal_id": "DEAL-0204",
     "player_id": "4683778",
     "player_name": "Jared McCain",
     "current_team": "Oklahoma City Thunder",
@@ -3072,7 +3264,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0193",
+    "deal_id": "DEAL-0205",
     "player_id": "4683778",
     "player_name": "Jared McCain",
     "current_team": "Oklahoma City Thunder",
@@ -3088,7 +3280,71 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0194",
+    "deal_id": "DEAL-0206",
+    "player_id": "4277961",
+    "player_name": "Jaren Jackson Jr.",
+    "current_team": "Utah Jazz",
+    "brand": "BTCC",
+    "industry": "Financial Services & Banking",
+    "sub_industry": "Cryptocurrency Exchange",
+    "deal_type": "Brand Ambassador",
+    "start_date": "2025-08",
+    "end_date": "Undisclosed (Ongoing)",
+    "deal_status": "Active",
+    "reported_value_notes": "Global brand ambassador deal with cryptocurrency exchange BTCC announced Aug 2025",
+    "source": "https://www.si.com/nba/grizzlies/news/jaren-jackson-jr-signs-major-global-endorsement-deal",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0207",
+    "player_id": "4277961",
+    "player_name": "Jaren Jackson Jr.",
+    "current_team": "Utah Jazz",
+    "brand": "Macy's",
+    "industry": "Retail & Collectibles",
+    "sub_industry": "Department Stores",
+    "deal_type": "Brand Endorsement",
+    "start_date": "2023",
+    "end_date": "Undisclosed (Ongoing)",
+    "deal_status": "Active",
+    "reported_value_notes": "Retail fashion & lifestyle campaign partnership with Macy's",
+    "source": "https://bookingagentinfo.com/celebrity/jaren-jackson-jr/endorsements/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0208",
+    "player_id": "4277961",
+    "player_name": "Jaren Jackson Jr.",
+    "current_team": "Utah Jazz",
+    "brand": "Nike",
+    "industry": "Footwear & Apparel",
+    "sub_industry": "Basketball Footwear",
+    "deal_type": "Footwear Endorsement",
+    "start_date": "2018",
+    "end_date": "Undisclosed (Ongoing)",
+    "deal_status": "Active",
+    "reported_value_notes": "Long-term Nike Basketball footwear endorsement",
+    "source": "https://bookingagentinfo.com/celebrity/jaren-jackson-jr/endorsements/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0209",
+    "player_id": "4277961",
+    "player_name": "Jaren Jackson Jr.",
+    "current_team": "Utah Jazz",
+    "brand": "FedEx",
+    "industry": "Automotive & Aviation",
+    "sub_industry": "Logistics & Shipping",
+    "deal_type": "Brand Endorsement",
+    "start_date": "2022",
+    "end_date": "Undisclosed",
+    "deal_status": "Historical / Status Unconfirmed",
+    "reported_value_notes": "Regional & national brand partnership with FedEx",
+    "source": "https://bookingagentinfo.com/celebrity/jaren-jackson-jr/endorsements/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0210",
     "player_id": "4066328",
     "player_name": "Jarrett Allen",
     "current_team": "Cleveland Cavaliers",
@@ -3104,7 +3360,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0195",
+    "deal_id": "DEAL-0211",
     "player_id": "3917376",
     "player_name": "Jaylen Brown",
     "current_team": "Philadelphia 76ers",
@@ -3120,7 +3376,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0196",
+    "deal_id": "DEAL-0212",
     "player_id": "3917376",
     "player_name": "Jaylen Brown",
     "current_team": "Philadelphia 76ers",
@@ -3136,7 +3392,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0197",
+    "deal_id": "DEAL-0213",
     "player_id": "3917376",
     "player_name": "Jaylen Brown",
     "current_team": "Philadelphia 76ers",
@@ -3152,7 +3408,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0198",
+    "deal_id": "DEAL-0214",
     "player_id": "3917376",
     "player_name": "Jaylen Brown",
     "current_team": "Philadelphia 76ers",
@@ -3168,7 +3424,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0199",
+    "deal_id": "DEAL-0215",
     "player_id": "3917376",
     "player_name": "Jaylen Brown",
     "current_team": "Philadelphia 76ers",
@@ -3184,7 +3440,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0200",
+    "deal_id": "DEAL-0216",
     "player_id": "3917376",
     "player_name": "Jaylen Brown",
     "current_team": "Philadelphia 76ers",
@@ -3200,7 +3456,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0201",
+    "deal_id": "DEAL-0217",
     "player_id": "4065648",
     "player_name": "Jayson Tatum",
     "current_team": "Boston Celtics",
@@ -3216,7 +3472,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0202",
+    "deal_id": "DEAL-0218",
     "player_id": "4065648",
     "player_name": "Jayson Tatum",
     "current_team": "Boston Celtics",
@@ -3232,7 +3488,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0203",
+    "deal_id": "DEAL-0219",
     "player_id": "4065648",
     "player_name": "Jayson Tatum",
     "current_team": "Boston Celtics",
@@ -3248,7 +3504,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0204",
+    "deal_id": "DEAL-0220",
     "player_id": "4065648",
     "player_name": "Jayson Tatum",
     "current_team": "Boston Celtics",
@@ -3264,7 +3520,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0205",
+    "deal_id": "DEAL-0221",
     "player_id": "4065648",
     "player_name": "Jayson Tatum",
     "current_team": "Boston Celtics",
@@ -3280,7 +3536,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0206",
+    "deal_id": "DEAL-0222",
     "player_id": "4065648",
     "player_name": "Jayson Tatum",
     "current_team": "Boston Celtics",
@@ -3296,7 +3552,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0207",
+    "deal_id": "DEAL-0223",
     "player_id": "4065648",
     "player_name": "Jayson Tatum",
     "current_team": "Boston Celtics",
@@ -3312,7 +3568,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0208",
+    "deal_id": "DEAL-0224",
     "player_id": "4065648",
     "player_name": "Jayson Tatum",
     "current_team": "Boston Celtics",
@@ -3328,7 +3584,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0209",
+    "deal_id": "DEAL-0225",
     "player_id": "4065648",
     "player_name": "Jayson Tatum",
     "current_team": "Boston Celtics",
@@ -3344,7 +3600,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0210",
+    "deal_id": "DEAL-0226",
     "player_id": "4065648",
     "player_name": "Jayson Tatum",
     "current_team": "Boston Celtics",
@@ -3360,7 +3616,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0211",
+    "deal_id": "DEAL-0227",
     "player_id": "4065648",
     "player_name": "Jayson Tatum",
     "current_team": "Boston Celtics",
@@ -3376,7 +3632,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0212",
+    "deal_id": "DEAL-0228",
     "player_id": "2991070",
     "player_name": "Jerami Grant",
     "current_team": "Memphis Grizzlies",
@@ -3392,7 +3648,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0213",
+    "deal_id": "DEAL-0229",
     "player_id": "6430",
     "player_name": "Jimmy Butler III",
     "current_team": "Golden State Warriors",
@@ -3408,7 +3664,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0214",
+    "deal_id": "DEAL-0230",
     "player_id": "6430",
     "player_name": "Jimmy Butler III",
     "current_team": "Golden State Warriors",
@@ -3424,7 +3680,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0215",
+    "deal_id": "DEAL-0231",
     "player_id": "6430",
     "player_name": "Jimmy Butler III",
     "current_team": "Golden State Warriors",
@@ -3440,7 +3696,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0216",
+    "deal_id": "DEAL-0232",
     "player_id": "6430",
     "player_name": "Jimmy Butler III",
     "current_team": "Golden State Warriors",
@@ -3456,7 +3712,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0217",
+    "deal_id": "DEAL-0233",
     "player_id": "6430",
     "player_name": "Jimmy Butler III",
     "current_team": "Golden State Warriors",
@@ -3472,7 +3728,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0218",
+    "deal_id": "DEAL-0234",
     "player_id": "6430",
     "player_name": "Jimmy Butler III",
     "current_team": "Golden State Warriors",
@@ -3488,7 +3744,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0219",
+    "deal_id": "DEAL-0235",
     "player_id": "3059318",
     "player_name": "Joel Embiid",
     "current_team": "Philadelphia 76ers",
@@ -3504,7 +3760,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0220",
+    "deal_id": "DEAL-0236",
     "player_id": "3059318",
     "player_name": "Joel Embiid",
     "current_team": "Philadelphia 76ers",
@@ -3520,7 +3776,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0221",
+    "deal_id": "DEAL-0237",
     "player_id": "3059318",
     "player_name": "Joel Embiid",
     "current_team": "Philadelphia 76ers",
@@ -3536,7 +3792,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0222",
+    "deal_id": "DEAL-0238",
     "player_id": "3059318",
     "player_name": "Joel Embiid",
     "current_team": "Philadelphia 76ers",
@@ -3552,7 +3808,23 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0223",
+    "deal_id": "DEAL-0239",
+    "player_id": "3908845",
+    "player_name": "John Collins",
+    "current_team": "Detroit Pistons",
+    "brand": "Adidas",
+    "industry": "Footwear & Apparel",
+    "sub_industry": "Basketball Footwear",
+    "deal_type": "Footwear Endorsement",
+    "start_date": "2017",
+    "end_date": "Undisclosed (Ongoing)",
+    "deal_status": "Active",
+    "reported_value_notes": "Career-long Adidas Basketball footwear endorser",
+    "source": "https://nbashoesdb.com/players/john-collins/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0240",
     "player_id": "4277956",
     "player_name": "Jordan Poole",
     "current_team": "New Orleans Pelicans",
@@ -3568,7 +3840,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0224",
+    "deal_id": "DEAL-0241",
     "player_id": "4277956",
     "player_name": "Jordan Poole",
     "current_team": "New Orleans Pelicans",
@@ -3584,7 +3856,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0225",
+    "deal_id": "DEAL-0242",
     "player_id": "4277956",
     "player_name": "Jordan Poole",
     "current_team": "New Orleans Pelicans",
@@ -3600,7 +3872,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0226",
+    "deal_id": "DEAL-0243",
     "player_id": "4871145",
     "player_name": "Josh Giddey",
     "current_team": "Chicago Bulls",
@@ -3616,7 +3888,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0227",
+    "deal_id": "DEAL-0244",
     "player_id": "4871145",
     "player_name": "Josh Giddey",
     "current_team": "Chicago Bulls",
@@ -3632,7 +3904,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0228",
+    "deal_id": "DEAL-0245",
     "player_id": "4871145",
     "player_name": "Josh Giddey",
     "current_team": "Chicago Bulls",
@@ -3648,7 +3920,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0229",
+    "deal_id": "DEAL-0246",
     "player_id": "3062679",
     "player_name": "Josh Hart",
     "current_team": "New York Knicks",
@@ -3664,7 +3936,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0230",
+    "deal_id": "DEAL-0247",
     "player_id": "3062679",
     "player_name": "Josh Hart",
     "current_team": "New York Knicks",
@@ -3680,7 +3952,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0231",
+    "deal_id": "DEAL-0248",
     "player_id": "3062679",
     "player_name": "Josh Hart",
     "current_team": "New York Knicks",
@@ -3696,7 +3968,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0232",
+    "deal_id": "DEAL-0249",
     "player_id": "3062679",
     "player_name": "Josh Hart",
     "current_team": "New York Knicks",
@@ -3712,7 +3984,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0233",
+    "deal_id": "DEAL-0250",
     "player_id": "3995",
     "player_name": "Jrue Holiday",
     "current_team": "Portland Trail Blazers",
@@ -3728,7 +4000,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0234",
+    "deal_id": "DEAL-0251",
     "player_id": "3995",
     "player_name": "Jrue Holiday",
     "current_team": "Portland Trail Blazers",
@@ -3744,7 +4016,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0235",
+    "deal_id": "DEAL-0252",
     "player_id": "3995",
     "player_name": "Jrue Holiday",
     "current_team": "Portland Trail Blazers",
@@ -3760,7 +4032,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0236",
+    "deal_id": "DEAL-0253",
     "player_id": "3064514",
     "player_name": "Julius Randle",
     "current_team": "Brooklyn Nets",
@@ -3776,7 +4048,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0237",
+    "deal_id": "DEAL-0254",
     "player_id": "3064514",
     "player_name": "Julius Randle",
     "current_team": "Brooklyn Nets",
@@ -3792,7 +4064,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0238",
+    "deal_id": "DEAL-0255",
     "player_id": "3064514",
     "player_name": "Julius Randle",
     "current_team": "Brooklyn Nets",
@@ -3808,7 +4080,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0239",
+    "deal_id": "DEAL-0256",
     "player_id": "3136195",
     "player_name": "Karl-Anthony Towns",
     "current_team": "New York Knicks",
@@ -3824,7 +4096,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0240",
+    "deal_id": "DEAL-0257",
     "player_id": "3136195",
     "player_name": "Karl-Anthony Towns",
     "current_team": "New York Knicks",
@@ -3840,7 +4112,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0241",
+    "deal_id": "DEAL-0258",
     "player_id": "3136195",
     "player_name": "Karl-Anthony Towns",
     "current_team": "New York Knicks",
@@ -3856,7 +4128,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0242",
+    "deal_id": "DEAL-0259",
     "player_id": "3136195",
     "player_name": "Karl-Anthony Towns",
     "current_team": "New York Knicks",
@@ -3872,7 +4144,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0243",
+    "deal_id": "DEAL-0260",
     "player_id": "3136195",
     "player_name": "Karl-Anthony Towns",
     "current_team": "New York Knicks",
@@ -3888,7 +4160,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0244",
+    "deal_id": "DEAL-0261",
     "player_id": "6450",
     "player_name": "Kawhi Leonard",
     "current_team": "Toronto Raptors",
@@ -3904,7 +4176,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0245",
+    "deal_id": "DEAL-0262",
     "player_id": "6450",
     "player_name": "Kawhi Leonard",
     "current_team": "Toronto Raptors",
@@ -3920,7 +4192,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0246",
+    "deal_id": "DEAL-0263",
     "player_id": "6450",
     "player_name": "Kawhi Leonard",
     "current_team": "Toronto Raptors",
@@ -3936,7 +4208,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0247",
+    "deal_id": "DEAL-0264",
     "player_id": "6450",
     "player_name": "Kawhi Leonard",
     "current_team": "Toronto Raptors",
@@ -3952,7 +4224,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0248",
+    "deal_id": "DEAL-0265",
     "player_id": "6450",
     "player_name": "Kawhi Leonard",
     "current_team": "Toronto Raptors",
@@ -3968,7 +4240,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0249",
+    "deal_id": "DEAL-0266",
     "player_id": "6450",
     "player_name": "Kawhi Leonard",
     "current_team": "Toronto Raptors",
@@ -3984,7 +4256,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0250",
+    "deal_id": "DEAL-0267",
     "player_id": "4594327",
     "player_name": "Keegan Murray",
     "current_team": "Sacramento Kings",
@@ -4000,7 +4272,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0251",
+    "deal_id": "DEAL-0268",
     "player_id": "4594327",
     "player_name": "Keegan Murray",
     "current_team": "Sacramento Kings",
@@ -4016,7 +4288,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0252",
+    "deal_id": "DEAL-0269",
     "player_id": "2581018",
     "player_name": "Kentavious Caldwell-Pope",
     "current_team": "Philadelphia 76ers",
@@ -4032,7 +4304,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0253",
+    "deal_id": "DEAL-0270",
     "player_id": "2581018",
     "player_name": "Kentavious Caldwell-Pope",
     "current_team": "Philadelphia 76ers",
@@ -4048,7 +4320,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0254",
+    "deal_id": "DEAL-0271",
     "player_id": "2581018",
     "player_name": "Kentavious Caldwell-Pope",
     "current_team": "Philadelphia 76ers",
@@ -4064,7 +4336,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0255",
+    "deal_id": "DEAL-0272",
     "player_id": "3202",
     "player_name": "Kevin Durant",
     "current_team": "Houston Rockets",
@@ -4080,7 +4352,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0256",
+    "deal_id": "DEAL-0273",
     "player_id": "3202",
     "player_name": "Kevin Durant",
     "current_team": "Houston Rockets",
@@ -4096,7 +4368,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0257",
+    "deal_id": "DEAL-0274",
     "player_id": "3202",
     "player_name": "Kevin Durant",
     "current_team": "Houston Rockets",
@@ -4112,7 +4384,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0258",
+    "deal_id": "DEAL-0275",
     "player_id": "3202",
     "player_name": "Kevin Durant",
     "current_team": "Houston Rockets",
@@ -4128,7 +4400,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0259",
+    "deal_id": "DEAL-0276",
     "player_id": "3202",
     "player_name": "Kevin Durant",
     "current_team": "Houston Rockets",
@@ -4144,7 +4416,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0260",
+    "deal_id": "DEAL-0277",
     "player_id": "3202",
     "player_name": "Kevin Durant",
     "current_team": "Houston Rockets",
@@ -4160,7 +4432,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0261",
+    "deal_id": "DEAL-0278",
     "player_id": "3202",
     "player_name": "Kevin Durant",
     "current_team": "Houston Rockets",
@@ -4176,7 +4448,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0262",
+    "deal_id": "DEAL-0279",
     "player_id": "3202",
     "player_name": "Kevin Durant",
     "current_team": "Houston Rockets",
@@ -4192,7 +4464,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0263",
+    "deal_id": "DEAL-0280",
     "player_id": "4433627",
     "player_name": "Keyonte George",
     "current_team": "Utah Jazz",
@@ -4208,7 +4480,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0264",
+    "deal_id": "DEAL-0281",
     "player_id": "4433627",
     "player_name": "Keyonte George",
     "current_team": "Utah Jazz",
@@ -4224,7 +4496,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0265",
+    "deal_id": "DEAL-0282",
     "player_id": "4433627",
     "player_name": "Keyonte George",
     "current_team": "Utah Jazz",
@@ -4240,7 +4512,55 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0266",
+    "deal_id": "DEAL-0283",
+    "player_id": "6609",
+    "player_name": "Khris Middleton",
+    "current_team": "Washington Wizards",
+    "brand": "Nike",
+    "industry": "Footwear & Apparel",
+    "sub_industry": "Basketball Footwear",
+    "deal_type": "Footwear Endorsement",
+    "start_date": "2012",
+    "end_date": "Undisclosed (Ongoing)",
+    "deal_status": "Active",
+    "reported_value_notes": "Long-term Nike Basketball footwear partner",
+    "source": "https://www.forbes.com/profile/khris-middleton/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0284",
+    "player_id": "6609",
+    "player_name": "Khris Middleton",
+    "current_team": "Washington Wizards",
+    "brand": "AT&T",
+    "industry": "Telecommunications",
+    "sub_industry": "Wireless & Telecom",
+    "deal_type": "Brand Endorsement",
+    "start_date": "2021",
+    "end_date": "Undisclosed",
+    "deal_status": "Historical / Status Unconfirmed",
+    "reported_value_notes": "Telecom commercial campaign partnership",
+    "source": "https://www.forbes.com/profile/khris-middleton/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0285",
+    "player_id": "6609",
+    "player_name": "Khris Middleton",
+    "current_team": "Washington Wizards",
+    "brand": "Nintendo",
+    "industry": "Gaming & Media",
+    "sub_industry": "Video Games",
+    "deal_type": "Brand Endorsement",
+    "start_date": "2021",
+    "end_date": "Undisclosed",
+    "deal_status": "Historical / Status Unconfirmed",
+    "reported_value_notes": "Nintendo gaming brand partnership",
+    "source": "https://www.forbes.com/profile/khris-middleton/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0286",
     "player_id": "6475",
     "player_name": "Klay Thompson",
     "current_team": "Miami Heat",
@@ -4256,7 +4576,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0267",
+    "deal_id": "DEAL-0287",
     "player_id": "6475",
     "player_name": "Klay Thompson",
     "current_team": "Miami Heat",
@@ -4272,7 +4592,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0268",
+    "deal_id": "DEAL-0288",
     "player_id": "6475",
     "player_name": "Klay Thompson",
     "current_team": "Miami Heat",
@@ -4288,7 +4608,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0269",
+    "deal_id": "DEAL-0289",
     "player_id": "6475",
     "player_name": "Klay Thompson",
     "current_team": "Miami Heat",
@@ -4304,7 +4624,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0270",
+    "deal_id": "DEAL-0290",
     "player_id": "3102531",
     "player_name": "Kristaps Porzingis",
     "current_team": "Golden State Warriors",
@@ -4320,7 +4640,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0271",
+    "deal_id": "DEAL-0291",
     "player_id": "3102531",
     "player_name": "Kristaps Porzingis",
     "current_team": "Golden State Warriors",
@@ -4336,7 +4656,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0272",
+    "deal_id": "DEAL-0292",
     "player_id": "3134907",
     "player_name": "Kyle Kuzma",
     "current_team": "Milwaukee Bucks",
@@ -4352,7 +4672,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0273",
+    "deal_id": "DEAL-0293",
     "player_id": "3134907",
     "player_name": "Kyle Kuzma",
     "current_team": "Milwaukee Bucks",
@@ -4368,7 +4688,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0274",
+    "deal_id": "DEAL-0294",
     "player_id": "3134907",
     "player_name": "Kyle Kuzma",
     "current_team": "Milwaukee Bucks",
@@ -4384,7 +4704,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0275",
+    "deal_id": "DEAL-0295",
     "player_id": "6442",
     "player_name": "Kyrie Irving",
     "current_team": "Dallas Mavericks",
@@ -4400,7 +4720,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0276",
+    "deal_id": "DEAL-0296",
     "player_id": "6442",
     "player_name": "Kyrie Irving",
     "current_team": "Dallas Mavericks",
@@ -4416,7 +4736,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0277",
+    "deal_id": "DEAL-0297",
     "player_id": "6442",
     "player_name": "Kyrie Irving",
     "current_team": "Dallas Mavericks",
@@ -4432,7 +4752,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0278",
+    "deal_id": "DEAL-0298",
     "player_id": "6442",
     "player_name": "Kyrie Irving",
     "current_team": "Dallas Mavericks",
@@ -4448,7 +4768,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0279",
+    "deal_id": "DEAL-0299",
     "player_id": "4432816",
     "player_name": "LaMelo Ball",
     "current_team": "Minnesota Timberwolves",
@@ -4464,7 +4784,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0280",
+    "deal_id": "DEAL-0300",
     "player_id": "4432816",
     "player_name": "LaMelo Ball",
     "current_team": "Minnesota Timberwolves",
@@ -4480,7 +4800,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0281",
+    "deal_id": "DEAL-0301",
     "player_id": "4432816",
     "player_name": "LaMelo Ball",
     "current_team": "Minnesota Timberwolves",
@@ -4496,7 +4816,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0282",
+    "deal_id": "DEAL-0302",
     "player_id": "4432816",
     "player_name": "LaMelo Ball",
     "current_team": "Minnesota Timberwolves",
@@ -4512,7 +4832,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0283",
+    "deal_id": "DEAL-0303",
     "player_id": "4066336",
     "player_name": "Lauri Markkanen",
     "current_team": "Utah Jazz",
@@ -4528,7 +4848,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0284",
+    "deal_id": "DEAL-0304",
     "player_id": "4066336",
     "player_name": "Lauri Markkanen",
     "current_team": "Utah Jazz",
@@ -4544,7 +4864,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0285",
+    "deal_id": "DEAL-0305",
     "player_id": "4066336",
     "player_name": "Lauri Markkanen",
     "current_team": "Utah Jazz",
@@ -4560,7 +4880,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0286",
+    "deal_id": "DEAL-0306",
     "player_id": "1966",
     "player_name": "LeBron James",
     "current_team": "Philadelphia 76ers",
@@ -4576,7 +4896,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0287",
+    "deal_id": "DEAL-0307",
     "player_id": "1966",
     "player_name": "LeBron James",
     "current_team": "Philadelphia 76ers",
@@ -4592,7 +4912,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0288",
+    "deal_id": "DEAL-0308",
     "player_id": "1966",
     "player_name": "LeBron James",
     "current_team": "Philadelphia 76ers",
@@ -4608,7 +4928,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0289",
+    "deal_id": "DEAL-0309",
     "player_id": "1966",
     "player_name": "LeBron James",
     "current_team": "Philadelphia 76ers",
@@ -4624,7 +4944,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0290",
+    "deal_id": "DEAL-0310",
     "player_id": "1966",
     "player_name": "LeBron James",
     "current_team": "Philadelphia 76ers",
@@ -4640,7 +4960,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0291",
+    "deal_id": "DEAL-0311",
     "player_id": "1966",
     "player_name": "LeBron James",
     "current_team": "Philadelphia 76ers",
@@ -4656,7 +4976,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0292",
+    "deal_id": "DEAL-0312",
     "player_id": "1966",
     "player_name": "LeBron James",
     "current_team": "Philadelphia 76ers",
@@ -4672,7 +4992,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0293",
+    "deal_id": "DEAL-0313",
     "player_id": "1966",
     "player_name": "LeBron James",
     "current_team": "Philadelphia 76ers",
@@ -4688,7 +5008,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0294",
+    "deal_id": "DEAL-0314",
     "player_id": "1966",
     "player_name": "LeBron James",
     "current_team": "Philadelphia 76ers",
@@ -4704,7 +5024,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0295",
+    "deal_id": "DEAL-0315",
     "player_id": "1966",
     "player_name": "LeBron James",
     "current_team": "Philadelphia 76ers",
@@ -4720,7 +5040,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0296",
+    "deal_id": "DEAL-0316",
     "player_id": "1966",
     "player_name": "LeBron James",
     "current_team": "Philadelphia 76ers",
@@ -4736,7 +5056,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0297",
+    "deal_id": "DEAL-0317",
     "player_id": "1966",
     "player_name": "LeBron James",
     "current_team": "Philadelphia 76ers",
@@ -4752,7 +5072,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0298",
+    "deal_id": "DEAL-0318",
     "player_id": "1966",
     "player_name": "LeBron James",
     "current_team": "Philadelphia 76ers",
@@ -4768,7 +5088,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0299",
+    "deal_id": "DEAL-0319",
     "player_id": "1966",
     "player_name": "LeBron James",
     "current_team": "Philadelphia 76ers",
@@ -4784,7 +5104,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0300",
+    "deal_id": "DEAL-0320",
     "player_id": "1966",
     "player_name": "LeBron James",
     "current_team": "Philadelphia 76ers",
@@ -4800,7 +5120,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0301",
+    "deal_id": "DEAL-0321",
     "player_id": "3945274",
     "player_name": "Luka Doncic",
     "current_team": "Los Angeles Lakers",
@@ -4816,7 +5136,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0302",
+    "deal_id": "DEAL-0322",
     "player_id": "3945274",
     "player_name": "Luka Doncic",
     "current_team": "Los Angeles Lakers",
@@ -4832,7 +5152,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0303",
+    "deal_id": "DEAL-0323",
     "player_id": "3945274",
     "player_name": "Luka Doncic",
     "current_team": "Los Angeles Lakers",
@@ -4848,7 +5168,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0304",
+    "deal_id": "DEAL-0324",
     "player_id": "3945274",
     "player_name": "Luka Doncic",
     "current_team": "Los Angeles Lakers",
@@ -4864,7 +5184,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0305",
+    "deal_id": "DEAL-0325",
     "player_id": "3945274",
     "player_name": "Luka Doncic",
     "current_team": "Los Angeles Lakers",
@@ -4880,7 +5200,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0306",
+    "deal_id": "DEAL-0326",
     "player_id": "4066262",
     "player_name": "Malik Monk",
     "current_team": "Sacramento Kings",
@@ -4896,7 +5216,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0307",
+    "deal_id": "DEAL-0327",
     "player_id": "4066262",
     "player_name": "Malik Monk",
     "current_team": "Sacramento Kings",
@@ -4912,7 +5232,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0308",
+    "deal_id": "DEAL-0328",
     "player_id": "4066262",
     "player_name": "Malik Monk",
     "current_team": "Sacramento Kings",
@@ -4928,7 +5248,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0309",
+    "deal_id": "DEAL-0329",
     "player_id": "2990992",
     "player_name": "Marcus Smart",
     "current_team": "Houston Rockets",
@@ -4944,7 +5264,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0310",
+    "deal_id": "DEAL-0330",
     "player_id": "2990992",
     "player_name": "Marcus Smart",
     "current_team": "Houston Rockets",
@@ -4960,7 +5280,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0311",
+    "deal_id": "DEAL-0331",
     "player_id": "4711294",
     "player_name": "Matas Buzelis",
     "current_team": "Chicago Bulls",
@@ -4976,7 +5296,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0312",
+    "deal_id": "DEAL-0332",
     "player_id": "4711294",
     "player_name": "Matas Buzelis",
     "current_team": "Chicago Bulls",
@@ -4992,7 +5312,23 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0313",
+    "deal_id": "DEAL-0333",
+    "player_id": "4278104",
+    "player_name": "Michael Porter Jr.",
+    "current_team": "Brooklyn Nets",
+    "brand": "PUMA",
+    "industry": "Footwear & Apparel",
+    "sub_industry": "Basketball Footwear",
+    "deal_type": "Multi-Year Endorsement",
+    "start_date": "2018-06",
+    "end_date": "Undisclosed (Ongoing)",
+    "deal_status": "Active",
+    "reported_value_notes": "Signed multi-year PUMA Hoops deal ahead of 2018 NBA Draft and extended as flagship roster athlete",
+    "source": "https://www.si.com/nba/2018/06/20/michael-porter-jr-puma-sneaker-deal",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0334",
     "player_id": "3147657",
     "player_name": "Mikal Bridges",
     "current_team": "New York Knicks",
@@ -5008,7 +5344,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0314",
+    "deal_id": "DEAL-0335",
     "player_id": "3147657",
     "player_name": "Mikal Bridges",
     "current_team": "New York Knicks",
@@ -5024,7 +5360,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0315",
+    "deal_id": "DEAL-0336",
     "player_id": "3147657",
     "player_name": "Mikal Bridges",
     "current_team": "New York Knicks",
@@ -5040,7 +5376,55 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0316",
+    "deal_id": "DEAL-0337",
+    "player_id": "3195",
+    "player_name": "Mike Conley",
+    "current_team": "Boston Celtics",
+    "brand": "Vivint",
+    "industry": "Technology & Consumer Electronics",
+    "sub_industry": "Smart Home Tech",
+    "deal_type": "Brand Endorsement",
+    "start_date": "2020",
+    "end_date": "Undisclosed",
+    "deal_status": "Historical / Status Unconfirmed",
+    "reported_value_notes": "Smart home automation & security endorsement during Utah Jazz tenure",
+    "source": "https://www.forbes.com/profile/mike-conley/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0338",
+    "player_id": "3195",
+    "player_name": "Mike Conley",
+    "current_team": "Boston Celtics",
+    "brand": "Toyota",
+    "industry": "Automotive & Aviation",
+    "sub_industry": "Automobiles",
+    "deal_type": "Brand Endorsement",
+    "start_date": "2017",
+    "end_date": "Undisclosed",
+    "deal_status": "Historical / Status Unconfirmed",
+    "reported_value_notes": "Automotive promotional campaigns with Toyota",
+    "source": "https://www.forbes.com/profile/mike-conley/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0339",
+    "player_id": "3195",
+    "player_name": "Mike Conley",
+    "current_team": "Boston Celtics",
+    "brand": "Jordan Brand",
+    "industry": "Footwear & Apparel",
+    "sub_industry": "Basketball Footwear",
+    "deal_type": "Footwear Endorsement",
+    "start_date": "2016",
+    "end_date": "Undisclosed",
+    "deal_status": "Historical / Status Unconfirmed",
+    "reported_value_notes": "Veteran Jordan Brand & Converse (Nike Inc.) footwear endorser",
+    "source": "https://www.forbes.com/profile/mike-conley/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0340",
     "player_id": "3133628",
     "player_name": "Myles Turner",
     "current_team": "Milwaukee Bucks",
@@ -5056,7 +5440,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0317",
+    "deal_id": "DEAL-0341",
     "player_id": "3133628",
     "player_name": "Myles Turner",
     "current_team": "Milwaukee Bucks",
@@ -5072,7 +5456,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0318",
+    "deal_id": "DEAL-0342",
     "player_id": "3133628",
     "player_name": "Myles Turner",
     "current_team": "Milwaukee Bucks",
@@ -5088,7 +5472,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0319",
+    "deal_id": "DEAL-0343",
     "player_id": "4396971",
     "player_name": "Naz Reid",
     "current_team": "Charlotte Hornets",
@@ -5104,7 +5488,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0320",
+    "deal_id": "DEAL-0344",
     "player_id": "3112335",
     "player_name": "Nikola Jokic",
     "current_team": "Denver Nuggets",
@@ -5120,7 +5504,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0321",
+    "deal_id": "DEAL-0345",
     "player_id": "3112335",
     "player_name": "Nikola Jokic",
     "current_team": "Denver Nuggets",
@@ -5136,7 +5520,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0322",
+    "deal_id": "DEAL-0346",
     "player_id": "3112335",
     "player_name": "Nikola Jokic",
     "current_team": "Denver Nuggets",
@@ -5152,7 +5536,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0323",
+    "deal_id": "DEAL-0347",
     "player_id": "3112335",
     "player_name": "Nikola Jokic",
     "current_team": "Denver Nuggets",
@@ -5168,7 +5552,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0324",
+    "deal_id": "DEAL-0348",
     "player_id": "2595516",
     "player_name": "Norman Powell",
     "current_team": "Chicago Bulls",
@@ -5184,7 +5568,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0325",
+    "deal_id": "DEAL-0349",
     "player_id": "2595516",
     "player_name": "Norman Powell",
     "current_team": "Chicago Bulls",
@@ -5200,7 +5584,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0326",
+    "deal_id": "DEAL-0350",
     "player_id": "2595516",
     "player_name": "Norman Powell",
     "current_team": "Chicago Bulls",
@@ -5216,7 +5600,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0327",
+    "deal_id": "DEAL-0351",
     "player_id": "3934719",
     "player_name": "OG Anunoby",
     "current_team": "New York Knicks",
@@ -5232,7 +5616,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0328",
+    "deal_id": "DEAL-0352",
     "player_id": "4432573",
     "player_name": "Paolo Banchero",
     "current_team": "Orlando Magic",
@@ -5248,7 +5632,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0329",
+    "deal_id": "DEAL-0353",
     "player_id": "4432573",
     "player_name": "Paolo Banchero",
     "current_team": "Orlando Magic",
@@ -5264,7 +5648,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0330",
+    "deal_id": "DEAL-0354",
     "player_id": "4432573",
     "player_name": "Paolo Banchero",
     "current_team": "Orlando Magic",
@@ -5280,7 +5664,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0331",
+    "deal_id": "DEAL-0355",
     "player_id": "4432573",
     "player_name": "Paolo Banchero",
     "current_team": "Orlando Magic",
@@ -5296,7 +5680,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0332",
+    "deal_id": "DEAL-0356",
     "player_id": "3149673",
     "player_name": "Pascal Siakam",
     "current_team": "Indiana Pacers",
@@ -5312,7 +5696,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0333",
+    "deal_id": "DEAL-0357",
     "player_id": "3149673",
     "player_name": "Pascal Siakam",
     "current_team": "Indiana Pacers",
@@ -5328,7 +5712,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0334",
+    "deal_id": "DEAL-0358",
     "player_id": "3149673",
     "player_name": "Pascal Siakam",
     "current_team": "Indiana Pacers",
@@ -5344,7 +5728,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0335",
+    "deal_id": "DEAL-0359",
     "player_id": "4251",
     "player_name": "Paul George",
     "current_team": "Boston Celtics",
@@ -5360,7 +5744,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0336",
+    "deal_id": "DEAL-0360",
     "player_id": "4251",
     "player_name": "Paul George",
     "current_team": "Boston Celtics",
@@ -5376,7 +5760,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0337",
+    "deal_id": "DEAL-0361",
     "player_id": "4251",
     "player_name": "Paul George",
     "current_team": "Boston Celtics",
@@ -5392,7 +5776,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0338",
+    "deal_id": "DEAL-0362",
     "player_id": "4251",
     "player_name": "Paul George",
     "current_team": "Boston Celtics",
@@ -5408,7 +5792,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0339",
+    "deal_id": "DEAL-0363",
     "player_id": "4066354",
     "player_name": "Payton Pritchard",
     "current_team": "Boston Celtics",
@@ -5424,7 +5808,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0340",
+    "deal_id": "DEAL-0364",
     "player_id": "4066354",
     "player_name": "Payton Pritchard",
     "current_team": "Boston Celtics",
@@ -5440,7 +5824,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0341",
+    "deal_id": "DEAL-0365",
     "player_id": "4066354",
     "player_name": "Payton Pritchard",
     "current_team": "Boston Celtics",
@@ -5456,7 +5840,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0342",
+    "deal_id": "DEAL-0366",
     "player_id": "4576087",
     "player_name": "Peyton Watson",
     "current_team": "Cleveland Cavaliers",
@@ -5472,7 +5856,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0343",
+    "deal_id": "DEAL-0367",
     "player_id": "4395625",
     "player_name": "RJ Barrett",
     "current_team": "Toronto Raptors",
@@ -5488,7 +5872,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0344",
+    "deal_id": "DEAL-0368",
     "player_id": "4395625",
     "player_name": "RJ Barrett",
     "current_team": "Toronto Raptors",
@@ -5504,7 +5888,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0345",
+    "deal_id": "DEAL-0369",
     "player_id": "4395625",
     "player_name": "RJ Barrett",
     "current_team": "Toronto Raptors",
@@ -5520,7 +5904,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0346",
+    "deal_id": "DEAL-0370",
     "player_id": "4711272",
     "player_name": "Reed Sheppard",
     "current_team": "Houston Rockets",
@@ -5536,7 +5920,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0347",
+    "deal_id": "DEAL-0371",
     "player_id": "4711272",
     "player_name": "Reed Sheppard",
     "current_team": "Houston Rockets",
@@ -5552,7 +5936,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0348",
+    "deal_id": "DEAL-0372",
     "player_id": "4711272",
     "player_name": "Reed Sheppard",
     "current_team": "Houston Rockets",
@@ -5568,13 +5952,13 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0349",
+    "deal_id": "DEAL-0373",
     "player_id": "3032976",
     "player_name": "Rudy Gobert",
     "current_team": "Minnesota Timberwolves",
     "brand": "Cognac Frapin",
-    "industry": "Food & Beverage",
-    "sub_industry": "Beverages",
+    "industry": "Spirits & Alcohol",
+    "sub_industry": "Cognac / Spirits",
     "deal_type": "Brand Endorsement",
     "start_date": "2024-02",
     "end_date": "Undisclosed (Ongoing)",
@@ -5584,7 +5968,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0350",
+    "deal_id": "DEAL-0374",
     "player_id": "3032976",
     "player_name": "Rudy Gobert",
     "current_team": "Minnesota Timberwolves",
@@ -5600,7 +5984,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0351",
+    "deal_id": "DEAL-0375",
     "player_id": "3032976",
     "player_name": "Rudy Gobert",
     "current_team": "Minnesota Timberwolves",
@@ -5616,7 +6000,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0352",
+    "deal_id": "DEAL-0376",
     "player_id": "4066648",
     "player_name": "Rui Hachimura",
     "current_team": "LA Clippers",
@@ -5632,7 +6016,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0353",
+    "deal_id": "DEAL-0377",
     "player_id": "4066648",
     "player_name": "Rui Hachimura",
     "current_team": "LA Clippers",
@@ -5648,7 +6032,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0354",
+    "deal_id": "DEAL-0378",
     "player_id": "4066648",
     "player_name": "Rui Hachimura",
     "current_team": "LA Clippers",
@@ -5664,7 +6048,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0355",
+    "deal_id": "DEAL-0379",
     "player_id": "4683678",
     "player_name": "Scoot Henderson",
     "current_team": "Portland Trail Blazers",
@@ -5680,7 +6064,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0356",
+    "deal_id": "DEAL-0380",
     "player_id": "4683678",
     "player_name": "Scoot Henderson",
     "current_team": "Portland Trail Blazers",
@@ -5696,7 +6080,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0357",
+    "deal_id": "DEAL-0381",
     "player_id": "4683678",
     "player_name": "Scoot Henderson",
     "current_team": "Portland Trail Blazers",
@@ -5712,7 +6096,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0358",
+    "deal_id": "DEAL-0382",
     "player_id": "4683678",
     "player_name": "Scoot Henderson",
     "current_team": "Portland Trail Blazers",
@@ -5728,7 +6112,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0359",
+    "deal_id": "DEAL-0383",
     "player_id": "4433134",
     "player_name": "Scottie Barnes",
     "current_team": "Toronto Raptors",
@@ -5744,7 +6128,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0360",
+    "deal_id": "DEAL-0384",
     "player_id": "4433134",
     "player_name": "Scottie Barnes",
     "current_team": "Toronto Raptors",
@@ -5760,7 +6144,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0361",
+    "deal_id": "DEAL-0385",
     "player_id": "4433134",
     "player_name": "Scottie Barnes",
     "current_team": "Toronto Raptors",
@@ -5776,7 +6160,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0362",
+    "deal_id": "DEAL-0386",
     "player_id": "4914336",
     "player_name": "Shaedon Sharpe",
     "current_team": "Portland Trail Blazers",
@@ -5792,7 +6176,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0363",
+    "deal_id": "DEAL-0387",
     "player_id": "4914336",
     "player_name": "Shaedon Sharpe",
     "current_team": "Portland Trail Blazers",
@@ -5808,7 +6192,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0364",
+    "deal_id": "DEAL-0388",
     "player_id": "4278073",
     "player_name": "Shai Gilgeous-Alexander",
     "current_team": "Oklahoma City Thunder",
@@ -5824,7 +6208,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0365",
+    "deal_id": "DEAL-0389",
     "player_id": "4278073",
     "player_name": "Shai Gilgeous-Alexander",
     "current_team": "Oklahoma City Thunder",
@@ -5840,7 +6224,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0366",
+    "deal_id": "DEAL-0390",
     "player_id": "4278073",
     "player_name": "Shai Gilgeous-Alexander",
     "current_team": "Oklahoma City Thunder",
@@ -5856,7 +6240,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0367",
+    "deal_id": "DEAL-0391",
     "player_id": "4278073",
     "player_name": "Shai Gilgeous-Alexander",
     "current_team": "Oklahoma City Thunder",
@@ -5872,7 +6256,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0368",
+    "deal_id": "DEAL-0392",
     "player_id": "4278073",
     "player_name": "Shai Gilgeous-Alexander",
     "current_team": "Oklahoma City Thunder",
@@ -5888,7 +6272,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0369",
+    "deal_id": "DEAL-0393",
     "player_id": "4278073",
     "player_name": "Shai Gilgeous-Alexander",
     "current_team": "Oklahoma City Thunder",
@@ -5904,7 +6288,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0370",
+    "deal_id": "DEAL-0394",
     "player_id": "4278073",
     "player_name": "Shai Gilgeous-Alexander",
     "current_team": "Oklahoma City Thunder",
@@ -5920,7 +6304,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0371",
+    "deal_id": "DEAL-0395",
     "player_id": "4278073",
     "player_name": "Shai Gilgeous-Alexander",
     "current_team": "Oklahoma City Thunder",
@@ -5936,7 +6320,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0372",
+    "deal_id": "DEAL-0396",
     "player_id": "4278073",
     "player_name": "Shai Gilgeous-Alexander",
     "current_team": "Oklahoma City Thunder",
@@ -5952,7 +6336,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0373",
+    "deal_id": "DEAL-0397",
     "player_id": "4278073",
     "player_name": "Shai Gilgeous-Alexander",
     "current_team": "Oklahoma City Thunder",
@@ -5968,7 +6352,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0374",
+    "deal_id": "DEAL-0398",
     "player_id": "3975",
     "player_name": "Stephen Curry",
     "current_team": "Golden State Warriors",
@@ -5984,7 +6368,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0375",
+    "deal_id": "DEAL-0399",
     "player_id": "3975",
     "player_name": "Stephen Curry",
     "current_team": "Golden State Warriors",
@@ -6000,7 +6384,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0376",
+    "deal_id": "DEAL-0400",
     "player_id": "3975",
     "player_name": "Stephen Curry",
     "current_team": "Golden State Warriors",
@@ -6016,7 +6400,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0377",
+    "deal_id": "DEAL-0401",
     "player_id": "3975",
     "player_name": "Stephen Curry",
     "current_team": "Golden State Warriors",
@@ -6032,7 +6416,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0378",
+    "deal_id": "DEAL-0402",
     "player_id": "3975",
     "player_name": "Stephen Curry",
     "current_team": "Golden State Warriors",
@@ -6048,7 +6432,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0379",
+    "deal_id": "DEAL-0403",
     "player_id": "3975",
     "player_name": "Stephen Curry",
     "current_team": "Golden State Warriors",
@@ -6064,7 +6448,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0380",
+    "deal_id": "DEAL-0404",
     "player_id": "3975",
     "player_name": "Stephen Curry",
     "current_team": "Golden State Warriors",
@@ -6080,7 +6464,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0381",
+    "deal_id": "DEAL-0405",
     "player_id": "3975",
     "player_name": "Stephen Curry",
     "current_team": "Golden State Warriors",
@@ -6096,7 +6480,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0382",
+    "deal_id": "DEAL-0406",
     "player_id": "3975",
     "player_name": "Stephen Curry",
     "current_team": "Golden State Warriors",
@@ -6112,7 +6496,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0383",
+    "deal_id": "DEAL-0407",
     "player_id": "4845367",
     "player_name": "Stephon Castle",
     "current_team": "San Antonio Spurs",
@@ -6128,7 +6512,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0384",
+    "deal_id": "DEAL-0408",
     "player_id": "4845367",
     "player_name": "Stephon Castle",
     "current_team": "San Antonio Spurs",
@@ -6144,7 +6528,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0385",
+    "deal_id": "DEAL-0409",
     "player_id": "4845367",
     "player_name": "Stephon Castle",
     "current_team": "San Antonio Spurs",
@@ -6160,7 +6544,119 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0386",
+    "deal_id": "DEAL-0410",
+    "player_id": "2991235",
+    "player_name": "Steven Adams",
+    "current_team": "Houston Rockets",
+    "brand": "Meadow Fresh",
+    "industry": "Food & Beverage",
+    "sub_industry": "Dairy & Nutrition",
+    "deal_type": "Brand Endorsement",
+    "start_date": "2019",
+    "end_date": "Undisclosed (Ongoing)",
+    "deal_status": "Active",
+    "reported_value_notes": "New Zealand regional dairy & youth basketball camp partner",
+    "source": "https://www.stevenadams.com/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0411",
+    "player_id": "2991235",
+    "player_name": "Steven Adams",
+    "current_team": "Houston Rockets",
+    "brand": "Zamst",
+    "industry": "Health, Wellness & Personal Care",
+    "sub_industry": "Sports Medicine & Bracing",
+    "deal_type": "Brand Endorsement",
+    "start_date": "2018",
+    "end_date": "Undisclosed",
+    "deal_status": "Historical / Status Unconfirmed",
+    "reported_value_notes": "Sports injury prevention & ankle bracing endorsement deal",
+    "source": "https://sgbonline.com/steven-adams-signs-with-zamst/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0412",
+    "player_id": "2991235",
+    "player_name": "Steven Adams",
+    "current_team": "Houston Rockets",
+    "brand": "Powerade",
+    "industry": "Food & Beverage",
+    "sub_industry": "Sports Drinks",
+    "deal_type": "Brand Endorsement",
+    "start_date": "2017",
+    "end_date": "Undisclosed",
+    "deal_status": "Historical / Status Unconfirmed",
+    "reported_value_notes": "Sports beverage endorsement campaign",
+    "source": "https://www.forbes.com/profile/steven-adams/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0413",
+    "player_id": "2991235",
+    "player_name": "Steven Adams",
+    "current_team": "Houston Rockets",
+    "brand": "Adidas",
+    "industry": "Footwear & Apparel",
+    "sub_industry": "Basketball Footwear",
+    "deal_type": "Footwear Endorsement",
+    "start_date": "2013",
+    "end_date": "Undisclosed",
+    "deal_status": "Historical / Status Unconfirmed",
+    "reported_value_notes": "Long-term Adidas Basketball footwear association",
+    "source": "https://www.forbes.com/profile/steven-adams/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0414",
+    "player_id": "2528210",
+    "player_name": "Tim Hardaway Jr.",
+    "current_team": "Miami Heat",
+    "brand": "Jordan Brand",
+    "industry": "Footwear & Apparel",
+    "sub_industry": "Basketball Footwear",
+    "deal_type": "Footwear Endorsement",
+    "start_date": "2017-12",
+    "end_date": "Undisclosed (Ongoing)",
+    "deal_status": "Active",
+    "reported_value_notes": "Signed with Jordan Brand in late 2017; regular Jordan Tatum & Jumpman on-court endorser",
+    "source": "https://www.slamonline.com/kicks/tim-hardaway-jr-signs-jordan-brand/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0415",
+    "player_id": "6440",
+    "player_name": "Tobias Harris",
+    "current_team": "San Antonio Spurs",
+    "brand": "Nike",
+    "industry": "Footwear & Apparel",
+    "sub_industry": "Basketball Footwear",
+    "deal_type": "Footwear Endorsement",
+    "start_date": "2011",
+    "end_date": "Undisclosed (Ongoing)",
+    "deal_status": "Active",
+    "reported_value_notes": "Long-term Nike Basketball on-court footwear partner",
+    "source": "https://www.forbes.com/profile/tobias-harris/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0416",
+    "player_id": "6440",
+    "player_name": "Tobias Harris",
+    "current_team": "San Antonio Spurs",
+    "brand": "Mercedes-Benz",
+    "industry": "Automotive & Aviation",
+    "sub_industry": "Luxury Automobiles",
+    "deal_type": "Brand Endorsement",
+    "start_date": "2019",
+    "end_date": "Undisclosed",
+    "deal_status": "Historical / Status Unconfirmed",
+    "reported_value_notes": "Luxury automotive lifestyle endorsement partnership",
+    "source": "https://www.forbes.com/profile/tobias-harris/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0417",
     "player_id": "4277905",
     "player_name": "Trae Young",
     "current_team": "Washington Wizards",
@@ -6176,7 +6672,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0387",
+    "deal_id": "DEAL-0418",
     "player_id": "4277905",
     "player_name": "Trae Young",
     "current_team": "Washington Wizards",
@@ -6192,7 +6688,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0388",
+    "deal_id": "DEAL-0419",
     "player_id": "4277905",
     "player_name": "Trae Young",
     "current_team": "Washington Wizards",
@@ -6208,7 +6704,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0389",
+    "deal_id": "DEAL-0420",
     "player_id": "4395725",
     "player_name": "Tyler Herro",
     "current_team": "Milwaukee Bucks",
@@ -6224,7 +6720,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0390",
+    "deal_id": "DEAL-0421",
     "player_id": "4395725",
     "player_name": "Tyler Herro",
     "current_team": "Milwaukee Bucks",
@@ -6240,7 +6736,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0391",
+    "deal_id": "DEAL-0422",
     "player_id": "4395725",
     "player_name": "Tyler Herro",
     "current_team": "Milwaukee Bucks",
@@ -6256,7 +6752,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0392",
+    "deal_id": "DEAL-0423",
     "player_id": "4396993",
     "player_name": "Tyrese Haliburton",
     "current_team": "Indiana Pacers",
@@ -6272,7 +6768,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0393",
+    "deal_id": "DEAL-0424",
     "player_id": "4396993",
     "player_name": "Tyrese Haliburton",
     "current_team": "Indiana Pacers",
@@ -6288,7 +6784,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0394",
+    "deal_id": "DEAL-0425",
     "player_id": "4396993",
     "player_name": "Tyrese Haliburton",
     "current_team": "Indiana Pacers",
@@ -6304,7 +6800,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0395",
+    "deal_id": "DEAL-0426",
     "player_id": "4396993",
     "player_name": "Tyrese Haliburton",
     "current_team": "Indiana Pacers",
@@ -6320,7 +6816,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0396",
+    "deal_id": "DEAL-0427",
     "player_id": "4431678",
     "player_name": "Tyrese Maxey",
     "current_team": "Philadelphia 76ers",
@@ -6336,7 +6832,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0397",
+    "deal_id": "DEAL-0428",
     "player_id": "4431678",
     "player_name": "Tyrese Maxey",
     "current_team": "Philadelphia 76ers",
@@ -6352,7 +6848,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0398",
+    "deal_id": "DEAL-0429",
     "player_id": "4431678",
     "player_name": "Tyrese Maxey",
     "current_team": "Philadelphia 76ers",
@@ -6368,7 +6864,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0399",
+    "deal_id": "DEAL-0430",
     "player_id": "4431678",
     "player_name": "Tyrese Maxey",
     "current_team": "Philadelphia 76ers",
@@ -6384,7 +6880,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0400",
+    "deal_id": "DEAL-0431",
     "player_id": "5104157",
     "player_name": "Victor Wembanyama",
     "current_team": "San Antonio Spurs",
@@ -6400,7 +6896,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0401",
+    "deal_id": "DEAL-0432",
     "player_id": "5104157",
     "player_name": "Victor Wembanyama",
     "current_team": "San Antonio Spurs",
@@ -6416,7 +6912,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0402",
+    "deal_id": "DEAL-0433",
     "player_id": "5104157",
     "player_name": "Victor Wembanyama",
     "current_team": "San Antonio Spurs",
@@ -6432,7 +6928,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0403",
+    "deal_id": "DEAL-0434",
     "player_id": "5104157",
     "player_name": "Victor Wembanyama",
     "current_team": "San Antonio Spurs",
@@ -6448,7 +6944,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0404",
+    "deal_id": "DEAL-0435",
     "player_id": "5104157",
     "player_name": "Victor Wembanyama",
     "current_team": "San Antonio Spurs",
@@ -6464,7 +6960,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0405",
+    "deal_id": "DEAL-0436",
     "player_id": "5104157",
     "player_name": "Victor Wembanyama",
     "current_team": "San Antonio Spurs",
@@ -6480,7 +6976,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0406",
+    "deal_id": "DEAL-0437",
     "player_id": "4433136",
     "player_name": "Walker Kessler",
     "current_team": "Los Angeles Lakers",
@@ -6496,7 +6992,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0407",
+    "deal_id": "DEAL-0438",
     "player_id": "4433136",
     "player_name": "Walker Kessler",
     "current_team": "Los Angeles Lakers",
@@ -6512,7 +7008,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0408",
+    "deal_id": "DEAL-0439",
     "player_id": "4433136",
     "player_name": "Walker Kessler",
     "current_team": "Los Angeles Lakers",
@@ -6528,7 +7024,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0409",
+    "deal_id": "DEAL-0440",
     "player_id": "4600663",
     "player_name": "Zach Edey",
     "current_team": "Memphis Grizzlies",
@@ -6544,7 +7040,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0410",
+    "deal_id": "DEAL-0441",
     "player_id": "4600663",
     "player_name": "Zach Edey",
     "current_team": "Memphis Grizzlies",
@@ -6560,7 +7056,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0411",
+    "deal_id": "DEAL-0442",
     "player_id": "4600663",
     "player_name": "Zach Edey",
     "current_team": "Memphis Grizzlies",
@@ -6576,7 +7072,55 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0412",
+    "deal_id": "DEAL-0443",
+    "player_id": "3064440",
+    "player_name": "Zach LaVine",
+    "current_team": "Sacramento Kings",
+    "brand": "New Balance",
+    "industry": "Footwear & Apparel",
+    "sub_industry": "Basketball Footwear",
+    "deal_type": "Multi-Year Endorsement",
+    "start_date": "2022-03",
+    "end_date": "Undisclosed (Ongoing)",
+    "deal_status": "Active",
+    "reported_value_notes": "Signed multi-year New Balance footwear & apparel endorsement deal in March 2022 (Two Wxy flagship athlete)",
+    "source": "https://boardroom.tv/zach-lavine-new-balance-sneaker-deal/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0444",
+    "player_id": "3064440",
+    "player_name": "Zach LaVine",
+    "current_team": "Sacramento Kings",
+    "brand": "Klarna",
+    "industry": "Financial Services & Banking",
+    "sub_industry": "Fintech & Payments",
+    "deal_type": "Brand Ambassador",
+    "start_date": "2022",
+    "end_date": "Undisclosed",
+    "deal_status": "Historical / Status Unconfirmed",
+    "reported_value_notes": "Brand ambassador for Klarna shopping & payments fashion campaigns",
+    "source": "https://www.sportspro.com/news/zach-lavine-klarna-ambassador/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0445",
+    "player_id": "3064440",
+    "player_name": "Zach LaVine",
+    "current_team": "Sacramento Kings",
+    "brand": "Adidas",
+    "industry": "Footwear & Apparel",
+    "sub_industry": "Basketball Footwear",
+    "deal_type": "Footwear Endorsement",
+    "start_date": "2018",
+    "end_date": "2022",
+    "deal_status": "Ended / Former",
+    "reported_value_notes": "Former 4-year, ~$35M Adidas Basketball footwear deal prior to joining New Balance in 2022",
+    "source": "https://www.sportspro.com/news/zach-lavine-new-balance-endorsement-deal/",
+    "data_tier": "Curated / Multi-Source Verified"
+  },
+  {
+    "deal_id": "DEAL-0446",
     "player_id": "4395628",
     "player_name": "Zion Williamson",
     "current_team": "New Orleans Pelicans",
@@ -6592,7 +7136,7 @@
     "data_tier": "Curated / Multi-Source Verified"
   },
   {
-    "deal_id": "DEAL-0413",
+    "deal_id": "DEAL-0447",
     "player_id": "4395628",
     "player_name": "Zion Williamson",
     "current_team": "New Orleans Pelicans",
@@ -6608,7 +7152,7 @@
     "data_tier": "Public Endorsement Directory"
   },
   {
-    "deal_id": "DEAL-0414",
+    "deal_id": "DEAL-0448",
     "player_id": "4395628",
     "player_name": "Zion Williamson",
     "current_team": "New Orleans Pelicans",

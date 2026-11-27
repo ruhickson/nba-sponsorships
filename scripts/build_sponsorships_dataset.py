@@ -275,7 +275,7 @@ def map_industry(brand: str, cat_path: str):
                             "wellby financial", "square", "bmo", "frost bank", "amerant bank"]):
         return "Financial Services & Banking", (cat_path.split(">")[-1].strip() if cat_path else "Financial Services")
 
-    if any(k in b for k in ["hennessy", "michelob", "bud light", "budweiser", "coors", "corona",
+    if any(k in b for k in ["hennessy", "cognac", "frapin", "michelob", "bud light", "budweiser", "coors", "corona",
                             "modelo", "heineken", "stella artois", "patron", "casamigos",
                             "lobos", "cincoro", "don julio", "clase azul", "absolut", "grey goose",
                             "ciroc", "jameson", "jack daniel", "johnnie walker", "crown royal",

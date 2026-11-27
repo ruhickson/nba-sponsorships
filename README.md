@@ -8,7 +8,7 @@ Two relational datasets joined via `player_id` (ESPN Athlete ID), exported in bo
 
 ## Interactive Dashboard: `index.html`
 
-Self-contained HTML/Tailwind/Canvas/SVG dashboard with all 529 players and 414 sponsorship deals embedded:
+Self-contained HTML/Tailwind/Canvas/SVG dashboard with all 529 players and 448 sponsorship deals embedded:
 - Global cross-filtering (search, continent, team, industry, championship status, tracked deals)
 - Overview & Earnings scatter explorer, Top-15 leaderboards, global geography, age cohorts, and team mobility
 - Sponsorship Intelligence (13 industries, top brands, champion/international splits, launch timeline, and contract horizons)
@@ -18,12 +18,12 @@ Self-contained HTML/Tailwind/Canvas/SVG dashboard with all 529 players and 414 s
 
 Standalone browser-ready prototype dashboard for testing `/r/nba` visual themes across **10 NBA data stories** before batch-rendering final PNGs:
 - **4 live visual presets:** `r/nba Dark Mode`, `r/nba Classic Light`, `Hardwood Editorial`, and `Broadcast Neon`
-- **10 data stories:** Rings Sell (#1), The $400M+ Club (#2), 13 Sponsorship Industries (#3), Most-Sponsored Rosters (#4), Global NBA (#5), Endorsement Contract Horizons (#6), Ultimate Journeymen vs. One-Team Lifers (#7), 2026–27 Sneaker Wars (#8), Age vs. The Bag (#9), and the 30-Team Age/Payroll/Deals Matrix (#10)
+- **10 data stories:** Rings Sell (#1), The $400M+ Club (#2), 13 Sponsorship Industries (#3), Most-Sponsored Rosters (#4), Global NBA (#5), Endorsement Contract Horizons (#6), Who Sells What? Wealth by Industry (#7), 2026–27 Sneaker Wars (#8), Tenure vs. Rings & The Survivorship Flip (#9), and the 30-Team Age/Payroll/Deals Matrix (#10)
 - **Reddit workflow tools:** Toggleable `/r/nba` `[OC]` post-card frame, 1-col Feed vs. 2-col Studio Grid layout, one-click Reddit title copy, selection spec copy, and instant client-side `Test PNG ↓` exports
 
 ## Reddit-Ready PNG Charts: `charts/`
 
-High-DPI (2500×1640, 200 DPI) Matplotlib PNGs generated via `scripts/generate_reddit_pngs.py` (`01_rings_sell_champion_premium.png` through `06_endorsement_contract_horizons.png`).
+High-DPI (2500×1640, 200 DPI) Matplotlib PNGs generated via `scripts/generate_reddit_pngs.py` (`01_rings_sell_champion_premium.png` through `10_nba_30_team_matrix_age_payroll_deals.png`).
 
 ---
 
@@ -67,13 +67,13 @@ Covers **all 529 currently-rostered NBA players** across all 30 franchises.
 
 ## Dataset 2: `data/nba_sponsorship_deals.csv` / `.json`
 
-Covers **414 verified sponsorship & endorsement deals** across **115 currently-rostered NBA players** and **267 distinct brands**, categorized into **13 standardized industries**.
+Covers **448 verified sponsorship & endorsement deals** across **129 currently-rostered NBA players** and **282 distinct brands**, categorized into **13 standardized industries**.
 
 ### Schema (14 columns)
 
 | Column | Type | Description |
 |---|---|---|
-| `deal_id` | string | Unique deal identifier (`DEAL-0001` – `DEAL-0414`) |
+| `deal_id` | string | Unique deal identifier (`DEAL-0001` – `DEAL-0448`) |
 | `player_id` | string | Foreign key joining cleanly to `nba_players_2026_27.csv` (100% referential integrity) |
 | `player_name` | string | Player full name |
 | `current_team` | string | Current 2026–27 NBA franchise |
